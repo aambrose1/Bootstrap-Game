@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3 uid="uid://c5t2ne2pglko8"]
+
+[ext_resource type="PackedScene" uid="uid://dctw1fya4atf8" path="res://Scenes/Player/player.tscn" id="1_613su"]
+[ext_resource type="Script" uid="uid://vh783s5pxa3n" path="res://Scenes/Enemies/enemy.gd" id="2_jcvw6"]
+
+[node name="Enemy" instance=ExtResource("1_613su")]
+script = ExtResource("2_jcvw6")
+SPEED = 0.01
+
+[node name="VisibleOnScreenNotifier2D" type="VisibleOnScreenNotifier2D" parent="." index="3"]
