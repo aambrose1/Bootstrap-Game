@@ -1,1 +1,0 @@
-I have implemented some basic movement and jumping using placeholders.  Let me know if there is anything I need to adjust.
