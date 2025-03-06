@@ -4,11 +4,11 @@ extends CharacterBody2D
 @export var JUMP_VELOCITY = -400.0
 @onready var animated_sprite: AnimatedSprite2D = $AnimatedSprite2D
 @onready var player = get_node("../Player")
-@onready var screen_notifier = $VisibleOnScreenNotifier2D
+@onready var enemy_screen_notifier = $EnemyOnScreen
 const bullet = preload("res://Scenes/Projectile/projectile.tscn")
 
 func _physics_process(delta: float) -> void:
-	if not screen_notifier.is_on_screen():
+	if not enemy_screen_notifier.is_on_screen():
 		return
 	
 	# Add the gravity.
