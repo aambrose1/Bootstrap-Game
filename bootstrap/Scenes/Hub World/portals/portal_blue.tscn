@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://cubrwe81cu2nd"]
+
+[ext_resource type="PackedScene" uid="uid://fgy670u2nd42" path="res://Scenes/Hub World/portals/portalbase/portal_interaction.tscn" id="1_3ya4p"]
+
+[node name="PortalInteraction" instance=ExtResource("1_3ya4p")]
+
+[node name="portal_anim" parent="." index="0"]
+animation = &"blue"
+frame_progress = 0.0
