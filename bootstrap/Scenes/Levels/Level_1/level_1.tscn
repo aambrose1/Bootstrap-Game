@@ -1,0 +1,40 @@
+[gd_scene load_steps=4 format=3 uid="uid://bg76jw4skirv8"]
+
+[ext_resource type="PackedScene" uid="uid://bvc1ey4i1hll4" path="res://Scenes/Levels/levels_init.tscn" id="1_174j5"]
+[ext_resource type="Texture2D" uid="uid://bcopyisjubhch" path="res://Scenes/Levels/Level_1/Backgrounds/forest.png" id="2_tjcos"]
+
+[sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_di38a"]
+distance = -207.0
+
+[node name="level_1" instance=ExtResource("1_174j5")]
+
+[node name="Player" parent="." index="0"]
+z_index = 2
+position = Vector2(544, 468)
+
+[node name="Camera2D" type="Camera2D" parent="Player" index="4"]
+scale = Vector2(1e-05, 1e-05)
+zoom = Vector2(1.2, 1.2)
+limit_bottom = 600
+position_smoothing_speed = 4.0
+
+[node name="StaticBody2D" type="StaticBody2D" parent="." index="1"]
+position = Vector2(319, 300)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D" index="0"]
+position = Vector2(201, 31)
+shape = SubResource("WorldBoundaryShape2D_di38a")
+
+[node name="ParallaxBackground" type="ParallaxBackground" parent="." index="2"]
+
+[node name="ParallaxLayer" type="ParallaxLayer" parent="ParallaxBackground" index="0"]
+texture_repeat = 2
+motion_scale = Vector2(0.5, 0.5)
+motion_offset = Vector2(-50, 0)
+motion_mirroring = Vector2(794, 0)
+
+[node name="Sprite2D" type="Sprite2D" parent="ParallaxBackground/ParallaxLayer" index="0"]
+texture_repeat = 2
+position = Vector2(2, 5)
+texture = ExtResource("2_tjcos")
+centered = false

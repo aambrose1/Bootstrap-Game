@@ -14,6 +14,11 @@ config/name="BootStrap"
 run/main_scene="res://Scenes/Main Menu/main_menu.tscn"
 config/features=PackedStringArray("4.3", "Forward Plus")
 
+[display]
+
+window/size/viewport_width=960
+window/size/viewport_height=547
+
 [input]
 
 down_O={
