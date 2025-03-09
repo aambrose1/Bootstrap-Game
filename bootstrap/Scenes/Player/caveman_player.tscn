@@ -1,22 +1,22 @@
-[gd_scene load_steps=9 format=3 uid="uid://dctw1fya4atf8"]
+[gd_scene load_steps=9 format=3 uid="uid://bhuh17n8igrl6"]
 
-[ext_resource type="Script" path="res://Scenes/Player/player.gd" id="1_e4sew"]
-[ext_resource type="Texture2D" uid="uid://dwug7kr3uu85n" path="res://Assets/idle.png" id="1_hmpiu"]
+[ext_resource type="Script" path="res://Scenes/Player/player.gd" id="1_xm21v"]
+[ext_resource type="Texture2D" uid="uid://dwug7kr3uu85n" path="res://Assets/idle.png" id="2_pi6m5"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_tndo1"]
-atlas = ExtResource("1_hmpiu")
+atlas = ExtResource("2_pi6m5")
 region = Rect2(0, 0, 30, 48)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_dgfop"]
-atlas = ExtResource("1_hmpiu")
+atlas = ExtResource("2_pi6m5")
 region = Rect2(30, 0, 30, 48)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_0l1je"]
-atlas = ExtResource("1_hmpiu")
+atlas = ExtResource("2_pi6m5")
 region = Rect2(60, 0, 30, 48)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_jbm8v"]
-atlas = ExtResource("1_hmpiu")
+atlas = ExtResource("2_pi6m5")
 region = Rect2(90, 0, 30, 48)
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_n64yj"]
@@ -44,7 +44,7 @@ size = Vector2(14, 40)
 
 [node name="Player" type="CharacterBody2D"]
 position = Vector2(0, -24)
-script = ExtResource("1_e4sew")
+script = ExtResource("1_xm21v")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 sprite_frames = SubResource("SpriteFrames_n64yj")
