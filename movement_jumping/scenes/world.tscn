@@ -6,7 +6,7 @@
 size = Vector2(1000, 100)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_tq1wo"]
-size = Vector2(1152, 104)
+size = Vector2(1433, 104)
 
 [node name="World" type="Node2D"]
 
@@ -16,13 +16,14 @@ position = Vector2(547, 519)
 [node name="Camera2D" type="Camera2D" parent="Player"]
 
 [node name="Platform" type="StaticBody2D" parent="."]
+metadata/_edit_group_ = true
 
 [node name="MeshInstance2D" type="MeshInstance2D" parent="Platform"]
 modulate = Color(0, 1, 0, 1)
-position = Vector2(576, 596)
-scale = Vector2(1.152, 1.04)
+position = Vector2(716.5, 596)
+scale = Vector2(1.433, 1.04)
 mesh = SubResource("QuadMesh_cyk0f")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Platform"]
-position = Vector2(576, 596)
+position = Vector2(716.5, 596)
 shape = SubResource("RectangleShape2D_tq1wo")
