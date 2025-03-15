@@ -1,7 +1,8 @@
 [gd_scene load_steps=4 format=3 uid="uid://b2paouyunf4dj"]
 
-[ext_resource type="Script" path="res://Scenes/Projectile/projectile.gd" id="1_n41y6"]
-[ext_resource type="Texture2D" uid="uid://daomg8me78y2g" path="res://Assets/projectiles/projectile_test.png" id="2_dkm4i"]
+[ext_resource type="Script" uid="uid://e26uf03hvg5k" path="res://Scenes/Projectile/projectile.gd" id="1_n41y6"]
+[ext_resource type="Texture2D" uid="uid://daomg8me78y2g" path="res://Scenes/Levels/Assets/projectiles/projectile_test.png" id="2_dkm4i"]
+
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_fkmbd"]
 radius = 4.0

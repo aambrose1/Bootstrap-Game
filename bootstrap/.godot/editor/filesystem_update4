@@ -1,0 +1,7 @@
+res://Scenes/Main Menu/main_menu.tscn
+res://Scenes/Levels/Test Level/world.tscn
+res://Scenes/Player/player.tscn
+res://Scenes/Player/player.gd
+res://Scenes/Player/abilities/cowboy.tscn
+res://Scenes/Player/abilities/cowboy.gd
+res://Scenes/Player/abilities/pirate.tscn

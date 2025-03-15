@@ -1,7 +1,8 @@
 [gd_scene load_steps=5 format=4 uid="uid://dtga8so8fatf4"]
 
-[ext_resource type="Texture2D" uid="uid://ci1foyyckoib0" path="res://Assets/City Playtest.png" id="1_5xkmk"]
+[ext_resource type="Texture2D" uid="uid://ci1foyyckoib0" path="res://Scenes/Levels/Assets/City Playtest.png" id="1_5xkmk"]
 [ext_resource type="PackedScene" uid="uid://cx22j7sh7sxjt" path="res://Scenes/Hub World/player_overworld.tscn" id="1_8t6tv"]
+
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_uyjlm"]
 texture = ExtResource("1_5xkmk")

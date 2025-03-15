@@ -1,9 +1,9 @@
 [gd_scene load_steps=67 format=3 uid="uid://dc7n010mwrgif"]
 
-[ext_resource type="Script" uid="uid://b724s0lxj7evv" path="res://Scenes/Main Menu/main_menu.gd" id="1_uskfm"]
-[ext_resource type="Texture2D" uid="uid://ba6rpb5mfsgbb" path="res://Assets/bootstrap logo spritesheet.png" id="2_2vub6"]
-[ext_resource type="FontFile" uid="uid://c33lfkygyq2d3" path="res://Assets/PIXEARG_.TTF" id="2_7xkbd"]
-[ext_resource type="Texture2D" uid="uid://dm42ubeam165m" path="res://Assets/mainmenubg.png" id="2_y0aff"]
+[ext_resource type="Script" uid="uid://bqc5tyir28fom" path="res://Scenes/Main Menu/main_menu.gd" id="1_uskfm"]
+[ext_resource type="Texture2D" uid="uid://ba6rpb5mfsgbb" path="res://Scenes/Levels/Assets/bootstrap logo spritesheet.png" id="2_2vub6"]
+[ext_resource type="FontFile" uid="uid://c33lfkygyq2d3" path="res://Scenes/Levels/Assets/PIXEARG_.TTF" id="2_7xkbd"]
+[ext_resource type="Texture2D" uid="uid://dcgvsvhwaytkx" path="res://Scenes/Levels/Assets/mainmenubg.png" id="2_y0aff"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_fr3p2"]
 atlas = ExtResource("2_y0aff")

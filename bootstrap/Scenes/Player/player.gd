@@ -7,6 +7,8 @@ extends CharacterBody2D
 @onready var first_on_screen = false
 const bullet = preload("res://Scenes/Projectile/projectile.tscn")
 
+enum FORM {DEFAULT, PIRATE, COWBOY, SOLDIER, TOMMY, JET, BOOM}
+
 func _physics_process(delta: float) -> void:
 	# Once the player has been on screen at least once, we start tracking
 	if player_screen_notifier.is_on_screen():
@@ -39,7 +41,7 @@ func _physics_process(delta: float) -> void:
 			$Marker2D.position.x  = -1
 		
 	# Shooting projectiles
-	if Input.is_action_just_pressed("attack"):
+	if Input.is_action_just_pressed("attack") and FORM.COWBOY:
 		var temp_proj = bullet.instantiate()
 		if sign($Marker2D.position.x) == 1:
 			temp_proj.set_direction(1)
@@ -54,3 +56,6 @@ func _physics_process(delta: float) -> void:
 		velocity.x = move_toward(velocity.x, 0, SPEED)
 	
 	move_and_slide()
+	
+func update_form(FORM):
+	pass

@@ -1,0 +1,132 @@
+[gd_scene load_steps=16 format=3 uid="uid://crlimuealucd"]
+
+[ext_resource type="Script" uid="uid://dot43r3frgnkw" path="res://Scenes/Player/abilities/cowboy.gd" id="1_moruc"]
+[ext_resource type="Texture2D" uid="uid://difdpeu8x3fnq" path="res://Scenes/Levels/Assets/GL Spritework/main_character/cowboy_guy/cowboy_guy_attack.png" id="2_pmtc7"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_mudw3"]
+atlas = ExtResource("2_pmtc7")
+region = Rect2(0, 0, 68, 50)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_d2umw"]
+atlas = ExtResource("2_pmtc7")
+region = Rect2(68, 0, 68, 50)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_dqq61"]
+atlas = ExtResource("2_pmtc7")
+region = Rect2(136, 0, 68, 50)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_khaw7"]
+atlas = ExtResource("2_pmtc7")
+region = Rect2(204, 0, 68, 50)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1lhel"]
+atlas = ExtResource("2_pmtc7")
+region = Rect2(272, 0, 68, 50)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wdknd"]
+atlas = ExtResource("2_pmtc7")
+region = Rect2(340, 0, 68, 50)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_85k6f"]
+atlas = ExtResource("2_pmtc7")
+region = Rect2(408, 0, 68, 50)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_y487k"]
+atlas = ExtResource("2_pmtc7")
+region = Rect2(0, 0, 68, 50)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0rgyn"]
+atlas = ExtResource("2_pmtc7")
+region = Rect2(0, 0, 68, 50)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_b40bq"]
+atlas = ExtResource("2_pmtc7")
+region = Rect2(0, 0, 68, 50)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_w72q3"]
+atlas = ExtResource("2_pmtc7")
+region = Rect2(0, 0, 68, 50)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_8f47s"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_mudw3")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_d2umw")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_dqq61")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_khaw7")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1lhel")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wdknd")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_85k6f")
+}],
+"loop": true,
+"name": &"attack",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_y487k")
+}],
+"loop": true,
+"name": &"fall",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0rgyn")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_b40bq")
+}],
+"loop": true,
+"name": &"jump",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_w72q3")
+}],
+"loop": true,
+"name": &"move",
+"speed": 5.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_rcwnm"]
+size = Vector2(20, 40)
+
+[node name="Cowboy" type="CharacterBody2D"]
+script = ExtResource("1_moruc")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(14, -25)
+sprite_frames = SubResource("SpriteFrames_8f47s")
+animation = &"idle"
+autoplay = "idle"
+frame_progress = 0.293685
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-1, -20)
+shape = SubResource("RectangleShape2D_rcwnm")
+
+[node name="Marker2D" type="Marker2D" parent="."]
+position = Vector2(22, -23)
+
+[node name="VisibleOnScreenNotifier2D" type="VisibleOnScreenNotifier2D" parent="."]
+position = Vector2(-1, -20)
