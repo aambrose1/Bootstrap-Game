@@ -5,7 +5,7 @@ extends CharacterBody2D
 @onready var animated_sprite: AnimatedSprite2D = $AnimatedSprite2D
 @onready var player_screen_notifier = $PlayerOnScreen
 @onready var first_on_screen = false
-const bullet = preload("res://Scenes/Projectile/projectile.tscn")
+const bullet = preload("res://Scenes/Projectiles/Player Projectile/player_projectile.tscn")
 
 func _physics_process(delta: float) -> void:
 	# Once the player has been on screen at least once, we start tracking
@@ -35,8 +35,7 @@ func _physics_process(delta: float) -> void:
 		
 	if sign(direction) == -1:
 		animated_sprite.flip_h = true
-		if sign($Marker2D.position.x) == 1:
-			$Marker2D.position.x  = -1
+		$Marker2D.position.x  = -1
 		
 	# Shooting projectiles
 	if Input.is_action_just_pressed("attack"):

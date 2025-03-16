@@ -1,9 +1,9 @@
 [gd_scene load_steps=7 format=3 uid="uid://ccgarkj3g5pn2"]
 
 [ext_resource type="PackedScene" uid="uid://dctw1fya4atf8" path="res://Scenes/Player/player.tscn" id="1_1hfy5"]
-[ext_resource type="PackedScene" uid="uid://c5t2ne2pglko8" path="res://Scenes/Enemies/Melee Enemy/melee_enemy.tscn" id="2_fw37y"]
-[ext_resource type="PackedScene" uid="uid://c2n35oyjjddc5" path="res://Scenes/Enemies/Basic Enemy/basic_enemy.tscn" id="3_6qy4s"]
-[ext_resource type="PackedScene" uid="uid://ccmreuiq6ch8h" path="res://Scenes/Enemies/Shooting Enemy/shooting_enemy.tscn" id="4_ravce"]
+[ext_resource type="PackedScene" uid="uid://c5t2ne2pglko8" path="res://Scenes/Enemies/melee_enemy.tscn" id="2_fw37y"]
+[ext_resource type="PackedScene" uid="uid://c2n35oyjjddc5" path="res://Scenes/Enemies/basic_enemy.tscn" id="3_6qy4s"]
+[ext_resource type="PackedScene" uid="uid://ccmreuiq6ch8h" path="res://Scenes/Enemies/shooting_enemy.tscn" id="4_ravce"]
 
 [sub_resource type="QuadMesh" id="QuadMesh_cyk0f"]
 size = Vector2(1000, 100)
