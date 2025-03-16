@@ -12,7 +12,15 @@ config_version=5
 
 config/name="BootStrap"
 run/main_scene="res://Scenes/Main Menu/main_menu.tscn"
-config/features=PackedStringArray("4.3", "Forward Plus")
+config/features=PackedStringArray("4.4", "Forward Plus")
+
+[display]
+
+window/stretch/mode="canvas_items"
+
+[global_group]
+
+player_overworld=""
 
 [input]
 
