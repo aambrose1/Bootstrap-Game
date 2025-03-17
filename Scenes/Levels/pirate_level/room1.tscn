@@ -1,8 +1,9 @@
-[gd_scene load_steps=5 format=3 uid="uid://c33r7fnhg7ogd"]
+[gd_scene load_steps=6 format=3 uid="uid://c33r7fnhg7ogd"]
 
 [ext_resource type="Texture2D" uid="uid://355rdgj0y3bw" path="res://Scenes/Levels/pirate_level/Backgrounds/room1.jpg" id="1_l7csh"]
 [ext_resource type="PackedScene" uid="uid://cj48ve1kyf8ed" path="res://Scenes/Player/abilities/pirate.tscn" id="2_ml2pi"]
 [ext_resource type="PackedScene" uid="uid://maeh628bsf4r" path="res://Scenes/Levels/finish_flag.tscn" id="3_ioup3"]
+[ext_resource type="AudioStream" uid="uid://xtfplw5awaky" path="res://Scenes/Levels/pirate_level/battle-ship-loop-147175.mp3" id="4_2r2pg"]
 
 [sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_ioup3"]
 distance = -207.0
@@ -26,3 +27,7 @@ position = Vector2(753, 650)
 
 [node name="Pirate" parent="." instance=ExtResource("2_ml2pi")]
 scale = Vector2(1.79, 1.79)
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("4_2r2pg")
+autoplay = true

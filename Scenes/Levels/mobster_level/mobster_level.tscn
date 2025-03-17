@@ -1,4 +1,4 @@
-[gd_scene load_steps=11 format=4 uid="uid://cen2oeg4o803a"]
+[gd_scene load_steps=12 format=4 uid="uid://cen2oeg4o803a"]
 
 [ext_resource type="PackedScene" uid="uid://bvc1ey4i1hll4" path="res://Scenes/Levels/levels_init.tscn" id="1_ucgoa"]
 [ext_resource type="Texture2D" uid="uid://dx25l4iuqa78r" path="res://Scenes/Levels/mobster_level/Backgrounds/retro_skyline (1).png" id="2_gf35c"]
@@ -6,6 +6,7 @@
 [ext_resource type="Texture2D" uid="uid://10slmonadict" path="res://Scenes/Levels/mobster_level/tile_set_castle.png" id="4_cep0t"]
 [ext_resource type="PackedScene" uid="uid://w4hdfehswl2e" path="res://Scenes/Player/abilities/mobster.tscn" id="6_1g4mx"]
 [ext_resource type="PackedScene" uid="uid://maeh628bsf4r" path="res://Scenes/Levels/finish_flag.tscn" id="6_8prgl"]
+[ext_resource type="AudioStream" uid="uid://cshhrqhjto5a" path="res://Scenes/Levels/mobster_level/jazz-background-music-bar-restaurant-casino-mafia-whiskey-249670.mp3" id="7_1g4mx"]
 
 [sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_di38a"]
 distance = -94.0
@@ -917,3 +918,7 @@ position = Vector2(4380, 383)
 
 [node name="mobster" parent="." index="4" instance=ExtResource("6_1g4mx")]
 position = Vector2(194, 241)
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="." index="5"]
+stream = ExtResource("7_1g4mx")
+autoplay = true

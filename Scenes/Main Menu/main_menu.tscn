@@ -1,9 +1,10 @@
-[gd_scene load_steps=67 format=3 uid="uid://dc7n010mwrgif"]
+[gd_scene load_steps=68 format=3 uid="uid://dc7n010mwrgif"]
 
 [ext_resource type="Script" uid="uid://dfj031diylm3d" path="res://Scenes/Main Menu/main_menu.gd" id="1_uskfm"]
 [ext_resource type="Texture2D" uid="uid://ba6rpb5mfsgbb" path="res://Assets/bootstrap logo spritesheet.png" id="2_2vub6"]
 [ext_resource type="FontFile" uid="uid://c33lfkygyq2d3" path="res://Assets/PIXEARG_.TTF" id="2_7xkbd"]
 [ext_resource type="Texture2D" uid="uid://cyefa57w363sb" path="res://Assets/mainmenubg.png" id="2_y0aff"]
+[ext_resource type="AudioStream" uid="uid://du5rryb0sbnm" path="res://Scenes/Main Menu/MainMenuwav.wav" id="5_fr3p2"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_fr3p2"]
 atlas = ExtResource("2_y0aff")
@@ -489,5 +490,9 @@ text = "Start"
 [node name="Camera2D" type="Camera2D" parent="."]
 position = Vector2(578, 322)
 zoom = Vector2(2, 2)
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("5_fr3p2")
+autoplay = true
 
 [connection signal="pressed" from="VBoxContainer/Play" to="." method="_on_play_pressed"]

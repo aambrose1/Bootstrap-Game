@@ -1,4 +1,4 @@
-[gd_scene load_steps=11 format=4 uid="uid://dpo2u40nx2j8e"]
+[gd_scene load_steps=12 format=4 uid="uid://dpo2u40nx2j8e"]
 
 [ext_resource type="PackedScene" uid="uid://bvc1ey4i1hll4" path="res://Scenes/Levels/levels_init.tscn" id="1_gdttt"]
 [ext_resource type="Texture2D" uid="uid://b3eerax1eg1eg" path="res://Scenes/Levels/pirate_level/Backgrounds/4.png" id="2_osqgi"]
@@ -6,6 +6,7 @@
 [ext_resource type="PackedScene" uid="uid://cj48ve1kyf8ed" path="res://Scenes/Player/abilities/pirate.tscn" id="4_gv3lg"]
 [ext_resource type="Script" uid="uid://be0u1exp8ias8" path="res://Scenes/Levels/pirate_level/shipentry.gd" id="5_gv3lg"]
 [ext_resource type="Texture2D" uid="uid://bjpy6ftwss1wq" path="res://Scenes/Levels/pirate_level/Items/ship.png" id="5_w8xta"]
+[ext_resource type="AudioStream" uid="uid://46ej64a4f4nj" path="res://Scenes/Levels/pirate_level/pirate-adventures-112150.mp3" id="7_7u0dv"]
 
 [sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_di38a"]
 distance = -207.0
@@ -677,6 +678,10 @@ texture = ExtResource("5_w8xta")
 
 [node name="Pirate" parent="." index="4" instance=ExtResource("4_gv3lg")]
 position = Vector2(229, 339)
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="." index="5"]
+stream = ExtResource("7_7u0dv")
+autoplay = true
 
 [connection signal="area_entered" from="ship" to="ship" method="_on_area_entered"]
 [connection signal="body_entered" from="ship" to="ship" method="_on_body_entered"]

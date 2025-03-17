@@ -1,10 +1,11 @@
-[gd_scene load_steps=9 format=4 uid="uid://b0g7ygy4cicx8"]
+[gd_scene load_steps=10 format=4 uid="uid://b0g7ygy4cicx8"]
 
 [ext_resource type="PackedScene" uid="uid://bvc1ey4i1hll4" path="res://Scenes/Levels/levels_init.tscn" id="1_g1q8j"]
 [ext_resource type="Texture2D" uid="uid://spghtxm3dfef" path="res://Scenes/Levels/western_level/Backgrounds/western_horizon.png" id="2_mff1m"]
 [ext_resource type="Texture2D" uid="uid://rdeotwq42lke" path="res://Scenes/Levels/prehistoric_level/Platforms/tileset-1.png" id="3_8fbbf"]
 [ext_resource type="PackedScene" uid="uid://crlimuealucd" path="res://Scenes/Player/abilities/cowboy.tscn" id="5_1ov3j"]
 [ext_resource type="PackedScene" uid="uid://maeh628bsf4r" path="res://Scenes/Levels/finish_flag.tscn" id="5_toxld"]
+[ext_resource type="AudioStream" uid="uid://dy56i5cs047ef" path="res://Scenes/Levels/western_level/western-loop-epic-cinematic-country-267839.mp3" id="6_1ov3j"]
 
 [sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_di38a"]
 distance = -94.0
@@ -683,3 +684,7 @@ position = Vector2(263, 310)
 
 [node name="finish flag" parent="." index="4" instance=ExtResource("5_toxld")]
 position = Vector2(4082, 374)
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="." index="5"]
+stream = ExtResource("6_1ov3j")
+autoplay = true
