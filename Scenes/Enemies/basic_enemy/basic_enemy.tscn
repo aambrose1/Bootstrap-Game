@@ -1,0 +1,24 @@
+[gd_scene load_steps=4 format=3 uid="uid://e385ptyhbhga"]
+
+[ext_resource type="Texture2D" uid="uid://daomg8me78y2g" path="res://Scenes/Levels/Assets/projectiles/projectile_test.png" id="1_5vesm"]
+[ext_resource type="Script" uid="uid://cs5gvr5hwmjhk" path="res://Scenes/Enemies/basic_enemy/basic_enemy.gd" id="2_r5hyj"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_fkmbd"]
+radius = 4.0
+height = 54.0
+
+[node name="BasicEnemy" type="Area2D" groups=["enemies"]]
+script = ExtResource("2_r5hyj")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_5vesm")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CapsuleShape2D_fkmbd")
+
+[node name="Hurtbox" type="Area2D" parent="." groups=["hurtboxes"]]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Hurtbox"]
+shape = SubResource("CapsuleShape2D_fkmbd")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
