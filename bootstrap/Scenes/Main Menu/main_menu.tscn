@@ -1,9 +1,9 @@
 [gd_scene load_steps=67 format=3 uid="uid://dc7n010mwrgif"]
 
-[ext_resource type="Script" uid="uid://b724s0lxj7evv" path="res://Scenes/Main Menu/main_menu.gd" id="1_uskfm"]
-[ext_resource type="Texture2D" uid="uid://ba6rpb5mfsgbb" path="res://Assets/bootstrap logo spritesheet.png" id="2_2vub6"]
-[ext_resource type="FontFile" uid="uid://c33lfkygyq2d3" path="res://Assets/PIXEARG_.TTF" id="2_7xkbd"]
-[ext_resource type="Texture2D" uid="uid://dm42ubeam165m" path="res://Assets/mainmenubg.png" id="2_y0aff"]
+[ext_resource type="Script" uid="uid://dfj031diylm3d" path="res://Scenes/Main Menu/main_menu.gd" id="1_uskfm"]
+[ext_resource type="Texture2D" uid="uid://lap1w7de2apc" path="res://Assets/bootstrap logo spritesheet.png" id="2_2vub6"]
+[ext_resource type="FontFile" uid="uid://d1sqem5jrihnp" path="res://Assets/PIXEARG_.TTF" id="2_7xkbd"]
+[ext_resource type="Texture2D" uid="uid://mpstld8akx5f" path="res://Assets/mainmenubg.png" id="2_y0aff"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_fr3p2"]
 atlas = ExtResource("2_y0aff")
@@ -476,7 +476,7 @@ anchor_right = 1.679
 anchor_bottom = 1.674
 offset_left = 423.0
 offset_top = 372.0
-offset_right = 728.0
+offset_right = 710.0
 offset_bottom = 630.0
 scale = Vector2(1.04997, 0.959239)
 

@@ -4,6 +4,7 @@ extends Control
 @onready var bg = $background
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
+	$VBoxContainer/Play.grab_focus()
 	logo.play()
 	bg.play()
 	
