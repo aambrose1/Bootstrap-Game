@@ -1,8 +1,0 @@
-[gd_scene load_steps=2 format=3 uid="uid://dvlgu2vwx11po"]
-
-[ext_resource type="PackedScene" uid="uid://bhq5di360bpq" path="res://Scenes/Hub World/NPCs/npc.tscn" id="1_6og5j"]
-
-[node name="NPC" instance=ExtResource("1_6og5j")]
-
-[node name="NPC_SPRITE" parent="." index="0"]
-animation = &"Caveman"

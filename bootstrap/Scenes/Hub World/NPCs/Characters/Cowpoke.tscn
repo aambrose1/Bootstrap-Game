@@ -1,8 +1,0 @@
-[gd_scene load_steps=2 format=3 uid="uid://m4xtwe66aqun"]
-
-[ext_resource type="PackedScene" uid="uid://bhq5di360bpq" path="res://Scenes/Hub World/NPCs/npc.tscn" id="1_7y7ge"]
-
-[node name="NPC" instance=ExtResource("1_7y7ge")]
-
-[node name="NPC_SPRITE" parent="." index="0"]
-animation = &"Cowpoke"

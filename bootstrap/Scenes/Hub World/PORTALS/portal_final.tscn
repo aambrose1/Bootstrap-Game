@@ -1,9 +1,0 @@
-[gd_scene load_steps=2 format=3 uid="uid://be6n8rjrulsdl"]
-
-[ext_resource type="PackedScene" uid="uid://fgy670u2nd42" path="res://Scenes/Hub World/PORTALS/portalbase/portal_interaction.tscn" id="1_p4m7n"]
-
-[node name="PortalInteraction" instance=ExtResource("1_p4m7n")]
-
-[node name="portalName" parent="." index="3"]
-offset_left = -35.0
-offset_right = 79.0
