@@ -1,7 +1,7 @@
 [gd_scene load_steps=13 format=3 uid="uid://cx22j7sh7sxjt"]
 
 [ext_resource type="Texture2D" uid="uid://b38f33j0l4qjb" path="res://Assets/Punk Overworld New Draft.png" id="1_g3bvx"]
-[ext_resource type="Script" path="res://Scenes/Hub World/overworld_movement.gd" id="1_xvayy"]
+[ext_resource type="Script" uid="uid://6yvsq34kacn1" path="res://Scenes/Hub World/overworld_movement.gd" id="1_xvayy"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_t7bnj"]
 atlas = ExtResource("1_g3bvx")

@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://cvy715n4m2yla"]
+
+[ext_resource type="PackedScene" uid="uid://bhq5di360bpq" path="res://Scenes/Hub World/NPCs/npc.tscn" id="1_2fexm"]
+
+[node name="NPC" instance=ExtResource("1_2fexm")]
+
+[node name="NPC_SPRITE" parent="." index="0"]
+animation = &"BusWom"
