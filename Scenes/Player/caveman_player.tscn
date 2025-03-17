@@ -3,7 +3,6 @@
 [ext_resource type="Script" uid="uid://c05opcqarr3iu" path="res://Scenes/Player/player.gd" id="1_xm21v"]
 [ext_resource type="Texture2D" uid="uid://dwug7kr3uu85n" path="res://Assets/idle.png" id="2_pi6m5"]
 
-
 [sub_resource type="AtlasTexture" id="AtlasTexture_tndo1"]
 atlas = ExtResource("2_pi6m5")
 region = Rect2(0, 0, 30, 48)

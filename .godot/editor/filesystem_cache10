@@ -1,397 +1,390 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1742241770
-::res://Assets/::1742241207
-bootstrap logo spritesheet.png::CompressedTexture2D/CompressedTexture2D::2451475469274661275::1742241073::1742241207::1::::<><><>0<>0<>36d498b91b90098c8415487f29e1bc3f<>res://.godot/imported/bootstrap logo spritesheet.png-d78821dd55ada6ff89d88fc2d9d9425d.ctex::
-chatbox.png::CompressedTexture2D/CompressedTexture2D::6866641594701502681::1742241073::1742241202::1::::<><><>0<>0<>2c7208505ff74a3d829fb81593c66a08<>res://.godot/imported/chatbox.png-bb1632d87fb34bed1d4c81b2b8324a29.ctex::
-City Playtest.png::CompressedTexture2D/CompressedTexture2D::5388355821915019435::1742241073::1742241202::1::::<><><>0<>0<>c3e3b160e5b83a935695de2b39024baa<>res://.godot/imported/City Playtest.png-b6257af19a17b17a8aef7d6fd250b859.ctex::
-citytilesheet.png::CompressedTexture2D/CompressedTexture2D::6696835861435680532::1742241073::1742241202::1::::<><><>0<>0<>49b9bde5aba0f81d03e1fd3ea350197b<>res://.godot/imported/citytilesheet.png-fcc8c4b1856ebd8ee08cc22a108317f5.ctex::
-finish_flag.gd::GDScript/GDScript::748728895215781227::1742241073::0::1::::<>Area2D<><>0<>0<><>::
-idle.png::CompressedTexture2D/CompressedTexture2D::8745126166353686957::1742241073::1742241202::1::::<><><>0<>0<>ddeb5038f260ac5088c0fa474a3fb69c<>res://.godot/imported/idle.png-f4d4ae5668b87a1c91dd66979f2564cc.ctex::
-mainmenubg.png::CompressedTexture2D/CompressedTexture2D::6465936336851544525::1742241073::1742241203::1::::<><><>0<>0<>a9357cec964e522d93e95fc29c109da9<>res://.godot/imported/mainmenubg.png-34043dd1a28b161130f142238cef6f40.ctex::
-overworldnpc.png::CompressedTexture2D/CompressedTexture2D::4957343745121376159::1742241073::1742241202::1::::<><><>0<>0<>3e516001cf2d8695d04dfb6a9f49ad97<>res://.godot/imported/overworldnpc.png-7b17fcf97c2e5cf3f7b9677cb64c73a8.ctex::
-overworld_map.png::CompressedTexture2D/CompressedTexture2D::5770267537551182750::1742241073::1742241202::1::::<><><>0<>0<>5d9e930177f88d4b371893c8f457c77b<>res://.godot/imported/overworld_map.png-0dafc0b0d9d2b99fc3260909dd2c402f.ctex::
-pir8-walk-sheet.png::CompressedTexture2D/CompressedTexture2D::3015163012761443094::1742241073::1742241202::1::::<><><>0<>0<>177b85530d1a9cee2847233ee997b913<>res://.godot/imported/pir8-walk-sheet.png-838fa93db391834d0cf9e987fee9ffe3.ctex::
-pir8_swing sword.png::CompressedTexture2D/CompressedTexture2D::2536620289270697670::1742241073::1742241202::1::::<><><>0<>0<>6c5923fa4e90b812c0df4772ecf86440<>res://.godot/imported/pir8_swing sword.png-10eacebd96134d6fe3b294a480d637ad.ctex::
-PIXEARG_.TTF::FontFile/FontFile::6796608944868890414::1742241073::1742241201::1::::<><><>0<>0<>c83bab04b2717c1854adb346409cc91d<>res://.godot/imported/PIXEARG_.TTF-777e8f6c31df3bca638e6ac98f855c9c.fontdata::
-pixel-art-red-flag-icon-png.png::CompressedTexture2D/CompressedTexture2D::3560813156776604252::1742241073::1742241202::1::::<><><>0<>0<>3345aeeb11cb2acc105297b0bd394300<>res://.godot/imported/pixel-art-red-flag-icon-png.png-8e843ef5095ebf54ce16724d1d7513c9.ctex::
-portals.png::CompressedTexture2D/CompressedTexture2D::7255489154724109843::1742241073::1742241202::1::::<><><>0<>0<>3926614a18e89dcf918b4c75e0eed80f<>res://.godot/imported/portals.png-cd970c4a7990b2cf7a652ddf359e3745.ctex::
-Punk Overworld Draft.png::CompressedTexture2D/CompressedTexture2D::7681653522073038513::1742241073::1742241202::1::::<><><>0<>0<>7b538bb84ae3f3ea3caa7f7332193e89<>res://.godot/imported/Punk Overworld Draft.png-4ae190f2391644a782e9b54481f3beea.ctex::
-Punk Overworld New Draft.png::CompressedTexture2D/CompressedTexture2D::4420187844343937515::1742241073::1742241202::1::::<><><>0<>0<>1642f53cd6d85bf578df519993e899ed<>res://.godot/imported/Punk Overworld New Draft.png-90adb4cd4e9006363cfb9920015e2658.ctex::
-revolver_shoot.png::CompressedTexture2D/CompressedTexture2D::8068862204156701705::1742241073::1742241202::1::::<><><>0<>0<>5c1bcb3d35afe46a3acc6084679a3157<>res://.godot/imported/revolver_shoot.png-1eee4ea7868b0a60bb0a3c15f44d821a.ctex::
-someguyjump.png::CompressedTexture2D/CompressedTexture2D::1463862241201034515::1742241073::1742241202::1::::<><><>0<>0<>eaea3e9e9a066ffc8bd8d0b6fed8817c<>res://.godot/imported/someguyjump.png-65639a8477362e7e5663e21b58d6f575.ctex::
-someguywalk_silly.png::CompressedTexture2D/CompressedTexture2D::2326411615728080087::1742241073::1742241202::1::::<><><>0<>0<>affe6590ec9aa3d0e97b0e4ad76cda6f<>res://.godot/imported/someguywalk_silly.png-82d8c48efc43cc014b28c8769a3170ef.ctex::
-::res://Assets/GL Spritework/::1742241177
-::res://Assets/GL Spritework/emenies/::1742241180
-::res://Assets/GL Spritework/emenies/00 - Prehistoric Era/::1742241180
-::res://Assets/GL Spritework/emenies/00 - Prehistoric Era/caveman/::1742241202
-caveman_idle.png::CompressedTexture2D/CompressedTexture2D::4512821797160058058::1742241073::1742241202::1::::<><><>0<>0<>13cb1a521427fdb413e4e9a6a5d368e6<>res://.godot/imported/caveman_idle.png-d74dbe906b68fb41d8436e1d0b1d1ecc.ctex::
-caveman_tackle.png::CompressedTexture2D/CompressedTexture2D::2918427213522871661::1742241073::1742241202::1::::<><><>0<>0<>0e32017312645211dbb4f3e5dc82277a<>res://.godot/imported/caveman_tackle.png-a8652b7c48501f2e8c92456303ca49c8.ctex::
-::res://Assets/GL Spritework/emenies/00 - Prehistoric Era/caveman/ase/::1742241180
-::res://Assets/GL Spritework/emenies/00 - Prehistoric Era/caveman/gifs/::1742241180
-::res://Assets/GL Spritework/emenies/00 - Prehistoric Era/moler/::1742241202
-moler_attack.png::CompressedTexture2D/CompressedTexture2D::5950646044094717433::1742241073::1742241202::1::::<><><>0<>0<>757027e2756b21b2565c58b331abc400<>res://.godot/imported/moler_attack.png-0c09b1ac257516919e40eab6ee46ec7d.ctex::
-::res://Assets/GL Spritework/emenies/00 - Prehistoric Era/moler/ase/::1742241180
-::res://Assets/GL Spritework/emenies/00 - Prehistoric Era/pterry/::1742241202
-pterry.png::CompressedTexture2D/CompressedTexture2D::3287428076981869492::1742241073::1742241202::1::::<><><>0<>0<>f1459ba4271975237e8f7bc288ffc8a0<>res://.godot/imported/pterry.png-8bab91a252f161143bcb0f98d56d8efb.ctex::
-::res://Assets/GL Spritework/emenies/00 - Prehistoric Era/velocicopter/::1742241202
-velocicopter.png::CompressedTexture2D/CompressedTexture2D::3709275088657843511::1742241073::1742241202::1::::<><><>0<>0<>d49176c04a747d351aa879ccb91fccbb<>res://.godot/imported/velocicopter.png-127763dcf74e7fd843cd5485535259c6.ctex::
-velocicopter_attackl.png::CompressedTexture2D/CompressedTexture2D::6314790819241063649::1742241073::1742241202::1::::<><><>0<>0<>a7678433030cac9c1f714a368b6dfae6<>res://.godot/imported/velocicopter_attackl.png-7ee1c824be7ea69bf4f04b91d437e140.ctex::
-velocicopter_hurt.png::CompressedTexture2D/CompressedTexture2D::4165354274093534481::1742241073::1742241202::1::::<><><>0<>0<>507aed4b0a2ac21e127d023fd107d4dc<>res://.godot/imported/velocicopter_hurt.png-7f776346e147b90603484a68450c15ce.ctex::
-velocicopter_tail.png::CompressedTexture2D/CompressedTexture2D::1140095366506703721::1742241073::1742241202::1::::<><><>0<>0<>2de1acf03e332f37dcc5193a487feaa5<>res://.godot/imported/velocicopter_tail.png-2c9b13f5151acd71d1cff314bc3319f7.ctex::
-::res://Assets/GL Spritework/emenies/00 - Prehistoric Era/velocicopter/ase/::1742241180
-::res://Assets/GL Spritework/emenies/caveman/::1742241202
-caveman_idle.png::CompressedTexture2D/CompressedTexture2D::8793306625478205716::1742241073::1742241202::1::::<><><>0<>0<>08054bcf80f418872f6b05c258096307<>res://.godot/imported/caveman_idle.png-8c19ec1aa109624a4163380d1708a73c.ctex::
-caveman_tackle.png::CompressedTexture2D/CompressedTexture2D::7815220521902095189::1742241073::1742241202::1::::<><><>0<>0<>f065e7a613d415d50b883a25c7a481af<>res://.godot/imported/caveman_tackle.png-885ea77dd76dfb46da96651a2129c00c.ctex::
-::res://Assets/GL Spritework/emenies/caveman/ase/::1742241180
-::res://Assets/GL Spritework/emenies/caveman/gifs/::1742241180
-::res://Assets/GL Spritework/emenies/Prohibition_era/::1742241180
-::res://Assets/GL Spritework/emenies/Prohibition_era/bandit/::1742241202
-bandit_hurt.png::CompressedTexture2D/CompressedTexture2D::4924200581519861721::1742241073::1742241202::1::::<><><>0<>0<>bfb8c5099be57657569bd89f79fea043<>res://.godot/imported/bandit_hurt.png-70b9f78da603664e13b98f5a97b65da5.ctex::
-bandit_idle.png::CompressedTexture2D/CompressedTexture2D::696720812396156095::1742241073::1742241202::1::::<><><>0<>0<>b8b2c8b77a1a842b37f0a46cbdda084d<>res://.godot/imported/bandit_idle.png-92c1e6fd16e88b9a08052b4c193c5054.ctex::
-bandit_shoot.png::CompressedTexture2D/CompressedTexture2D::8563184328666079313::1742241073::1742241202::1::::<><><>0<>0<>d92280a70b0a003c867459fbd44cd69a<>res://.godot/imported/bandit_shoot.png-43eebefbed03a6f9176687c67a45ad9d.ctex::
-bandit_walk.png::CompressedTexture2D/CompressedTexture2D::5616460289467702039::1742241073::1742241202::1::::<><><>0<>0<>277dd8f55ad76ec5c165bd0d428d4521<>res://.godot/imported/bandit_walk.png-918d6a34042e15645305cf9ca3e79646.ctex::
-::res://Assets/GL Spritework/emenies/Prohibition_era/big_goon/::1742241202
-big_goon_attack.png::CompressedTexture2D/CompressedTexture2D::6439146061304730703::1742241073::1742241202::1::::<><><>0<>0<>30d9afc203bb6c2da02aa5004e36497e<>res://.godot/imported/big_goon_attack.png-971670d14a758adfff0331080563c3fa.ctex::
-big_goon_hurt.png::CompressedTexture2D/CompressedTexture2D::5729570846381075724::1742241073::1742241202::1::::<><><>0<>0<>b9b492403e1ffaee92fe8add0a9ae825<>res://.godot/imported/big_goon_hurt.png-f1a60b016d048b171a2c1cb7f4fdf81c.ctex::
-big_goon_idle.png::CompressedTexture2D/CompressedTexture2D::298494710415519560::1742241073::1742241202::1::::<><><>0<>0<>8280565d4221cc2fd2b69f78bd87dfc5<>res://.godot/imported/big_goon_idle.png-a293bad037f3f89ca70adfdd42d16e5f.ctex::
-big_goon_walk.png::CompressedTexture2D/CompressedTexture2D::1284160662227666743::1742241073::1742241202::1::::<><><>0<>0<>49228be9b6e7750cb793de0b9ded8c0a<>res://.godot/imported/big_goon_walk.png-e2f60deaa5068ef84343b3f73c7e23ab.ctex::
-::res://Assets/GL Spritework/emenies/Prohibition_era/cop/::1742241202
-cop_hurt.png::CompressedTexture2D/CompressedTexture2D::3519164897269075988::1742241073::1742241202::1::::<><><>0<>0<>487fa20ce74a5bd29e39b2638da87177<>res://.godot/imported/cop_hurt.png-0476bdb3ad7da5976e6168f4950aa2e3.ctex::
-cop_idle.png::CompressedTexture2D/CompressedTexture2D::8535514107262247764::1742241073::1742241202::1::::<><><>0<>0<>c996e06f39da506f2d8d16206e13d8d5<>res://.godot/imported/cop_idle.png-dae369050103dea106278a2c6add0e8c.ctex::
-cop_run.png::CompressedTexture2D/CompressedTexture2D::3772417071026843226::1742241073::1742241202::1::::<><><>0<>0<>27417358065ebadfd3bc118a7e4e9ac7<>res://.godot/imported/cop_run.png-e39fdb947c738cf74c2241776f13d701.ctex::
-::res://Assets/GL Spritework/emenies/Prohibition_era/goon/::1742241202
-goon_attack.png::CompressedTexture2D/CompressedTexture2D::1855155413530607749::1742241073::1742241202::1::::<><><>0<>0<>1617af632eb17c1f132b2b484628f527<>res://.godot/imported/goon_attack.png-6a2678597480e75438a1ad39158c63be.ctex::
-goon_hurt.png::CompressedTexture2D/CompressedTexture2D::4265652445442490215::1742241073::1742241202::1::::<><><>0<>0<>e8016e7336591161a309299bf8235d80<>res://.godot/imported/goon_hurt.png-b5cf9c15266b655ff1dcf84679ca8f8a.ctex::
-goon_idle.png::CompressedTexture2D/CompressedTexture2D::4391909928787325708::1742241073::1742241202::1::::<><><>0<>0<>276aebbcdca0515297f389a0355d9f15<>res://.godot/imported/goon_idle.png-c2dde3c333cb123c26bea7e6235211f2.ctex::
-goon_walk.png::CompressedTexture2D/CompressedTexture2D::6066082580580343416::1742241073::1742241202::1::::<><><>0<>0<>28daf58cdf20cd81eb10807ceed5f089<>res://.godot/imported/goon_walk.png-78fe2ac7e3b675917b10a943f83a5ca8.ctex::
-::res://Assets/GL Spritework/main_character/::1742241180
-::res://Assets/GL Spritework/main_character/cowboy_guy/::1742241202
-cowboy_guy_attack.png::CompressedTexture2D/CompressedTexture2D::1607456776421107391::1742241073::1742241202::1::::<><><>0<>0<>3f4638e69cb8b3ae2491ca3ec0184bb7<>res://.godot/imported/cowboy_guy_attack.png-f0bcab96a0a02314a56c15ba1a7f25b6.ctex::
-::res://Assets/GL Spritework/main_character/cowboy_guy/ase/::1742241180
-::res://Assets/GL Spritework/main_character/guy_default/::1742241202
-default_guy_idle.png::CompressedTexture2D/CompressedTexture2D::8748587129023304017::1742241073::1742241202::1::::<><><>0<>0<>3f2dedb35db1f071347d2b2d5d290677<>res://.godot/imported/default_guy_idle.png-6b74155fb700c280a66b1b304e1f016b.ctex::
-default_guy_jump.png::CompressedTexture2D/CompressedTexture2D::6654187363185122201::1742241073::1742241202::1::::<><><>0<>0<>77a864978618f3674cf694ee0d619947<>res://.godot/imported/default_guy_jump.png-5fec617e2a55e0920c6136e7b611e892.ctex::
-default_guy_walk.png::CompressedTexture2D/CompressedTexture2D::1770393773971470592::1742241073::1742241202::1::::<><><>0<>0<>3b41f3622f3139bbc10130f161e0b950<>res://.godot/imported/default_guy_walk.png-d9c4a10da3cb6f62f5e24cf93522759c.ctex::
-::res://Assets/GL Spritework/main_character/guy_default/ase/::1742241180
-::res://Assets/GL Spritework/main_character/mob_guy/::1742241202
-mob_guy_attack.png::CompressedTexture2D/CompressedTexture2D::3512708274710274294::1742241073::1742241202::1::::<><><>0<>0<>43578a86a187008b5b186492989d9307<>res://.godot/imported/mob_guy_attack.png-a5ddabd22cd6d74dc1ff2a5f3fd2b870.ctex::
-::res://Assets/GL Spritework/main_character/mob_guy/ase/::1742241180
-::res://Assets/GL Spritework/main_character/pir8_guy/::1742241202
-pir8-walk-sheet.png::CompressedTexture2D/CompressedTexture2D::1267440995727163524::1742241073::1742241202::1::::<><><>0<>0<>484fb8ae80c6dda3b9f0d98fd2fc7be2<>res://.godot/imported/pir8-walk-sheet.png-bfb552f0aa3aace3ca4da1f5fa443e94.ctex::
-pir8_swing sword.png::CompressedTexture2D/CompressedTexture2D::7153193124189959470::1742241073::1742241202::1::::<><><>0<>0<>920245d096f79aea923267762ecb838b<>res://.godot/imported/pir8_swing sword.png-d3fba24b8d2ea66403af79a5e3d1aa78.ctex::
-::res://Assets/GL Spritework/main_character/pir8_guy/ase/::1742241180
-::res://Assets/GL Spritework/references/::1742241202
-Game Boy Advance - Advance Wars 2 Black Hole Rising - Tileset Normal (1).png::CompressedTexture2D/CompressedTexture2D::30042214931119860::1742241073::1742241202::1::::<><><>0<>0<>529c91897579a8f15430e53782392624<>res://.godot/imported/Game Boy Advance - Advance Wars 2 Black Hole Rising - Tileset Normal (1).png-ba20389ed86de4f13ce1685be1fb4cc8.ctex::
-::res://Assets/projectiles/::1742241202
-citytilesheet.png::CompressedTexture2D/CompressedTexture2D::7064900385397226206::1742241073::1742241202::1::::<><><>0<>0<>09718b5425cc9ca12f770b6acb664473<>res://.godot/imported/citytilesheet.png-5e39020d376a0b1677f03e2591caa15e.ctex::
-projectile_test.png::CompressedTexture2D/CompressedTexture2D::7188904410346804868::1742241073::1742241202::1::::<><><>0<>0<>fccb32797eadcea38c25e8207532e659<>res://.godot/imported/projectile_test.png-55a68afa64aaf1fb3b8ea0dac671d23e.ctex::
-::res://Scenes/::1742241177
-::res://Scenes/Enemies/::1742241177
-enemy.gd::GDScript/GDScript::1490419735488783149::1742241073::0::1::::<>CharacterBody2D<><>0<>0<><>::
-enemy.tscn::PackedScene/PackedScene::6919392680472881149::1742241073::0::1::::<><><>0<>0<><>::uid://vh783s5pxa3n::::res://Scenes/Enemies/enemy.gd<>uid://dwug7kr3uu85n::::res://Scenes/Levels/Assets/idle.png
-::res://Scenes/Enemies/Basic Enemy/::1742241177
-basic_enemy.gd::GDScript/GDScript::4981239048630606209::1742241073::0::1::::<>CharacterBody2D<><>0<>0<><>::
-basic_enemy.tscn::PackedScene/PackedScene::6696531478853736758::1742241073::0::1::::<><><>0<>0<><>::uid://cc77jq7ct4jph::::res://Scenes/Enemies/Basic Enemy/basic_enemy.gd<>uid://dwug7kr3uu85n::::res://Assets/idle.png
-::res://Scenes/Enemies/basic_enemy/::1742241178
-basic_enemy.gd::GDScript/GDScript::6098574628710194492::1742241073::0::1::::<>Area2D<><>0<>0<><>::
-basic_enemy.tscn::PackedScene/PackedScene::340616004545631648::1742241073::0::1::::<><><>0<>0<><>::uid://daomg8me78y2g::::res://Scenes/Levels/Assets/projectiles/projectile_test.png<>uid://cs5gvr5hwmjhk::::res://Scenes/Enemies/basic_enemy/basic_enemy.gd
-::res://Scenes/Enemies/Melee Enemy/::1742241178
-melee_enemy.gd::GDScript/GDScript::1490419735488783149::1742241073::0::1::::<>CharacterBody2D<><>0<>0<><>::
-melee_enemy.tscn::PackedScene/PackedScene::6919392680472881149::1742241073::0::1::::<><><>0<>0<><>::uid://vh783s5pxa3n::::res://Scenes/Enemies/enemy.gd<>uid://dwug7kr3uu85n::::res://Assets/idle.png
-::res://Scenes/Enemies/melee_enemy/::1742241178
-melee_enemy.gd::GDScript/GDScript::5757050913182786834::1742241073::0::1::::<>CharacterBody2D<><>0<>0<><>::
-melee_enemy.tscn::PackedScene/PackedScene::2021621994864356195::1742241073::0::1::::<><><>0<>0<><>::uid://coa011i6wafb3::::res://Scenes/Enemies/melee_enemy/melee_enemy.gd<>uid://3fxcbwlgbftw::::res://Scenes/Levels/Assets/GL Spritework/main_character/pir8_guy/pir8_swing sword.png<>uid://msuhrv1uarbx::::res://Scenes/Levels/Assets/GL Spritework/main_character/pir8_guy/pir8-walk-sheet.png
-::res://Scenes/Enemies/shooter_enemy/::1742241178
-shooter_enemy.gd::GDScript/GDScript::2853280158712624415::1742241073::0::1::::<>CharacterBody2D<><>0<>0<><>::
-shooter_enemy.tscn::PackedScene/PackedScene::7440346754204465065::1742241073::0::1::::<><><>0<>0<><>::uid://bgwfdwdcncy4f::::res://Scenes/Enemies/shooter_enemy/shooter_enemy.gd<>uid://difdpeu8x3fnq::::res://Scenes/Levels/Assets/GL Spritework/main_character/cowboy_guy/cowboy_guy_attack.png
-::res://Scenes/Enemies/Shooting Enemy/::1742241178
-shooting_enemy.gd::GDScript/GDScript::5320374144772444660::1742241073::0::1::::<>CharacterBody2D<><>0<>0<><>::
-shooting_enemy.tscn::PackedScene/PackedScene::4939031983357552901::1742241073::0::1::::<><><>0<>0<><>::uid://ch2h1xjwwgbr5::::res://Scenes/Enemies/Shooting Enemy/shooting_enemy.gd<>uid://dwug7kr3uu85n::::res://Assets/idle.png
-::res://Scenes/Enemies/test_dummy/::1742241202
-test_dummy.gd::GDScript/GDScript::1801660257099488608::1742241073::0::1::::<>Sprite2D<><>0<>0<><>::
-test_dummy.png::CompressedTexture2D/CompressedTexture2D::5320164318830691032::1742241073::1742241202::1::::<><><>0<>0<>bfd0389bbc82778f9697b47d057a2ec3<>res://.godot/imported/test_dummy.png-a08f81734697620031aa2706fcbb8f5a.ctex::
-test_dummy.tscn::PackedScene/PackedScene::7902806704143232187::1742241073::0::1::::<><><>0<>0<><>::uid://ch2elgm2hto3a::::res://Scenes/Enemies/test_dummy/test_dummy.png<>uid://0w0c04263x17::::res://Scenes/Enemies/test_dummy/test_dummy.gd
-::res://Scenes/Hub World/::1742243803
-hub_city.tscn::PackedScene::8505296246478775939::1742243803::0::1::::<><><>0<>0<><>::uid://c2n8545uir3me::::res://Assets/citytilesheet.png<>uid://cx22j7sh7sxjt::::res://Scenes/Hub World/player_overworld.tscn<>uid://bbi523lrvyfmx::::res://Scenes/Hub World/PORTALS/portal_yellow.tscn<>uid://c6eg31a4gipe1::::res://Scenes/Hub World/PORTALS/portal_green.tscn<>uid://c2ydx7b8ysc3x::::res://Scenes/Hub World/PORTALS/portal_purple.tscn<>uid://cubrwe81cu2nd::::res://Scenes/Hub World/PORTALS/portal_blue.tscn<>uid://c3qkatu3gov8w::::res://Scenes/Hub World/PORTALS/portal_white.tscn<>uid://joycomayelpm::::res://Scenes/Hub World/PORTALS/portal_orange.tscn<>uid://col4wk2gjpbyb::::res://Scenes/Hub World/NPCs/Characters/bro.tscn<>uid://bn5bo6e3j15tk::::res://Scenes/Hub World/NPCs/Characters/ConWork.tscn<>uid://m4xtwe66aqun::::res://Scenes/Hub World/NPCs/Characters/Cowpoke.tscn<>uid://d4l0qck0is07c::::res://Scenes/Hub World/NPCs/Characters/Dude.tscn<>uid://dvlgu2vwx11po::::res://Scenes/Hub World/NPCs/Characters/Caveman.tscn<>uid://cvy715n4m2yla::::res://Scenes/Hub World/NPCs/Characters/BusWom.tscn<>uid://dvoxkc8r6asxo::::res://Scenes/Hub World/NPCs/Characters/Punk.tscn<>uid://bxlo1ttg3fnv0::::res://Scenes/Hub World/NPCs/Characters/WiseWizard.tscn<>uid://be6n8rjrulsdl::::res://Scenes/Hub World/PORTALS/portal_final.tscn<>uid://cnghh2bvwwmrn::::res://Scenes/Hub World/Pause_O/pause_O.tscn<>uid://wid37wtknlwq::::res://Scenes/Hub World/the-flow-of-time-165882.mp3
-overworld_movement.gd::GDScript/GDScript::2226707304973941788::1742241073::0::1::::Player_Overworld<>CharacterBody2D<><>0<>0<><>::
-player_overworld.tscn::PackedScene/PackedScene::6444580110285628689::1742241073::0::1::::<><><>0<>0<><>::uid://b38f33j0l4qjb::::res://Assets/Punk Overworld New Draft.png<>uid://6yvsq34kacn1::::res://Scenes/Hub World/overworld_movement.gd
-the-flow-of-time-165882.mp3::AudioStreamMP3/AudioStreamMP3::1560903450886889744::1742241451::1742241480::1::::<><><>0<>0<>6ec888c2597721ed5cae4b516937e93b<>res://.godot/imported/the-flow-of-time-165882.mp3-452ca1f5c95d1610d8b242213d384393.mp3str::
-::res://Scenes/Hub World/NPCs/::1742241178
-npc.gd::GDScript/GDScript::6720807852820821747::1742241073::0::1::::<>Area2D<><>0<>0<><>::
-npc.tscn::PackedScene/PackedScene::85664704860949450::1742241073::0::1::::<><><>0<>0<><>::uid://c20uyujbxudwl::::res://Scenes/Hub World/NPCs/npc.gd<>uid://cv72qdhhgyvq6::::res://Assets/overworldnpc.png<>uid://bqf0ogbf8b4g8::::res://Scenes/Hub World/NPCs/dialog/chat_box.tscn
-::res://Scenes/Hub World/NPCs/Characters/::1742241180
-bro.tscn::PackedScene/PackedScene::5779993981097899965::1742241073::0::1::::<><><>0<>0<><>::uid://bhq5di360bpq::::res://Scenes/Hub World/NPCs/npc.tscn
-BusWom.tscn::PackedScene/PackedScene::6298343121410085326::1742241073::0::1::::<><><>0<>0<><>::uid://bhq5di360bpq::::res://Scenes/Hub World/NPCs/npc.tscn
-Caveman.tscn::PackedScene/PackedScene::8656337392210051636::1742241073::0::1::::<><><>0<>0<><>::uid://bhq5di360bpq::::res://Scenes/Hub World/NPCs/npc.tscn
-ConWork.tscn::PackedScene/PackedScene::3360894337405098600::1742241073::0::1::::<><><>0<>0<><>::uid://bhq5di360bpq::::res://Scenes/Hub World/NPCs/npc.tscn
-Cowpoke.tscn::PackedScene/PackedScene::903564662584808389::1742241073::0::1::::<><><>0<>0<><>::uid://bhq5di360bpq::::res://Scenes/Hub World/NPCs/npc.tscn
-Dude.tscn::PackedScene/PackedScene::9218993291040597974::1742241073::0::1::::<><><>0<>0<><>::uid://bhq5di360bpq::::res://Scenes/Hub World/NPCs/npc.tscn
-Punk.tscn::PackedScene/PackedScene::8663543561646593972::1742241073::0::1::::<><><>0<>0<><>::uid://bhq5di360bpq::::res://Scenes/Hub World/NPCs/npc.tscn
-WiseWizard.tscn::PackedScene/PackedScene::4024369738807940095::1742241073::0::1::::<><><>0<>0<><>::uid://bhq5di360bpq::::res://Scenes/Hub World/NPCs/npc.tscn
-::res://Scenes/Hub World/NPCs/dialog/::1742241180
-chat_box.gd::GDScript/GDScript::17938930149501943::1742241073::0::1::::<>Control<><>0<>0<><>::
-chat_box.tscn::PackedScene/PackedScene::3521307313562002777::1742241073::0::1::::<><><>0<>0<><>::uid://c43it36c38618::::res://Assets/chatbox.png<>uid://ixpmacc2ned::::res://Scenes/Hub World/NPCs/dialog/chat_box.gd<>uid://c33lfkygyq2d3::::res://Assets/PIXEARG_.TTF
-::res://Scenes/Hub World/NPCs/dialog/jsons/::1742241180
-bro.json::JSON/JSON::-1::1742241073::0::1::::<><><>0<>0<><>::
-busWom.json::JSON/JSON::-1::1742241073::0::1::::<><><>0<>0<><>::
-caveman.json::JSON/JSON::-1::1742241073::0::1::::<><><>0<>0<><>::
-conWork.json::JSON/JSON::-1::1742241073::0::1::::<><><>0<>0<><>::
-cowPoke.json::JSON/JSON::-1::1742241073::0::1::::<><><>0<>0<><>::
-dude.json::JSON/JSON::-1::1742241073::0::1::::<><><>0<>0<><>::
-punk.json::JSON/JSON::-1::1742241073::0::1::::<><><>0<>0<><>::
-wiseWizard.json::JSON/JSON::-1::1742241073::0::1::::<><><>0<>0<><>::
-::res://Scenes/Hub World/Pause_O/::1742241178
-pause_O.gd::GDScript/GDScript::8108358220984820154::1742241073::0::1::::<>Control<><>0<>0<><>::
-pause_O.tscn::PackedScene/PackedScene::5698121541371362031::1742241073::0::1::::<><><>0<>0<><>::uid://dnr0qfnmtpxdq::::res://Scenes/Hub World/Pause_O/pause_O.gd<>uid://8s63b8vpye2k::::res://Shaders/blur.gdshader<>uid://d1sqem5jrihnp::::res://Assets/PIXEARG_.TTF<>uid://cjq2cpkyqjkr4::::res://Assets/overworld_map.png
-::res://Scenes/Hub World/PORTALS/::1742241178
-portal_blue.tscn::PackedScene/PackedScene::6179754356500604905::1742241073::0::1::::<><><>0<>0<><>::uid://fgy670u2nd42::::res://Scenes/Hub World/PORTALS/portalbase/portal_interaction.tscn
-portal_final.tscn::PackedScene/PackedScene::2732020928325683633::1742241073::0::1::::<><><>0<>0<><>::uid://fgy670u2nd42::::res://Scenes/Hub World/PORTALS/portalbase/portal_interaction.tscn
-portal_green.tscn::PackedScene/PackedScene::6957368702300461982::1742241073::0::1::::<><><>0<>0<><>::uid://fgy670u2nd42::::res://Scenes/Hub World/PORTALS/portalbase/portal_interaction.tscn
-portal_orange.tscn::PackedScene/PackedScene::662062414610130774::1742241073::0::1::::<><><>0<>0<><>::uid://fgy670u2nd42::::res://Scenes/Hub World/PORTALS/portalbase/portal_interaction.tscn
-portal_purple.tscn::PackedScene/PackedScene::6717710119772783943::1742241073::0::1::::<><><>0<>0<><>::uid://fgy670u2nd42::::res://Scenes/Hub World/PORTALS/portalbase/portal_interaction.tscn
-portal_white.tscn::PackedScene/PackedScene::6771767233364256540::1742241073::0::1::::<><><>0<>0<><>::uid://fgy670u2nd42::::res://Scenes/Hub World/PORTALS/portalbase/portal_interaction.tscn
-portal_yellow.tscn::PackedScene/PackedScene::2474995764030105139::1742241073::0::1::::<><><>0<>0<><>::uid://fgy670u2nd42::::res://Scenes/Hub World/PORTALS/portalbase/portal_interaction.tscn
-::res://Scenes/Hub World/PORTALS/portalbase/::1742243803
-portal_interaction.gd::GDScript/GDScript::1664262851634240645::1742241073::0::1::::<>Area2D<><>0<>0<><>::
-portal_interaction.tscn::PackedScene::364844772464587481::1742243803::0::1::::<><><>0<>0<><>::uid://xygfv6binjp2::::res://Scenes/Hub World/PORTALS/portalbase/portal_interaction.gd<>uid://dbmu31mqbioed::::res://Assets/portals.png<>uid://c33lfkygyq2d3::::res://Assets/PIXEARG_.TTF
-::res://Scenes/Levels/::1742241177
-finish_flag.tscn::PackedScene/PackedScene::842523163619782015::1742241074::0::1::::<><><>0<>0<><>::uid://kwxpqtre8ie2::::res://Assets/finish_flag.gd<>uid://bqy5cp0uuye5q::::res://Assets/pixel-art-red-flag-icon-png.png
-levels_init.tscn::PackedScene/PackedScene::3866102246345696215::1742241074::0::1::::<><><>0<>0<><>::
-::res://Scenes/Levels/Assets/::1742241207
-bootstrap logo spritesheet.png::CompressedTexture2D/CompressedTexture2D::2543470223908886807::1742241074::1742241207::1::::<><><>0<>0<>f7bcca4604191bed8a3e334747fe06e1<>res://.godot/imported/bootstrap logo spritesheet.png-9d59ca27085294b0849403a5fcead5ba.ctex::
-caveman_form.png::CompressedTexture2D/CompressedTexture2D::3378749807119646694::1742241074::1742241201::1::::<><><>0<>0<>f7ec518e9039d6f0eb8b55789c4d8970<>res://.godot/imported/caveman_form.png-48df5edab504b077dc43d0d690246eba.ctex::
-chatbox.png::CompressedTexture2D/CompressedTexture2D::3819348803150692110::1742241074::1742241201::1::::<><><>0<>0<>34532106a39f76d288c531b2a83d6d18<>res://.godot/imported/chatbox.png-8f678fb9c9330f9e75b338d575d2d4b9.ctex::
-City Playtest.png::CompressedTexture2D/CompressedTexture2D::3687305830506203622::1742241073::1742241202::1::::<><><>0<>0<>5cd8eefb3aca6372a0012e438b0c9914<>res://.godot/imported/City Playtest.png-1dd0529b67182f99e4f8c0840209928d.ctex::
-citytilesheet.png::CompressedTexture2D/CompressedTexture2D::2676318891164661391::1742241074::1742241201::1::::<><><>0<>0<>42085cbde18b4c4d236bde864254c47d<>res://.godot/imported/citytilesheet.png-c20f8bf49c70ff4fe598d490b77ec692.ctex::
-finish_flag.gd::GDScript/GDScript::4931147528075240893::1742241074::0::1::::<>Area2D<><>0<>0<><>::
-idle.png::CompressedTexture2D/CompressedTexture2D::5267398775513108891::1742241074::1742241201::1::::<><><>0<>0<>49cba7dbc16355df2113204b793a391e<>res://.godot/imported/idle.png-8f9f4f35b1121c6eb8ac851819fa2589.ctex::
-mainmenubg.png::CompressedTexture2D/CompressedTexture2D::1017802243231789290::1742241074::1742241202::1::::<><><>0<>0<>cc20551a296b751d65b6a9f18a0f4181<>res://.godot/imported/mainmenubg.png-7279c786d5be1a5a536a872b00085d7b.ctex::
-overworldnpc.png::CompressedTexture2D/CompressedTexture2D::4968754419449682304::1742241074::1742241201::1::::<><><>0<>0<>038c5855217f16593603cfc4973e7835<>res://.godot/imported/overworldnpc.png-c82de3a4ab89168e84455444370adbf5.ctex::
-overworld_map.png::CompressedTexture2D/CompressedTexture2D::154270177230514795::1742241074::1742241202::1::::<><><>0<>0<>67ae96f0bb01bab8dd7cbb410d9590ce<>res://.godot/imported/overworld_map.png-7cf910bbf0b5510b7bf6a0780c48135c.ctex::
-pir8-walk-sheet.png::CompressedTexture2D/CompressedTexture2D::7814520658979418332::1742241074::1742241201::1::::<><><>0<>0<>b2197c7a135ad2678c25f5d543994a9e<>res://.godot/imported/pir8-walk-sheet.png-dab191cb83497e5305bf12b2de02b7e1.ctex::
-pir8_swing sword.png::CompressedTexture2D/CompressedTexture2D::6636578853673213942::1742241074::1742241202::1::::<><><>0<>0<>4ce2ddb27ea66422d0ee78db439bd591<>res://.godot/imported/pir8_swing sword.png-28b5332a80da092fa822d7e08caaf67f.ctex::
-PIXEARG_.TTF::FontFile/FontFile::1707378536323377192::1742241074::1742241201::1::::<><><>0<>0<>b2862902c085f1337d81776df686b2b9<>res://.godot/imported/PIXEARG_.TTF-9288b710cd06cc5d535a8ce6a060fd2c.fontdata::
-pixel-art-red-flag-icon-png.png::CompressedTexture2D/CompressedTexture2D::6197464570882564428::1742241074::1742241202::1::::<><><>0<>0<>5bfafe5b10f95f4bf64e0c2d45109300<>res://.godot/imported/pixel-art-red-flag-icon-png.png-6ab492eeb8764d2c5423a038ddbc9d80.ctex::
-portals.png::CompressedTexture2D/CompressedTexture2D::7847099605850229380::1742241074::1742241202::1::::<><><>0<>0<>50086419e7a469202299c2991c9b0fe0<>res://.godot/imported/portals.png-eddaa52f1eb00f095cbff1284f1b4dab.ctex::
-Punk Overworld Draft.png::CompressedTexture2D/CompressedTexture2D::747039272178832381::1742241074::1742241202::1::::<><><>0<>0<>003c771530ec175b16e1dd527fe8df03<>res://.godot/imported/Punk Overworld Draft.png-c587c1ba5af9c0654181d30be1a35146.ctex::
-Punk Overworld New Draft.png::CompressedTexture2D/CompressedTexture2D::113548240463094012::1742241074::1742241202::1::::<><><>0<>0<>180829c5ac3cf58bb1976ea6c14e94fa<>res://.godot/imported/Punk Overworld New Draft.png-0e38c69c549d2f3b145eb82fa1f11b4f.ctex::
-revolver_shoot.png::CompressedTexture2D/CompressedTexture2D::5965279520564482962::1742241074::1742241202::1::::<><><>0<>0<>3b2ee6f729406a7d2537d10b6a6d09e2<>res://.godot/imported/revolver_shoot.png-363b184b00082229af61369fee34d5df.ctex::
-someguyjump.png::CompressedTexture2D/CompressedTexture2D::6244246985168730780::1742241074::1742241202::1::::<><><>0<>0<>1840e023b15d934cc0e58309f83cde1f<>res://.godot/imported/someguyjump.png-f09e11410d14e523a2a4ad9db7e15fcb.ctex::
-someguywalk_silly.png::CompressedTexture2D/CompressedTexture2D::785223905896703438::1742241074::1742241202::1::::<><><>0<>0<>24254b3d92b3e68b9df481ab6de06655<>res://.godot/imported/someguywalk_silly.png-0e381ae73178e373e58e3e18003ce5c8.ctex::
-::res://Scenes/Levels/Assets/GL Spritework/::1742241180
-::res://Scenes/Levels/Assets/GL Spritework/emenies/::1742241180
-::res://Scenes/Levels/Assets/GL Spritework/emenies/00 - Prehistoric Era/::1742241180
-::res://Scenes/Levels/Assets/GL Spritework/emenies/00 - Prehistoric Era/caveman/::1742241202
-caveman_idle.png::CompressedTexture2D/CompressedTexture2D::244974024384414807::1742241074::1742241202::1::::<><><>0<>0<>ab4acd0ff94ac32078165c066d155a90<>res://.godot/imported/caveman_idle.png-92eee54889696221e64a083b9bd136a5.ctex::
-caveman_tackle.png::CompressedTexture2D/CompressedTexture2D::1278346729513838265::1742241074::1742241202::1::::<><><>0<>0<>3aac74f305e84b639165a7c5855ab006<>res://.godot/imported/caveman_tackle.png-80cc3b42101b18723e9d34fbbed99ad5.ctex::
-::res://Scenes/Levels/Assets/GL Spritework/emenies/00 - Prehistoric Era/caveman/ase/::1742241181
-::res://Scenes/Levels/Assets/GL Spritework/emenies/00 - Prehistoric Era/caveman/gifs/::1742241181
-::res://Scenes/Levels/Assets/GL Spritework/emenies/00 - Prehistoric Era/moler/::1742241202
-moler_attack.png::CompressedTexture2D/CompressedTexture2D::1102735801551280505::1742241074::1742241202::1::::<><><>0<>0<>4c0442ac3716e868440673ee5c2b91cd<>res://.godot/imported/moler_attack.png-e38541e357048d9538106788033bfa23.ctex::
-::res://Scenes/Levels/Assets/GL Spritework/emenies/00 - Prehistoric Era/moler/ase/::1742241181
-::res://Scenes/Levels/Assets/GL Spritework/emenies/00 - Prehistoric Era/pterry/::1742241202
-pterry.png::CompressedTexture2D/CompressedTexture2D::8636529454656375006::1742241074::1742241202::1::::<><><>0<>0<>b6174ad0612d3dffe0439b94628adeeb<>res://.godot/imported/pterry.png-f03c94b1ddb3803910ce84e297f70c97.ctex::
-::res://Scenes/Levels/Assets/GL Spritework/emenies/00 - Prehistoric Era/velocicopter/::1742241202
-velocicopter.png::CompressedTexture2D/CompressedTexture2D::2066677797354088033::1742241074::1742241202::1::::<><><>0<>0<>f737a340c1b48c34c67041deedbf4a83<>res://.godot/imported/velocicopter.png-fa35476aca5e7c326c028c902d08ed7c.ctex::
-velocicopter_attackl.png::CompressedTexture2D/CompressedTexture2D::8066693679831387066::1742241074::1742241202::1::::<><><>0<>0<>8a03b77b9894c5f38693cc403104198b<>res://.godot/imported/velocicopter_attackl.png-89e14d10450180797e8ff099b9293c8d.ctex::
-velocicopter_hurt.png::CompressedTexture2D/CompressedTexture2D::7158910975599406145::1742241074::1742241202::1::::<><><>0<>0<>bb6b34a9de4a1f9f02797d72a9c0e2ff<>res://.godot/imported/velocicopter_hurt.png-497005ea9570a85766fca98da1c373b5.ctex::
-velocicopter_tail.png::CompressedTexture2D/CompressedTexture2D::1697642832375436508::1742241074::1742241202::1::::<><><>0<>0<>7da9199db591d8623e3508fc1de8619a<>res://.godot/imported/velocicopter_tail.png-302fbf0628234a2c33335c7219d755a3.ctex::
-::res://Scenes/Levels/Assets/GL Spritework/emenies/00 - Prehistoric Era/velocicopter/ase/::1742241181
-::res://Scenes/Levels/Assets/GL Spritework/emenies/caveman/::1742241202
-caveman_idle.png::CompressedTexture2D/CompressedTexture2D::8559642527196099776::1742241074::1742241202::1::::<><><>0<>0<>c0ee4d86eaa7c8cfd9c472103127f552<>res://.godot/imported/caveman_idle.png-ed204e953e182b824feb2b48e6f099f3.ctex::
-caveman_tackle.png::CompressedTexture2D/CompressedTexture2D::4995841605800417512::1742241074::1742241202::1::::<><><>0<>0<>66c2a6d3b974fa3a43bc69e281985521<>res://.godot/imported/caveman_tackle.png-546c2cbfd02a67e913af16e562c6446e.ctex::
-::res://Scenes/Levels/Assets/GL Spritework/emenies/caveman/ase/::1742241180
-::res://Scenes/Levels/Assets/GL Spritework/emenies/caveman/gifs/::1742241180
-::res://Scenes/Levels/Assets/GL Spritework/emenies/Prohibition_era/::1742241180
-::res://Scenes/Levels/Assets/GL Spritework/emenies/Prohibition_era/bandit/::1742241202
-bandit_hurt.png::CompressedTexture2D/CompressedTexture2D::4153111859729303377::1742241074::1742241202::1::::<><><>0<>0<>33a8edd066043719ea8c11470b3ace7d<>res://.godot/imported/bandit_hurt.png-bc82501ca5b645ab3af9dc773c9acf07.ctex::
-bandit_idle.png::CompressedTexture2D/CompressedTexture2D::4393118750928058739::1742241074::1742241202::1::::<><><>0<>0<>59d7500e3d5aacf3aec667686c7bd5d2<>res://.godot/imported/bandit_idle.png-50c2136cc4aa961b1fea4a44d009e0d3.ctex::
-bandit_shoot.png::CompressedTexture2D/CompressedTexture2D::5114989747258703982::1742241074::1742241202::1::::<><><>0<>0<>0091603a6de134ab1b9c114aee94b077<>res://.godot/imported/bandit_shoot.png-e15a23f374caf7b4a54ab8d8fd12671a.ctex::
-bandit_walk.png::CompressedTexture2D/CompressedTexture2D::5629445900019464050::1742241074::1742241202::1::::<><><>0<>0<>b0f697bffc453a6d169d7afbb242fc3c<>res://.godot/imported/bandit_walk.png-2504eb7b16ed76aaaa7c4233e4d4e043.ctex::
-::res://Scenes/Levels/Assets/GL Spritework/emenies/Prohibition_era/big_goon/::1742241202
-big_goon_attack.png::CompressedTexture2D/CompressedTexture2D::4729368872841738437::1742241074::1742241202::1::::<><><>0<>0<>539b2f150e110f8cd45e2be6ce8426fd<>res://.godot/imported/big_goon_attack.png-bc299844d1538c55700a88da3a7b75fe.ctex::
-big_goon_hurt.png::CompressedTexture2D/CompressedTexture2D::6809749088926375411::1742241074::1742241202::1::::<><><>0<>0<>a928146d80eb84de1c1ce9a440826531<>res://.godot/imported/big_goon_hurt.png-78e67dba4a1e4e5b859b2a3c1999199f.ctex::
-big_goon_idle.png::CompressedTexture2D/CompressedTexture2D::3641213182599381273::1742241074::1742241202::1::::<><><>0<>0<>1e861d28a1df12251f99600cb96b84d8<>res://.godot/imported/big_goon_idle.png-8c8a29ab16fb589e9b6f4b5b1b70abfc.ctex::
-big_goon_walk.png::CompressedTexture2D/CompressedTexture2D::5047830429977819636::1742241074::1742241202::1::::<><><>0<>0<>2710b05e253bea5524aaaadeb092d784<>res://.godot/imported/big_goon_walk.png-d11a904f7f67918fe23b0f809ea14d62.ctex::
-::res://Scenes/Levels/Assets/GL Spritework/emenies/Prohibition_era/cop/::1742241202
-cop_hurt.png::CompressedTexture2D/CompressedTexture2D::575688234628927077::1742241074::1742241202::1::::<><><>0<>0<>943fe9e5b3a19f712cb4aff95ddc460d<>res://.godot/imported/cop_hurt.png-01118b24d907ae79e8cd689a7319100f.ctex::
-cop_idle.png::CompressedTexture2D/CompressedTexture2D::5537646999501038152::1742241074::1742241202::1::::<><><>0<>0<>fec48c2d4f1304c0ef397402d61547d7<>res://.godot/imported/cop_idle.png-fa37cdc6ae612191e4c50d79beec76df.ctex::
-cop_run.png::CompressedTexture2D/CompressedTexture2D::759429170765511888::1742241074::1742241202::1::::<><><>0<>0<>0f2f3e10090774639a76de53b3da34a9<>res://.godot/imported/cop_run.png-dfea1b9ca985b918d9f394428052e07b.ctex::
-::res://Scenes/Levels/Assets/GL Spritework/emenies/Prohibition_era/goon/::1742241202
-goon_attack.png::CompressedTexture2D/CompressedTexture2D::5368994701308389064::1742241074::1742241202::1::::<><><>0<>0<>33491f9d0b55a3e1c9555094ebaf9f64<>res://.godot/imported/goon_attack.png-f9abcd6412bcddc09625423706857522.ctex::
-goon_hurt.png::CompressedTexture2D/CompressedTexture2D::5769969354562050701::1742241074::1742241202::1::::<><><>0<>0<>d9512cd89781a34092415534a239fa44<>res://.godot/imported/goon_hurt.png-3bac271fdab5c0efca65b9ee883c81d8.ctex::
-goon_idle.png::CompressedTexture2D/CompressedTexture2D::5440462596877766971::1742241074::1742241202::1::::<><><>0<>0<>0ef127f5f358749a039fcaf5676e81c7<>res://.godot/imported/goon_idle.png-b5c1a16f456b37d1380be7df1c3745ff.ctex::
-goon_walk.png::CompressedTexture2D/CompressedTexture2D::5790385788081637626::1742241074::1742241202::1::::<><><>0<>0<>841c86be2aa025f3bf99af85c7189ed7<>res://.godot/imported/goon_walk.png-4714d16f62cd85ad75e44176c278b4e0.ctex::
-::res://Scenes/Levels/Assets/GL Spritework/main_character/::1742241180
-::res://Scenes/Levels/Assets/GL Spritework/main_character/cowboy_guy/::1742241202
-cowboy_guy_attack.png::CompressedTexture2D/CompressedTexture2D::6422532407449735878::1742241074::1742241202::1::::<><><>0<>0<>6e4c1f60b9135e46d6cbb1f96e58cd59<>res://.godot/imported/cowboy_guy_attack.png-39ebf3cb7790012d33c8bd2ee3a8eabb.ctex::
-::res://Scenes/Levels/Assets/GL Spritework/main_character/cowboy_guy/ase/::1742241181
-::res://Scenes/Levels/Assets/GL Spritework/main_character/guy_default/::1742241202
-default_guy_idle.png::CompressedTexture2D/CompressedTexture2D::6271562523988676878::1742241074::1742241202::1::::<><><>0<>0<>abd728651154d88c51a879957ce39ba6<>res://.godot/imported/default_guy_idle.png-fbce4d4059892414f36f83d30b54a517.ctex::
-default_guy_jump.png::CompressedTexture2D/CompressedTexture2D::8215993647074725865::1742241074::1742241202::1::::<><><>0<>0<>bb53ca2b9d47727e9f4ca6cc7b8e058f<>res://.godot/imported/default_guy_jump.png-0543972fc528701f346c0776f7192a92.ctex::
-default_guy_walk.png::CompressedTexture2D/CompressedTexture2D::270249778357494274::1742241074::1742241202::1::::<><><>0<>0<>71dfe59d8fed1be43965df625b40aabc<>res://.godot/imported/default_guy_walk.png-f7d8586014173ce8c092f2f69e09caa5.ctex::
-::res://Scenes/Levels/Assets/GL Spritework/main_character/guy_default/ase/::1742241181
-::res://Scenes/Levels/Assets/GL Spritework/main_character/mob_guy/::1742241202
-mob_guy_attack.png::CompressedTexture2D/CompressedTexture2D::5704130512277908608::1742241074::1742241202::1::::<><><>0<>0<>f769fe07e4ce205ca02f7351f141bd48<>res://.godot/imported/mob_guy_attack.png-0f6cbba3b6417c4825c9c4f3e1df91b0.ctex::
-::res://Scenes/Levels/Assets/GL Spritework/main_character/mob_guy/ase/::1742241181
-::res://Scenes/Levels/Assets/GL Spritework/main_character/pir8_guy/::1742241202
-pir8-walk-sheet.png::CompressedTexture2D/CompressedTexture2D::8543907707902841682::1742241074::1742241202::1::::<><><>0<>0<>8abb2e298c31d7e2c47e55006990ab2d<>res://.godot/imported/pir8-walk-sheet.png-a4631e1ec201f0b33a7b3a6aa231aaf9.ctex::
-pir8_swing sword.png::CompressedTexture2D/CompressedTexture2D::4908440500497016196::1742241074::1742241202::1::::<><><>0<>0<>292adda8199ba6bbd1d395a8c25f879b<>res://.godot/imported/pir8_swing sword.png-5a09baf246b2ffc1910087abba6d2dc7.ctex::
-::res://Scenes/Levels/Assets/GL Spritework/main_character/pir8_guy/ase/::1742241181
-::res://Scenes/Levels/Assets/GL Spritework/references/::1742241202
-Game Boy Advance - Advance Wars 2 Black Hole Rising - Tileset Normal (1).png::CompressedTexture2D/CompressedTexture2D::5306761160616834760::1742241074::1742241202::1::::<><><>0<>0<>3cdb28c8f2efa6c7979c6c772fce26b2<>res://.godot/imported/Game Boy Advance - Advance Wars 2 Black Hole Rising - Tileset Normal (1).png-dfef843750e5199272bb77466f58495d.ctex::
-::res://Scenes/Levels/Assets/main_character/::1742241180
-::res://Scenes/Levels/Assets/main_character/main_character/::1742241180
-::res://Scenes/Levels/Assets/main_character/main_character/cave_guy/::1742241202
-cave_guy'_walk.png::CompressedTexture2D/CompressedTexture2D::3838561993338485491::1742241074::1742241202::1::::<><><>0<>0<>f3ce9aa2f07ffa95091dd351ad28cd61<>res://.godot/imported/cave_guy'_walk.png-a15ef33bee898a15ac14210688c0c18b.ctex::
-cave_guy_attack.png::CompressedTexture2D/CompressedTexture2D::18745814696592479::1742241074::1742241202::1::::<><><>0<>0<>e8a2c9fc93fda650e2a7dc0d29fb77ad<>res://.godot/imported/cave_guy_attack.png-0ab2ddb38ab080555b9d0a4e5aeb2a9d.ctex::
-cave_guy_idle.png::CompressedTexture2D/CompressedTexture2D::6447452019033984764::1742241074::1742241202::1::::<><><>0<>0<>29b4044fc4335f83ed512c737f795aca<>res://.godot/imported/cave_guy_idle.png-8fd277905c5ae45dec8397a7cc2b9180.ctex::
-cave_guy_jump.png::CompressedTexture2D/CompressedTexture2D::7101279142030043351::1742241074::1742241202::1::::<><><>0<>0<>5b0e9e2722f1b0c97834bb20494ee507<>res://.godot/imported/cave_guy_jump.png-84fea6f928b382b06326a1a4f1a174a0.ctex::
-::res://Scenes/Levels/Assets/main_character/main_character/cowboy_guy/::1742241202
-cowboy_guy_attack.png::CompressedTexture2D/CompressedTexture2D::6244176424569770744::1742241074::1742241202::1::::<><><>0<>0<>007672f914a562400d3ed88fae2e7277<>res://.godot/imported/cowboy_guy_attack.png-64c45268d727e6e67d9c3d79f3336591.ctex::
-cowboy_guy_idle.png::CompressedTexture2D/CompressedTexture2D::3639742693955456856::1742241074::1742241202::1::::<><><>0<>0<>6172f84df5a55cf871864200a2f703ef<>res://.godot/imported/cowboy_guy_idle.png-9c992ca2f4630ec1c228abbe22d317b8.ctex::
-cowboy_guy_jump.png::CompressedTexture2D/CompressedTexture2D::7900266204532732655::1742241074::1742241202::1::::<><><>0<>0<>13e95c476b488e88dcde50c840052f95<>res://.godot/imported/cowboy_guy_jump.png-593cf0962037923517978ea46fb0c8fb.ctex::
-cowboy_guy_walk.png::CompressedTexture2D/CompressedTexture2D::5203842066214335420::1742241074::1742241202::1::::<><><>0<>0<>153f618ff2052ca76a037c3a8880beae<>res://.godot/imported/cowboy_guy_walk.png-102c335a31de46e0fba4e96c997f4ad3.ctex::
-::res://Scenes/Levels/Assets/main_character/main_character/cowboy_guy/ase/::1742241181
-::res://Scenes/Levels/Assets/main_character/main_character/guy_default/::1742241202
-default_guy_idle.png::CompressedTexture2D/CompressedTexture2D::512723526770280095::1742241074::1742241202::1::::<><><>0<>0<>3f2df2d20741f506270502b58cff0377<>res://.godot/imported/default_guy_idle.png-b8a5c4579e88d2932b3b1c1906a5f386.ctex::
-default_guy_jump.png::CompressedTexture2D/CompressedTexture2D::7376862229569945643::1742241074::1742241202::1::::<><><>0<>0<>9ad6ebcbe25e65765c86617d088b4435<>res://.godot/imported/default_guy_jump.png-6269be0d6defa995b7d3149dc5e220a5.ctex::
-default_guy_walk.png::CompressedTexture2D/CompressedTexture2D::6251069223490687822::1742241074::1742241202::1::::<><><>0<>0<>de2817e791dcce6c66e534c0f6844f9b<>res://.godot/imported/default_guy_walk.png-3c6cd36cdb390b5ad5ab2748632b02ab.ctex::
-::res://Scenes/Levels/Assets/main_character/main_character/jetpack_guy/::1742241202
-jetpack_guy_boost.png::CompressedTexture2D/CompressedTexture2D::4256506171507410191::1742241074::1742241202::1::::<><><>0<>0<>94bee7e6304953be8c5148532bff4c5f<>res://.godot/imported/jetpack_guy_boost.png-cadc52106f759657592e0821f671385f.ctex::
-jetpack_guy_idle.png::CompressedTexture2D/CompressedTexture2D::6577508301592111134::1742241074::1742241202::1::::<><><>0<>0<>34677f8c3efb6f2e80aefaa6d8d9df7d<>res://.godot/imported/jetpack_guy_idle.png-6bbbd5809255eb1b4ed4b768b339f9b6.ctex::
-jetpack_guy_jump.png::CompressedTexture2D/CompressedTexture2D::4815225027963474948::1742241074::1742241202::1::::<><><>0<>0<>8151bacbc503696609c4ee9e674d4c89<>res://.godot/imported/jetpack_guy_jump.png-7a34f607ead3283ff1a25d8ee4745378.ctex::
-::res://Scenes/Levels/Assets/main_character/main_character/mob_guy/::1742241202
-mobster_guy_idle.png::CompressedTexture2D/CompressedTexture2D::7997231916450978475::1742241074::1742241202::1::::<><><>0<>0<>c43f75c649886ea033861d6cb1170625<>res://.godot/imported/mobster_guy_idle.png-ff3cafe9b6e30ccd868b05d2e0448522.ctex::
-mobster_guy_walk.png::CompressedTexture2D/CompressedTexture2D::5927167859388884969::1742241074::1742241201::1::::<><><>0<>0<>5759cfe186081ef14521b4e9d09d48f2<>res://.godot/imported/mobster_guy_walk.png-a5c7b4f83cbb481a8e73b37df7f106a5.ctex::
-mob_guy_attack.png::CompressedTexture2D/CompressedTexture2D::7476938011049116464::1742241074::1742241201::1::::<><><>0<>0<>e51058634137a2607e733806548bf84f<>res://.godot/imported/mob_guy_attack.png-5ff0c2fc9e4b691d7f1a0f9aa25f21d8.ctex::
-::res://Scenes/Levels/Assets/main_character/main_character/mob_guy/ase/::1742241181
-::res://Scenes/Levels/Assets/main_character/main_character/pir8_guy/::1742241201
-pir8-walk-sheet.png::CompressedTexture2D/CompressedTexture2D::5210634606565885776::1742241074::1742241201::1::::<><><>0<>0<>5d9081082cc5c942b06c0480fc4ab50c<>res://.godot/imported/pir8-walk-sheet.png-3ca7c2a038db759185b3e38b5ce2f282.ctex::
-pir8_guy_idle.png::CompressedTexture2D/CompressedTexture2D::9052841791238389888::1742241074::1742241201::1::::<><><>0<>0<>c5d10d3576c8f2c4489d6c6ad0c50c56<>res://.godot/imported/pir8_guy_idle.png-f3c9b575ca7201f0c711ebc62c339e00.ctex::
-pir8_guy_jump.png::CompressedTexture2D/CompressedTexture2D::6538380926605413190::1742241074::1742241201::1::::<><><>0<>0<>a710cc80d7fc63beba74e834a1cb7c25<>res://.godot/imported/pir8_guy_jump.png-d045ae3b7dadac69500fdc6e10bee8d9.ctex::
-pir8_swing sword.png::CompressedTexture2D/CompressedTexture2D::4111394573559828750::1742241074::1742241201::1::::<><><>0<>0<>4d0c90ea83201d2fe8d7113a80c107bc<>res://.godot/imported/pir8_swing sword.png-7360fe11fd490091dc3751e018dbba99.ctex::
-::res://Scenes/Levels/Assets/main_character/main_character/pir8_guy/ase/::1742241181
-::res://Scenes/Levels/Assets/projectiles/::1742241201
-projectile_test.png::CompressedTexture2D/CompressedTexture2D::8183223080389446045::1742241074::1742241201::1::::<><><>0<>0<>5271d096e4ec027dedd78f4aae6b5b2f<>res://.godot/imported/projectile_test.png-722fc30c1355f996ccf1646de59fa899.ctex::
-::res://Scenes/Levels/boss_level1/::1742243803
-boss_level1.tscn::PackedScene::5282051267894545391::1742243803::0::1::::<><><>0<>0<><>::uid://bvc1ey4i1hll4::::res://Scenes/Levels/levels_init.tscn<>uid://d1mod1rkg3nfr::::res://Scenes/Levels/boss_level1/Backgrounds/future_skyline.png<>uid://rdeotwq42lke::::res://Scenes/Levels/prehistoric_level/Platforms/tileset-1.png<>uid://maeh628bsf4r::::res://Scenes/Levels/finish_flag.tscn<>uid://ydeqcyxdxc5v::::res://Scenes/Player/abilities/jetpack.tscn
-::res://Scenes/Levels/boss_level1/Backgrounds/::1742241202
-future_skyline.png::CompressedTexture2D/CompressedTexture2D::9009801306329574447::1742241074::1742241202::1::::<><><>0<>0<>dae5755cadd5eaeb8f02b4812ec40ceb<>res://.godot/imported/future_skyline.png-b6b92fcd1b551b7c9b85dea704e1e02f.ctex::
-::res://Scenes/Levels/boss_level2/::1742241178
-boss_level2.tscn::PackedScene/PackedScene::7475482025240898554::1742241074::0::1::::<><><>0<>0<><>::uid://bvc1ey4i1hll4::::res://Scenes/Levels/levels_init.tscn<>uid://d1mod1rkg3nfr::::res://Scenes/Levels/boss_level1/Backgrounds/future_skyline.png<>uid://rdeotwq42lke::::res://Scenes/Levels/prehistoric_level/Platforms/tileset-1.png<>uid://bhuh17n8igrl6::::res://Scenes/Player/caveman_player.tscn<>uid://maeh628bsf4r::::res://Scenes/Levels/finish_flag.tscn
-::res://Scenes/Levels/boss_level2/Backgrounds/::1742241202
-future_skyline.png::CompressedTexture2D/CompressedTexture2D::22876006194390126::1742241074::1742241202::1::::<><><>0<>0<>93ddb01515180ec7a350e22f65529f76<>res://.godot/imported/future_skyline.png-fabea08f7a97488c81a1cf425bdd5123.ctex::
-::res://Scenes/Levels/medieval_level/::1742241178
-medieval_level.tscn::PackedScene/PackedScene::6090559013936174147::1742241074::0::1::::<><><>0<>0<><>::uid://bvc1ey4i1hll4::::res://Scenes/Levels/levels_init.tscn<>uid://b48ekgcui0aw0::::res://Scenes/Levels/medieval_level/Backgrounds/Parallax/1.png<>uid://d0dt0o3mml7e8::::res://Scenes/Levels/medieval_level/Backgrounds/Parallax/2.png<>uid://rdeotwq42lke::::res://Scenes/Levels/prehistoric_level/Platforms/tileset-1.png<>uid://bhuh17n8igrl6::::res://Scenes/Player/caveman_player.tscn<>uid://b0i5mhviadn7x::::res://Scenes/Levels/medieval_level/Backgrounds/Parallax/3.png<>uid://r1wpygxn2bcu::::res://Scenes/Levels/medieval_level/Backgrounds/Parallax/5.png<>uid://cr343cfrjnu4h::::res://Scenes/Levels/medieval_level/Backgrounds/Parallax/6.png<>uid://10slmonadict::::res://Scenes/Levels/mobster_level/tile_set_castle.png<>uid://maeh628bsf4r::::res://Scenes/Levels/finish_flag.tscn<>uid://doectbfr0g1g::::res://Scenes/UI Elements/health_interface.tscn
-::res://Scenes/Levels/medieval_level/Backgrounds/::1742241180
-::res://Scenes/Levels/medieval_level/Backgrounds/Parallax/::1742241202
-1.png::CompressedTexture2D/CompressedTexture2D::4490282660140219853::1742241074::1742241202::1::::<><><>0<>0<>1746e6979febdfb92d58c93c917480cd<>res://.godot/imported/1.png-ccea97fd565b62d96c1c98e034c93d66.ctex::
-2.png::CompressedTexture2D/CompressedTexture2D::8921375322145633601::1742241074::1742241202::1::::<><><>0<>0<>e9be3841b2e68a12fde029458873ac0d<>res://.godot/imported/2.png-60bdeb2bd29c1d3ea864f1c9e1c133c4.ctex::
-3.png::CompressedTexture2D/CompressedTexture2D::4159500136454202723::1742241074::1742241202::1::::<><><>0<>0<>4af9c37b3807f83e63e94f3de101830f<>res://.godot/imported/3.png-bff0b99a366651a7e5278525598cf872.ctex::
-4.png::CompressedTexture2D/CompressedTexture2D::2646959406506719709::1742241074::1742241202::1::::<><><>0<>0<>5ecc24d330a349e4c824f84f9f6c90bb<>res://.godot/imported/4.png-2099b8dc7c817304393f3e897e5142cf.ctex::
-5.png::CompressedTexture2D/CompressedTexture2D::1248247995094219876::1742241074::1742241202::1::::<><><>0<>0<>5a713f01c8b4c58051ecf8cf6fa2f0fa<>res://.godot/imported/5.png-e611b8e16c62d42ae58c978d63c1516b.ctex::
-6.png::CompressedTexture2D/CompressedTexture2D::6025665194921677577::1742241074::1742241202::1::::<><><>0<>0<>79ba074b738241457d9b0732a0286e6b<>res://.godot/imported/6.png-f345f60ebe08ed695e6ace171f93bc34.ctex::
-::res://Scenes/Levels/medieval_level/Platforms/::1742241202
-tileset-1.png::CompressedTexture2D/CompressedTexture2D::6201868189605661150::1742241074::1742241202::1::::<><><>0<>0<>ed41a27d5ba6b220727023ea6e9490df<>res://.godot/imported/tileset-1.png-cc7a7275108d705a1e0eed4d912f4fc2.ctex::
-::res://Scenes/Levels/mobster_level/::1742243803
-DungeonTileSet.png::CompressedTexture2D/CompressedTexture2D::7837510123164669284::1742241074::1742241202::1::::<><><>0<>0<>03411c040a52fa86153608522a528d06<>res://.godot/imported/DungeonTileSet.png-f79d61991455c5af5fd0bac392107369.ctex::
-jazz-background-music-bar-restaurant-casino-mafia-whiskey-249670.mp3::AudioStreamMP3::177974924300502332::1742242763::1742242970::1::::<><><>0<>0<>607269396f7b8218d45d2f7fc8c5874f<>res://.godot/imported/jazz-background-music-bar-restaurant-casino-mafia-whiskey-249670.mp3-9d61a0a1064af1522d2541177ab6fde4.mp3str::
-mobster_level.tscn::PackedScene::5082098233360361764::1742243803::0::1::::<><><>0<>0<><>::uid://bvc1ey4i1hll4::::res://Scenes/Levels/levels_init.tscn<>uid://dx25l4iuqa78r::::res://Scenes/Levels/mobster_level/Backgrounds/retro_skyline (1).png<>uid://rdeotwq42lke::::res://Scenes/Levels/prehistoric_level/Platforms/tileset-1.png<>uid://10slmonadict::::res://Scenes/Levels/mobster_level/tile_set_castle.png<>uid://w4hdfehswl2e::::res://Scenes/Player/abilities/mobster.tscn<>uid://maeh628bsf4r::::res://Scenes/Levels/finish_flag.tscn<>uid://cshhrqhjto5a::::res://Scenes/Levels/mobster_level/jazz-background-music-bar-restaurant-casino-mafia-whiskey-249670.mp3
-tile_set_castle.png::CompressedTexture2D/CompressedTexture2D::1877632580541337903::1742241074::1742241202::1::::<><><>0<>0<>f4c1ff1c3af7c3581ab9b1b4e71fec22<>res://.godot/imported/tile_set_castle.png-2c28af9a04c9318d1c13933db09d63a3.ctex::
-::res://Scenes/Levels/mobster_level/Backgrounds/::1742241202
-retro_skyline (1).png::CompressedTexture2D/CompressedTexture2D::8831186344095327219::1742241074::1742241202::1::::<><><>0<>0<>97640a3fd75923d0f47caced56c31b6d<>res://.godot/imported/retro_skyline (1).png-31fadc84786bf300dd2d00679ef3a051.ctex::
-::res://Scenes/Levels/Pause_L/::1742241178
-pause_l.gd::GDScript/GDScript::2018323758470941314::1742241074::0::1::::<>Control<><>0<>0<><>::
-pause_L.tscn::PackedScene/PackedScene::8169817026820934402::1742241074::0::1::::<><><>0<>0<><>::uid://30xq6av5i1go::::res://Scenes/Levels/Pause_L/pause_l.gd<>uid://8s63b8vpye2k::::res://Shaders/blur.gdshader<>uid://d1sqem5jrihnp::::res://Assets/PIXEARG_.TTF
-::res://Scenes/Levels/pirate_level/::1742243803
-battle-ship-loop-147175.mp3::AudioStreamMP3::1653897565980762844::1742243713::1742243737::1::::<><><>0<>0<>d252f77f15e8c7b8362a763c24e18494<>res://.godot/imported/battle-ship-loop-147175.mp3-1ed1b86b5e6c6469dd43ed50336f0172.mp3str::
-pirate-adventures-112150.mp3::AudioStreamMP3::2099732789057168879::1742243365::1742243390::1::::<><><>0<>0<>f7f9b140a88ce44ac6d04ed5c649a945<>res://.godot/imported/pirate-adventures-112150.mp3-c6841220276cefb976044ddd5647cc1b.mp3str::
-pirate_level.tscn::PackedScene::8242672631309151794::1742243803::0::1::::<><><>0<>0<><>::uid://bvc1ey4i1hll4::::res://Scenes/Levels/levels_init.tscn<>uid://b3eerax1eg1eg::::res://Scenes/Levels/pirate_level/Backgrounds/4.png<>uid://rdeotwq42lke::::res://Scenes/Levels/prehistoric_level/Platforms/tileset-1.png<>uid://cj48ve1kyf8ed::::res://Scenes/Player/abilities/pirate.tscn<>uid://be0u1exp8ias8::::res://Scenes/Levels/pirate_level/shipentry.gd<>uid://bjpy6ftwss1wq::::res://Scenes/Levels/pirate_level/Items/ship.png<>uid://46ej64a4f4nj::::res://Scenes/Levels/pirate_level/pirate-adventures-112150.mp3
-room1.tscn::PackedScene::6797021183673317383::1742243803::0::1::::<><><>0<>0<><>::uid://355rdgj0y3bw::::res://Scenes/Levels/pirate_level/Backgrounds/room1.jpg<>uid://cj48ve1kyf8ed::::res://Scenes/Player/abilities/pirate.tscn<>uid://maeh628bsf4r::::res://Scenes/Levels/finish_flag.tscn<>uid://xtfplw5awaky::::res://Scenes/Levels/pirate_level/battle-ship-loop-147175.mp3
-shipentry.gd::GDScript/GDScript::2720046518943429237::1742241074::0::1::::<>Area2D<><>0<>0<><>::
-tileset-1.png::CompressedTexture2D/CompressedTexture2D::4258362434997699664::1742241074::1742241202::1::::<><><>0<>0<>f3eb8fb53499e76c97e9d5492679bd10<>res://.godot/imported/tileset-1.png-2c290f2c07f74b6db66ae4a5f8623cbb.ctex::
-::res://Scenes/Levels/pirate_level/Backgrounds/::1742241202
-4.png::CompressedTexture2D/CompressedTexture2D::4360239079759129958::1742241074::1742241202::1::::<><><>0<>0<>49f5a6998b05789f3cfd7587ddd8201f<>res://.godot/imported/4.png-855ce2ef019a04081a815c596cc0f71c.ctex::
-35.png::CompressedTexture2D/CompressedTexture2D::7572403685826885682::1742241074::1742241202::1::::<><><>0<>0<>7c51aadafe23bbcb3710f0ce6ef9fae4<>res://.godot/imported/35.png-d65376cf2b96d472fbcc4f7393a3e95d.ctex::
-captainsquarters.jpg::CompressedTexture2D/CompressedTexture2D::6581427258102031673::1742241074::1742241202::1::::<><><>0<>0<>dbc51b2fe2b25dd73a973af621278293<>res://.godot/imported/captainsquarters.jpg-5f2907f43ff5c7d3a1de566293f4663d.ctex::
-room1.jpg::CompressedTexture2D/CompressedTexture2D::2029070990048257048::1742241074::1742241202::1::::<><><>0<>0<>870347081f3d43b1c71e7cbc0fd6e353<>res://.godot/imported/room1.jpg-279fdd3222142e860eb3ebd9da79155a.ctex::
-room2.jpg::CompressedTexture2D/CompressedTexture2D::765705144538446258::1742241074::1742241202::1::::<><><>0<>0<>764d626839dcafd22e40ce2733c15aff<>res://.godot/imported/room2.jpg-0646cc6fad36090d6bc7988ef128b48f.ctex::
-::res://Scenes/Levels/pirate_level/Items/::1742241202
-ship.png::CompressedTexture2D/CompressedTexture2D::3050598803176142356::1742241074::1742241202::1::::<><><>0<>0<>f7b4207d7557b46d47c5dbd2f3d6a51e<>res://.godot/imported/ship.png-0796be64c6184ff52526e28ba1118943.ctex::
-::res://Scenes/Levels/prehistoric_level/::1742243804
-caveentry.gd::GDScript/GDScript::1115071005782130355::1742241074::0::1::::<>Area2D<><>0<>0<><>::
-cave_scene.tscn::PackedScene::8199248578887779069::1742243804::0::1::::<><><>0<>0<><>::uid://de3tleea2fvsx::::res://Scenes/Levels/prehistoric_level/inside_cave.png<>uid://bhuh17n8igrl6::::res://Scenes/Player/caveman_player.tscn<>uid://doectbfr0g1g::::res://Scenes/UI Elements/health_interface.tscn<>uid://maeh628bsf4r::::res://Scenes/Levels/finish_flag.tscn
-inside_cave.png::CompressedTexture2D/CompressedTexture2D::7498993485649543847::1742241074::1742241202::1::::<><><>0<>0<>1649486ffb9084b9cc16166abb7e0000<>res://.godot/imported/inside_cave.png-41ddc4a577845daac8a24ff04239c140.ctex::
-jungle-tribe-action-tribal-drums-192142.mp3::AudioStreamMP3/AudioStreamMP3::916095179169981952::1742241665::1742241771::1::::<><><>0<>0<>e71b7c7ebf8206f9fe493a6370f32563<>res://.godot/imported/jungle-tribe-action-tribal-drums-192142.mp3-112b9c7e0986e69ce42008c2a99d7105.mp3str::
-prehistoric_level.tscn::PackedScene::2875513333716679695::1742243803::0::1::::<><><>0<>0<><>::uid://bvc1ey4i1hll4::::res://Scenes/Levels/levels_init.tscn<>uid://bcopyisjubhch::::res://Scenes/Levels/prehistoric_level/Backgrounds/forest.png<>uid://rdeotwq42lke::::res://Scenes/Levels/prehistoric_level/Platforms/tileset-1.png<>uid://de3tleea2fvsx::::res://Scenes/Levels/prehistoric_level/inside_cave.png<>uid://p5fb6mxtfekx::::res://Scenes/Levels/prehistoric_level/caveentry.gd<>uid://nb07osq2yi4w::::res://Scenes/Levels/prehistoric_level/jungle-tribe-action-tribal-drums-192142.mp3<>uid://lrvp3e48pqom::::res://Scenes/Player/abilities/boormerang.tscn
-::res://Scenes/Levels/prehistoric_level/Backgrounds/::1742241202
-forest.png::CompressedTexture2D/CompressedTexture2D::2556653721900190799::1742241074::1742241202::1::::<><><>0<>0<>5efe14616a51d5c910d5b286ffc2b4cf<>res://.godot/imported/forest.png-2ce499b0bf9045cd0ce6ed5b0e1b0ce0.ctex::
-inside_cave.png::CompressedTexture2D/CompressedTexture2D::4358476125920309731::1742241074::1742241202::1::::<><><>0<>0<>c9273e6fa8bc37d4daa25137bdd2e8b3<>res://.godot/imported/inside_cave.png-34d03830c482ef240a78f36e9259ec43.ctex::
-::res://Scenes/Levels/prehistoric_level/Backgrounds/parallax/::1742241202
-JnRLayer01.png::CompressedTexture2D/CompressedTexture2D::7283412650771238128::1742241074::1742241202::1::::<><><>0<>0<>1f21e75a4059f8a9b77c98a17f7dbb15<>res://.godot/imported/JnRLayer01.png-7ebb1e0d6d70ca9c0fa565d7614d8e56.ctex::
-JnRLayer02.png::CompressedTexture2D/CompressedTexture2D::5938195778871712896::1742241074::1742241202::1::::<><><>0<>0<>a79cae3bc55f2688836294b624513ba0<>res://.godot/imported/JnRLayer02.png-37ee939a8aa46174acabb6bd7fa33bdd.ctex::
-JnRLayer03.png::CompressedTexture2D/CompressedTexture2D::1776675979193175920::1742241074::1742241202::1::::<><><>0<>0<>ebace0b1dd93b27efcced467d3eac96c<>res://.godot/imported/JnRLayer03.png-36a87ce43e83422a46596ef055f0233c.ctex::
-JnRLayer04.png::CompressedTexture2D/CompressedTexture2D::2584883957190886431::1742241074::1742241202::1::::<><><>0<>0<>fe3221faad81376952e16c691f89eea5<>res://.godot/imported/JnRLayer04.png-0b9d43b43099278b693b9eb8e07baa51.ctex::
-::res://Scenes/Levels/prehistoric_level/Platforms/::1742241202
-tileset-1.png::CompressedTexture2D/CompressedTexture2D::1199672376890608940::1742241074::1742241202::1::::<><><>0<>0<>c42236c7765da75894978ed6b8107f05<>res://.godot/imported/tileset-1.png-1b1da35bceff3892a6d35596e1ae4ebe.ctex::
-::res://Scenes/Levels/Test Level/::1742241178
-world.tscn::PackedScene/PackedScene::-1::1742241074::0::1::::<><><>0<>0<><>::
-::res://Scenes/Levels/Test Level/Pause_L/::1742241180
-pause_l.gd::GDScript/GDScript::2018323758470941314::1742241074::0::1::::<>Control<><>0<>0<><>::
-pause_L.tscn::PackedScene/PackedScene::8169817026820934402::1742241074::0::1::::<><><>0<>0<><>::uid://30xq6av5i1go::::res://Scenes/Levels/Pause_L/pause_l.gd<>uid://8s63b8vpye2k::::res://Shaders/blur.gdshader<>uid://d1sqem5jrihnp::::res://Assets/PIXEARG_.TTF
-::res://Scenes/Levels/tutorial/::1742241202
-pixel-cityscape-8-bit-pixel-art-game-landscape-vector.jpg::CompressedTexture2D/CompressedTexture2D::6706172948532405839::1742241074::1742241202::1::::<><><>0<>0<>396ece1ab02fd280104ce37ea3ed146b<>res://.godot/imported/pixel-cityscape-8-bit-pixel-art-game-landscape-vector.jpg-de04f119d30dd118640cfcf977af888a.ctex::
-tutorial.tscn::PackedScene/PackedScene::941456890317212371::1742241074::0::1::::<><><>0<>0<><>::uid://bvc1ey4i1hll4::::res://Scenes/Levels/levels_init.tscn<>uid://c2srxod2p76rb::::res://Scenes/Levels/tutorial/pixel-cityscape-8-bit-pixel-art-game-landscape-vector.jpg<>uid://rdeotwq42lke::::res://Scenes/Levels/prehistoric_level/Platforms/tileset-1.png<>uid://10slmonadict::::res://Scenes/Levels/mobster_level/tile_set_castle.png<>uid://bhuh17n8igrl6::::res://Scenes/Player/caveman_player.tscn<>uid://maeh628bsf4r::::res://Scenes/Levels/finish_flag.tscn<>uid://doectbfr0g1g::::res://Scenes/UI Elements/health_interface.tscn
-::res://Scenes/Levels/western_level/::1742244094
-western-loop-epic-cinematic-country-267839.mp3::AudioStreamMP3::8907623723783409349::1742244094::1742244106::1::::<><><>0<>0<>4a267dcde437756822cfcec8b19385f3<>res://.godot/imported/western-loop-epic-cinematic-country-267839.mp3-fe789a2d210dc9af52b12d64753c1880.mp3str::
-western_level.tscn::PackedScene/PackedScene::4155514197526538039::1742241074::0::1::::<><><>0<>0<><>::uid://bvc1ey4i1hll4::::res://Scenes/Levels/levels_init.tscn<>uid://spghtxm3dfef::::res://Scenes/Levels/western_level/Backgrounds/western_horizon.png<>uid://rdeotwq42lke::::res://Scenes/Levels/prehistoric_level/Platforms/tileset-1.png<>uid://crlimuealucd::::res://Scenes/Player/abilities/cowboy.tscn<>uid://maeh628bsf4r::::res://Scenes/Levels/finish_flag.tscn
-::res://Scenes/Levels/western_level/Backgrounds/::1742241202
-western_horizon.png::CompressedTexture2D/CompressedTexture2D::1294742688366333241::1742241074::1742241202::1::::<><><>0<>0<>e45dcac6aa8f6b724b49ad17c37b41d3<>res://.godot/imported/western_horizon.png-d3415a1236b84ea46e44c7fc969483ba.ctex::
-::res://Scenes/Main Menu/::1742243803
-MainMenuwav.wav::AudioStreamWAV::253706884326481162::1742242373::1742242399::1::::<><><>0<>0<>4df0633ef21cfc3943192f7ff801f1d7<>res://.godot/imported/MainMenuwav.wav-7a5800bfe78e5fb8217f718aaa9c8195.sample::
-main_menu.gd::GDScript/GDScript::7530354966742021379::1742241074::0::1::::<>Control<><>0<>0<><>::
-main_menu.tscn::PackedScene::7366535197041381205::1742243803::0::1::::<><><>0<>0<><>::uid://dfj031diylm3d::::res://Scenes/Main Menu/main_menu.gd<>uid://ba6rpb5mfsgbb::::res://Assets/bootstrap logo spritesheet.png<>uid://c33lfkygyq2d3::::res://Assets/PIXEARG_.TTF<>uid://cyefa57w363sb::::res://Assets/mainmenubg.png<>uid://du5rryb0sbnm::::res://Scenes/Main Menu/MainMenuwav.wav
-::res://Scenes/Player/::1742243804
-caveman_player.tscn::PackedScene/PackedScene::2919503296171393385::1742241074::0::1::::<><><>0<>0<><>::uid://c05opcqarr3iu::::res://Scenes/Player/player.gd<>uid://dwug7kr3uu85n::::res://Assets/idle.png
-hitbox.tscn::PackedScene/PackedScene::8834951597504734315::1742241074::0::1::::<><><>0<>0<><>::uid://cuf38pceovqgq::::res://Scenes/UniversalScripts/hitbox.gd
-player.gd::GDScript::6590370745553098412::1742243804::0::1::::<>CharacterBody2D<><>0<>0<><>::
-player.tscn::PackedScene/PackedScene::7340245419895725799::1742241074::0::1::::<><><>0<>0<><>::uid://c05opcqarr3iu::::res://Scenes/Player/player.gd<>uid://dwug7kr3uu85n::::res://Assets/idle.png
-universal_hitbox.tscn::PackedScene/PackedScene::6216764484512782331::1742241074::0::1::::<><><>0<>0<><>::uid://dx4ymkqm0rv1l::::res://Scenes/Player/hitbox.tscn
-::res://Scenes/Player/abilities/::1742243803
-boormerang.gd::GDScript/GDScript::6525443619935360219::1742241074::0::1::::<>CharacterBody2D<><>0<>0<><>::
-boormerang.tscn::PackedScene/PackedScene::808475023789398224::1742241074::0::1::::<><><>0<>0<><>::uid://cy78drd6rwl7p::::res://Scenes/Player/abilities/boormerang.gd<>uid://doectbfr0g1g::::res://Scenes/UI Elements/health_interface.tscn<>uid://boexrsemck1eg::::res://Scenes/Levels/Assets/caveman_form.png
-cowboy.gd::GDScript/GDScript::8182940770760078974::1742241074::0::1::::<>CharacterBody2D<><>0<>0<><>::
-cowboy.tscn::PackedScene/PackedScene::176154943725238511::1742241074::0::1::::<><><>0<>0<><>::uid://dot43r3frgnkw::::res://Scenes/Player/abilities/cowboy.gd<>uid://cxref18w75kfe::::res://Scenes/Levels/Assets/GL Spritework/main_character/cowboy_guy/cowboy_guy_attack.png<>uid://dks7h3bvqa5ep::::res://Scenes/Levels/Assets/main_character/main_character/cowboy_guy/cowboy_guy_jump.png<>uid://doectbfr0g1g::::res://Scenes/UI Elements/health_interface.tscn<>uid://br4ebbex1txkq::::res://Scenes/Levels/Assets/main_character/main_character/cowboy_guy/cowboy_guy_idle.png<>uid://cge1rvoxjsvg3::::res://Scenes/Levels/Assets/main_character/main_character/cowboy_guy/cowboy_guy_walk.png
-jetpack.gd::GDScript/GDScript::2206249342100259024::1742241074::0::1::::<>CharacterBody2D<><>0<>0<><>::
-jetpack.tscn::PackedScene/PackedScene::1690996964420438113::1742241074::0::1::::<><><>0<>0<><>::uid://6oyusuqmnr0s::::res://Scenes/Player/abilities/jetpack.gd<>uid://doectbfr0g1g::::res://Scenes/UI Elements/health_interface.tscn<>uid://b1v5bggi5uwup::::res://Scenes/Levels/Assets/main_character/main_character/jetpack_guy/jetpack_guy_boost.png<>uid://c0yguopseu1vm::::res://Scenes/Levels/Assets/main_character/main_character/jetpack_guy/jetpack_guy_idle.png<>uid://causb16hnxjuq::::res://Scenes/Levels/Assets/main_character/main_character/jetpack_guy/jetpack_guy_jump.png
-mobster.gd::GDScript/GDScript::2662611349300721699::1742241074::0::1::::<>CharacterBody2D<><>0<>0<><>::
-mobster.tscn::PackedScene::1604452160374474614::1742243803::0::1::::<><><>0<>0<><>::uid://cnjegw0u0ign5::::res://Scenes/Levels/Assets/GL Spritework/main_character/mob_guy/mob_guy_attack.png<>uid://bd612421bt3h4::::res://Scenes/Player/abilities/mobster.gd<>uid://doectbfr0g1g::::res://Scenes/UI Elements/health_interface.tscn
-pirate.gd::GDScript/GDScript::4721007997845702561::1742241074::0::1::::<>CharacterBody2D<><>0<>0<><>::
-pirate.tscn::PackedScene::5466449328174499703::1742243803::0::1::::<><><>0<>0<><>::uid://cb6xkendjbrw3::::res://Scenes/Levels/Assets/GL Spritework/main_character/pir8_guy/pir8_swing sword.png<>uid://b8i5kuv6t6h66::::res://Scenes/Player/abilities/pirate.gd<>uid://dtyy585humliw::::res://Scenes/Levels/Assets/GL Spritework/main_character/pir8_guy/pir8-walk-sheet.png<>uid://doectbfr0g1g::::res://Scenes/UI Elements/health_interface.tscn<>uid://d18i8m2mht2ns::::res://Scenes/Levels/Assets/main_character/main_character/pir8_guy/pir8_guy_idle.png<>uid://c0figcpmvmne1::::res://Scenes/Levels/Assets/main_character/main_character/pir8_guy/pir8_guy_jump.png
-::res://Scenes/Player/ui_elements/::1742241202
-hp-bar.png::CompressedTexture2D/CompressedTexture2D::7682377428305317035::1742241074::1742241202::1::::<><><>0<>0<>d3b823e4faf80af576a2c1b8e84a1809<>res://.godot/imported/hp-bar.png-e394f9808c567e1a0396f2e3792dd9db.ctex::
-::res://Scenes/Projectile/::1742241202
-boner.png::CompressedTexture2D/CompressedTexture2D::5828460684710546034::1742241074::1742241202::1::::<><><>0<>0<>44954338aa0f9e583e2623c80ef1efc8<>res://.godot/imported/boner.png-7ce00e43a5b58b9c43920a23fb3f55b7.ctex::
-boomer_proj.gd::GDScript/GDScript::1348387381296409253::1742241074::0::1::::<>Area2D<><>0<>0<><>::
-boomer_proj.tscn::PackedScene/PackedScene::5155078819947066658::1742241074::0::1::::<><><>0<>0<><>::uid://cpbl5pxtnu5oo::::res://Scenes/Projectile/boner.png<>uid://thf0jdqjjhsn::::res://Scenes/Projectile/boomer_proj.gd
-mobster_proj.gd::GDScript/GDScript::2867141222462355933::1742241074::0::1::::<>Area2D<><>0<>0<><>::
-mobster_proj.tscn::PackedScene/PackedScene::1008609971128230241::1742241074::0::1::::<><><>0<>0<><>::uid://bg34nq8iatpf6::::res://Scenes/Projectile/mobster_proj.gd<>uid://b7d2v26yee4tr::::res://Scenes/Projectile/tommy_projectile.png
-projectile.gd::GDScript/GDScript::-1::1742241074::0::1::::<>Area2D<><>0<>0<><>::
-projectile.tscn::PackedScene/PackedScene::4312511217814160475::1742241074::0::1::::<><><>0<>0<><>::uid://e26uf03hvg5k::::res://Scenes/Projectile/projectile.gd<>uid://bsgvgafohferd::::res://Scenes/Projectile/projectile_final.png
-projectile_final.png::CompressedTexture2D/CompressedTexture2D::3663491915683241837::1742241074::1742241202::1::::<><><>0<>0<>3e548eb734253d3f55fe20c5e3389216<>res://.godot/imported/projectile_final.png-b78be07fe084e7321cbffddb3bd0739b.ctex::
-tommy_projectile.png::CompressedTexture2D/CompressedTexture2D::4640335140964391723::1742241074::1742241202::1::::<><><>0<>0<>16dc6a9213e904db57b7e34364e1ff6c<>res://.godot/imported/tommy_projectile.png-4e9f6c34a6eac76e0391fdeb746c1228.ctex::
-::res://Scenes/Projectiles/::1742241178
-::res://Scenes/Projectiles/Enemy Projectile/::1742241178
-enemy_projectile.gd::GDScript/GDScript::8561965448397737212::1742241074::0::1::::<>Area2D<><>0<>0<><>::
-enemy_projectile.tscn::PackedScene/PackedScene::204679894431260272::1742241074::0::1::::<><><>0<>0<><>::uid://b2paouyunf4dj::::res://Scenes/Projectile/player_projectile.tscn<>uid://dt8qk466ko10s::::res://Scenes/Projectile/enemy_projectile.gd
-::res://Scenes/Projectiles/Player Projectile/::1742241178
-player_projectile.gd::GDScript/GDScript::6205060776298556253::1742241074::0::1::::<>Area2D<><>0<>0<><>::
-player_projectile.tscn::PackedScene/PackedScene::4312511217814160475::1742241074::0::1::::<><><>0<>0<><>::uid://cun1pd0jv7xy8::::res://Scenes/Projectiles/Player Projectile/player_projectile.gd<>uid://daomg8me78y2g::::res://Assets/projectiles/projectile_test.png
-::res://Scenes/UI Elements/::1742241177
-health_interface.gd::GDScript/GDScript::4286411570876340236::1742241074::0::1::::<>Control<><>0<>0<><>::
-health_interface.tscn::PackedScene/PackedScene::239715258769152074::1742241074::0::1::::<><><>0<>0<><>::uid://b2cmtpuprg0ls::::res://Scenes/UI Elements/health_interface.gd<>uid://dhpnvsyii4bb4::::res://Scenes/Player/ui_elements/hp-bar.png
-::res://Scenes/UniversalScripts/::1742241177
-hitbox.gd::GDScript/GDScript::6188699927054626724::1742241074::0::1::::<>Area2D<><>0<>0<><>::
-::res://Shaders/::1742241177
-blur.gdshader::Shader/Shader::2355322973110275776::1742241074::0::1::::<><><>0<>0<><>::
+::res://::1742240028
+::res://Assets/::1742239958
+bootstrap logo spritesheet.png::CompressedTexture2D/CompressedTexture2D::2451475469274661275::1742239958::1742240040::1::::<><><>0<>0<>36d498b91b90098c8415487f29e1bc3f<>res://.godot/imported/bootstrap logo spritesheet.png-d78821dd55ada6ff89d88fc2d9d9425d.ctex::
+chatbox.png::CompressedTexture2D/CompressedTexture2D::6866641594701502681::1742239958::1742240034::1::::<><><>0<>0<>2c7208505ff74a3d829fb81593c66a08<>res://.godot/imported/chatbox.png-bb1632d87fb34bed1d4c81b2b8324a29.ctex::
+City Playtest.png::CompressedTexture2D/CompressedTexture2D::5388355821915019435::1742239957::1742240034::1::::<><><>0<>0<>c3e3b160e5b83a935695de2b39024baa<>res://.godot/imported/City Playtest.png-b6257af19a17b17a8aef7d6fd250b859.ctex::
+citytilesheet.png::CompressedTexture2D/CompressedTexture2D::6696835861435680532::1742239958::1742240034::1::::<><><>0<>0<>49b9bde5aba0f81d03e1fd3ea350197b<>res://.godot/imported/citytilesheet.png-fcc8c4b1856ebd8ee08cc22a108317f5.ctex::
+finish_flag.gd::GDScript::748728895215781227::1742239958::0::1::::<>Area2D<><>0<>0<><>::
+idle.png::CompressedTexture2D/CompressedTexture2D::8745126166353686957::1742239958::1742240034::1::::<><><>0<>0<>ddeb5038f260ac5088c0fa474a3fb69c<>res://.godot/imported/idle.png-f4d4ae5668b87a1c91dd66979f2564cc.ctex::
+mainmenubg.png::CompressedTexture2D/CompressedTexture2D::6465936336851544525::1742239958::1742240035::1::::<><><>0<>0<>a9357cec964e522d93e95fc29c109da9<>res://.godot/imported/mainmenubg.png-34043dd1a28b161130f142238cef6f40.ctex::
+overworldnpc.png::CompressedTexture2D/CompressedTexture2D::4957343745121376159::1742239958::1742240034::1::::<><><>0<>0<>3e516001cf2d8695d04dfb6a9f49ad97<>res://.godot/imported/overworldnpc.png-7b17fcf97c2e5cf3f7b9677cb64c73a8.ctex::
+overworld_map.png::CompressedTexture2D/CompressedTexture2D::5770267537551182750::1742239958::1742240034::1::::<><><>0<>0<>5d9e930177f88d4b371893c8f457c77b<>res://.godot/imported/overworld_map.png-0dafc0b0d9d2b99fc3260909dd2c402f.ctex::
+pir8-walk-sheet.png::CompressedTexture2D/CompressedTexture2D::3015163012761443094::1742239958::1742240034::1::::<><><>0<>0<>177b85530d1a9cee2847233ee997b913<>res://.godot/imported/pir8-walk-sheet.png-838fa93db391834d0cf9e987fee9ffe3.ctex::
+pir8_swing sword.png::CompressedTexture2D/CompressedTexture2D::2536620289270697670::1742239958::1742240034::1::::<><><>0<>0<>6c5923fa4e90b812c0df4772ecf86440<>res://.godot/imported/pir8_swing sword.png-10eacebd96134d6fe3b294a480d637ad.ctex::
+PIXEARG_.TTF::FontFile/FontFile::6796608944868890414::1742239958::1742240033::1::::<><><>0<>0<>c83bab04b2717c1854adb346409cc91d<>res://.godot/imported/PIXEARG_.TTF-777e8f6c31df3bca638e6ac98f855c9c.fontdata::
+pixel-art-red-flag-icon-png.png::CompressedTexture2D/CompressedTexture2D::3560813156776604252::1742239958::1742240035::1::::<><><>0<>0<>3345aeeb11cb2acc105297b0bd394300<>res://.godot/imported/pixel-art-red-flag-icon-png.png-8e843ef5095ebf54ce16724d1d7513c9.ctex::
+portals.png::CompressedTexture2D/CompressedTexture2D::7255489154724109843::1742239958::1742240035::1::::<><><>0<>0<>3926614a18e89dcf918b4c75e0eed80f<>res://.godot/imported/portals.png-cd970c4a7990b2cf7a652ddf359e3745.ctex::
+Punk Overworld Draft.png::CompressedTexture2D/CompressedTexture2D::7681653522073038513::1742239958::1742240035::1::::<><><>0<>0<>7b538bb84ae3f3ea3caa7f7332193e89<>res://.godot/imported/Punk Overworld Draft.png-4ae190f2391644a782e9b54481f3beea.ctex::
+Punk Overworld New Draft.png::CompressedTexture2D/CompressedTexture2D::4420187844343937515::1742239958::1742240035::1::::<><><>0<>0<>1642f53cd6d85bf578df519993e899ed<>res://.godot/imported/Punk Overworld New Draft.png-90adb4cd4e9006363cfb9920015e2658.ctex::
+revolver_shoot.png::CompressedTexture2D/CompressedTexture2D::8068862204156701705::1742239958::1742240035::1::::<><><>0<>0<>5c1bcb3d35afe46a3acc6084679a3157<>res://.godot/imported/revolver_shoot.png-1eee4ea7868b0a60bb0a3c15f44d821a.ctex::
+someguyjump.png::CompressedTexture2D/CompressedTexture2D::1463862241201034515::1742239958::1742240035::1::::<><><>0<>0<>eaea3e9e9a066ffc8bd8d0b6fed8817c<>res://.godot/imported/someguyjump.png-65639a8477362e7e5663e21b58d6f575.ctex::
+someguywalk_silly.png::CompressedTexture2D/CompressedTexture2D::2326411615728080087::1742239958::1742240035::1::::<><><>0<>0<>affe6590ec9aa3d0e97b0e4ad76cda6f<>res://.godot/imported/someguywalk_silly.png-82d8c48efc43cc014b28c8769a3170ef.ctex::
+::res://Assets/GL Spritework/::1742239958
+::res://Assets/GL Spritework/emenies/::1742239958
+::res://Assets/GL Spritework/emenies/00 - Prehistoric Era/::1742239957
+::res://Assets/GL Spritework/emenies/00 - Prehistoric Era/caveman/::1742239957
+caveman_idle.png::CompressedTexture2D/CompressedTexture2D::4512821797160058058::1742239957::1742240034::1::::<><><>0<>0<>13cb1a521427fdb413e4e9a6a5d368e6<>res://.godot/imported/caveman_idle.png-d74dbe906b68fb41d8436e1d0b1d1ecc.ctex::
+caveman_tackle.png::CompressedTexture2D/CompressedTexture2D::2918427213522871661::1742239957::1742240034::1::::<><><>0<>0<>0e32017312645211dbb4f3e5dc82277a<>res://.godot/imported/caveman_tackle.png-a8652b7c48501f2e8c92456303ca49c8.ctex::
+::res://Assets/GL Spritework/emenies/00 - Prehistoric Era/caveman/ase/::1742239957
+::res://Assets/GL Spritework/emenies/00 - Prehistoric Era/caveman/gifs/::1742239957
+::res://Assets/GL Spritework/emenies/00 - Prehistoric Era/moler/::1742239957
+moler_attack.png::CompressedTexture2D/CompressedTexture2D::5950646044094717433::1742239957::1742240034::1::::<><><>0<>0<>757027e2756b21b2565c58b331abc400<>res://.godot/imported/moler_attack.png-0c09b1ac257516919e40eab6ee46ec7d.ctex::
+::res://Assets/GL Spritework/emenies/00 - Prehistoric Era/moler/ase/::1742239957
+::res://Assets/GL Spritework/emenies/00 - Prehistoric Era/pterry/::1742239957
+pterry.png::CompressedTexture2D/CompressedTexture2D::3287428076981869492::1742239957::1742240034::1::::<><><>0<>0<>f1459ba4271975237e8f7bc288ffc8a0<>res://.godot/imported/pterry.png-8bab91a252f161143bcb0f98d56d8efb.ctex::
+::res://Assets/GL Spritework/emenies/00 - Prehistoric Era/velocicopter/::1742239957
+velocicopter.png::CompressedTexture2D/CompressedTexture2D::3709275088657843511::1742239957::1742240034::1::::<><><>0<>0<>d49176c04a747d351aa879ccb91fccbb<>res://.godot/imported/velocicopter.png-127763dcf74e7fd843cd5485535259c6.ctex::
+velocicopter_attackl.png::CompressedTexture2D/CompressedTexture2D::6314790819241063649::1742239957::1742240034::1::::<><><>0<>0<>a7678433030cac9c1f714a368b6dfae6<>res://.godot/imported/velocicopter_attackl.png-7ee1c824be7ea69bf4f04b91d437e140.ctex::
+velocicopter_hurt.png::CompressedTexture2D/CompressedTexture2D::4165354274093534481::1742239957::1742240034::1::::<><><>0<>0<>507aed4b0a2ac21e127d023fd107d4dc<>res://.godot/imported/velocicopter_hurt.png-7f776346e147b90603484a68450c15ce.ctex::
+velocicopter_tail.png::CompressedTexture2D/CompressedTexture2D::1140095366506703721::1742239957::1742240034::1::::<><><>0<>0<>2de1acf03e332f37dcc5193a487feaa5<>res://.godot/imported/velocicopter_tail.png-2c9b13f5151acd71d1cff314bc3319f7.ctex::
+::res://Assets/GL Spritework/emenies/00 - Prehistoric Era/velocicopter/ase/::1742239957
+::res://Assets/GL Spritework/emenies/caveman/::1742239958
+caveman_idle.png::CompressedTexture2D/CompressedTexture2D::8793306625478205716::1742239958::1742240034::1::::<><><>0<>0<>08054bcf80f418872f6b05c258096307<>res://.godot/imported/caveman_idle.png-8c19ec1aa109624a4163380d1708a73c.ctex::
+caveman_tackle.png::CompressedTexture2D/CompressedTexture2D::7815220521902095189::1742239958::1742240034::1::::<><><>0<>0<>f065e7a613d415d50b883a25c7a481af<>res://.godot/imported/caveman_tackle.png-885ea77dd76dfb46da96651a2129c00c.ctex::
+::res://Assets/GL Spritework/emenies/caveman/ase/::1742239958
+::res://Assets/GL Spritework/emenies/caveman/gifs/::1742239958
+::res://Assets/GL Spritework/emenies/Prohibition_era/::1742239958
+::res://Assets/GL Spritework/emenies/Prohibition_era/bandit/::1742239957
+bandit_hurt.png::CompressedTexture2D/CompressedTexture2D::4924200581519861721::1742239957::1742240034::1::::<><><>0<>0<>bfb8c5099be57657569bd89f79fea043<>res://.godot/imported/bandit_hurt.png-70b9f78da603664e13b98f5a97b65da5.ctex::
+bandit_idle.png::CompressedTexture2D/CompressedTexture2D::696720812396156095::1742239957::1742240034::1::::<><><>0<>0<>b8b2c8b77a1a842b37f0a46cbdda084d<>res://.godot/imported/bandit_idle.png-92c1e6fd16e88b9a08052b4c193c5054.ctex::
+bandit_shoot.png::CompressedTexture2D/CompressedTexture2D::8563184328666079313::1742239957::1742240034::1::::<><><>0<>0<>d92280a70b0a003c867459fbd44cd69a<>res://.godot/imported/bandit_shoot.png-43eebefbed03a6f9176687c67a45ad9d.ctex::
+bandit_walk.png::CompressedTexture2D/CompressedTexture2D::5616460289467702039::1742239957::1742240034::1::::<><><>0<>0<>277dd8f55ad76ec5c165bd0d428d4521<>res://.godot/imported/bandit_walk.png-918d6a34042e15645305cf9ca3e79646.ctex::
+::res://Assets/GL Spritework/emenies/Prohibition_era/big_goon/::1742239957
+big_goon_attack.png::CompressedTexture2D/CompressedTexture2D::6439146061304730703::1742239957::1742240034::1::::<><><>0<>0<>30d9afc203bb6c2da02aa5004e36497e<>res://.godot/imported/big_goon_attack.png-971670d14a758adfff0331080563c3fa.ctex::
+big_goon_hurt.png::CompressedTexture2D/CompressedTexture2D::5729570846381075724::1742239957::1742240034::1::::<><><>0<>0<>b9b492403e1ffaee92fe8add0a9ae825<>res://.godot/imported/big_goon_hurt.png-f1a60b016d048b171a2c1cb7f4fdf81c.ctex::
+big_goon_idle.png::CompressedTexture2D/CompressedTexture2D::298494710415519560::1742239957::1742240034::1::::<><><>0<>0<>8280565d4221cc2fd2b69f78bd87dfc5<>res://.godot/imported/big_goon_idle.png-a293bad037f3f89ca70adfdd42d16e5f.ctex::
+big_goon_walk.png::CompressedTexture2D/CompressedTexture2D::1284160662227666743::1742239957::1742240034::1::::<><><>0<>0<>49228be9b6e7750cb793de0b9ded8c0a<>res://.godot/imported/big_goon_walk.png-e2f60deaa5068ef84343b3f73c7e23ab.ctex::
+::res://Assets/GL Spritework/emenies/Prohibition_era/cop/::1742239958
+cop_hurt.png::CompressedTexture2D/CompressedTexture2D::3519164897269075988::1742239957::1742240034::1::::<><><>0<>0<>487fa20ce74a5bd29e39b2638da87177<>res://.godot/imported/cop_hurt.png-0476bdb3ad7da5976e6168f4950aa2e3.ctex::
+cop_idle.png::CompressedTexture2D/CompressedTexture2D::8535514107262247764::1742239958::1742240034::1::::<><><>0<>0<>c996e06f39da506f2d8d16206e13d8d5<>res://.godot/imported/cop_idle.png-dae369050103dea106278a2c6add0e8c.ctex::
+cop_run.png::CompressedTexture2D/CompressedTexture2D::3772417071026843226::1742239958::1742240034::1::::<><><>0<>0<>27417358065ebadfd3bc118a7e4e9ac7<>res://.godot/imported/cop_run.png-e39fdb947c738cf74c2241776f13d701.ctex::
+::res://Assets/GL Spritework/emenies/Prohibition_era/goon/::1742239958
+goon_attack.png::CompressedTexture2D/CompressedTexture2D::1855155413530607749::1742239958::1742240034::1::::<><><>0<>0<>1617af632eb17c1f132b2b484628f527<>res://.godot/imported/goon_attack.png-6a2678597480e75438a1ad39158c63be.ctex::
+goon_hurt.png::CompressedTexture2D/CompressedTexture2D::4265652445442490215::1742239958::1742240034::1::::<><><>0<>0<>e8016e7336591161a309299bf8235d80<>res://.godot/imported/goon_hurt.png-b5cf9c15266b655ff1dcf84679ca8f8a.ctex::
+goon_idle.png::CompressedTexture2D/CompressedTexture2D::4391909928787325708::1742239958::1742240034::1::::<><><>0<>0<>276aebbcdca0515297f389a0355d9f15<>res://.godot/imported/goon_idle.png-c2dde3c333cb123c26bea7e6235211f2.ctex::
+goon_walk.png::CompressedTexture2D/CompressedTexture2D::6066082580580343416::1742239958::1742240034::1::::<><><>0<>0<>28daf58cdf20cd81eb10807ceed5f089<>res://.godot/imported/goon_walk.png-78fe2ac7e3b675917b10a943f83a5ca8.ctex::
+::res://Assets/GL Spritework/main_character/::1742239958
+::res://Assets/GL Spritework/main_character/cowboy_guy/::1742239958
+cowboy_guy_attack.png::CompressedTexture2D/CompressedTexture2D::1607456776421107391::1742239958::1742240034::1::::<><><>0<>0<>3f4638e69cb8b3ae2491ca3ec0184bb7<>res://.godot/imported/cowboy_guy_attack.png-f0bcab96a0a02314a56c15ba1a7f25b6.ctex::
+::res://Assets/GL Spritework/main_character/cowboy_guy/ase/::1742239958
+::res://Assets/GL Spritework/main_character/guy_default/::1742239958
+default_guy_idle.png::CompressedTexture2D/CompressedTexture2D::8748587129023304017::1742239958::1742240034::1::::<><><>0<>0<>3f2dedb35db1f071347d2b2d5d290677<>res://.godot/imported/default_guy_idle.png-6b74155fb700c280a66b1b304e1f016b.ctex::
+default_guy_jump.png::CompressedTexture2D/CompressedTexture2D::6654187363185122201::1742239958::1742240034::1::::<><><>0<>0<>77a864978618f3674cf694ee0d619947<>res://.godot/imported/default_guy_jump.png-5fec617e2a55e0920c6136e7b611e892.ctex::
+default_guy_walk.png::CompressedTexture2D/CompressedTexture2D::1770393773971470592::1742239958::1742240034::1::::<><><>0<>0<>3b41f3622f3139bbc10130f161e0b950<>res://.godot/imported/default_guy_walk.png-d9c4a10da3cb6f62f5e24cf93522759c.ctex::
+::res://Assets/GL Spritework/main_character/guy_default/ase/::1742239958
+::res://Assets/GL Spritework/main_character/mob_guy/::1742239958
+mob_guy_attack.png::CompressedTexture2D/CompressedTexture2D::3512708274710274294::1742239958::1742240034::1::::<><><>0<>0<>43578a86a187008b5b186492989d9307<>res://.godot/imported/mob_guy_attack.png-a5ddabd22cd6d74dc1ff2a5f3fd2b870.ctex::
+::res://Assets/GL Spritework/main_character/mob_guy/ase/::1742239958
+::res://Assets/GL Spritework/main_character/pir8_guy/::1742239958
+pir8-walk-sheet.png::CompressedTexture2D/CompressedTexture2D::1267440995727163524::1742239958::1742240034::1::::<><><>0<>0<>484fb8ae80c6dda3b9f0d98fd2fc7be2<>res://.godot/imported/pir8-walk-sheet.png-bfb552f0aa3aace3ca4da1f5fa443e94.ctex::
+pir8_swing sword.png::CompressedTexture2D/CompressedTexture2D::7153193124189959470::1742239958::1742240034::1::::<><><>0<>0<>920245d096f79aea923267762ecb838b<>res://.godot/imported/pir8_swing sword.png-d3fba24b8d2ea66403af79a5e3d1aa78.ctex::
+::res://Assets/GL Spritework/main_character/pir8_guy/ase/::1742239958
+::res://Assets/GL Spritework/references/::1742239958
+Game Boy Advance - Advance Wars 2 Black Hole Rising - Tileset Normal (1).png::CompressedTexture2D/CompressedTexture2D::30042214931119860::1742239958::1742240034::1::::<><><>0<>0<>529c91897579a8f15430e53782392624<>res://.godot/imported/Game Boy Advance - Advance Wars 2 Black Hole Rising - Tileset Normal (1).png-ba20389ed86de4f13ce1685be1fb4cc8.ctex::
+::res://Assets/projectiles/::1742239958
+citytilesheet.png::CompressedTexture2D/CompressedTexture2D::7064900385397226206::1742239958::1742240034::1::::<><><>0<>0<>09718b5425cc9ca12f770b6acb664473<>res://.godot/imported/citytilesheet.png-5e39020d376a0b1677f03e2591caa15e.ctex::
+projectile_test.png::CompressedTexture2D/CompressedTexture2D::7188904410346804868::1742239958::1742240034::1::::<><><>0<>0<>fccb32797eadcea38c25e8207532e659<>res://.godot/imported/projectile_test.png-55a68afa64aaf1fb3b8ea0dac671d23e.ctex::
+::res://Scenes/::1742239959
+::res://Scenes/Enemies/::1742239958
+enemy.gd::GDScript::1490419735488783149::1742239958::0::1::::<>CharacterBody2D<><>0<>0<><>::
+enemy.tscn::PackedScene::6919392680472881149::1742239958::0::1::::<><><>0<>0<><>::uid://vh783s5pxa3n::::res://Scenes/Enemies/enemy.gd<>uid://dwug7kr3uu85n::::res://Scenes/Levels/Assets/idle.png
+::res://Scenes/Enemies/Basic Enemy/::1742239958
+basic_enemy.gd::GDScript::4981239048630606209::1742239958::0::1::::<>CharacterBody2D<><>0<>0<><>::
+basic_enemy.tscn::PackedScene::6696531478853736758::1742239958::0::1::::<><><>0<>0<><>::uid://cc77jq7ct4jph::::res://Scenes/Enemies/Basic Enemy/basic_enemy.gd<>uid://dwug7kr3uu85n::::res://Assets/idle.png
+::res://Scenes/Enemies/basic_enemy/::1742239958
+basic_enemy.gd::GDScript::6098574628710194492::1742239958::0::1::::<>Area2D<><>0<>0<><>::
+basic_enemy.tscn::PackedScene::340616004545631648::1742239958::0::1::::<><><>0<>0<><>::uid://daomg8me78y2g::::res://Scenes/Levels/Assets/projectiles/projectile_test.png<>uid://cs5gvr5hwmjhk::::res://Scenes/Enemies/basic_enemy/basic_enemy.gd
+::res://Scenes/Enemies/Melee Enemy/::1742239958
+melee_enemy.gd::GDScript::1490419735488783149::1742239958::0::1::::<>CharacterBody2D<><>0<>0<><>::
+melee_enemy.tscn::PackedScene::6919392680472881149::1742239958::0::1::::<><><>0<>0<><>::uid://vh783s5pxa3n::::res://Scenes/Enemies/enemy.gd<>uid://dwug7kr3uu85n::::res://Assets/idle.png
+::res://Scenes/Enemies/melee_enemy/::1742239958
+melee_enemy.gd::GDScript::5757050913182786834::1742239958::0::1::::<>CharacterBody2D<><>0<>0<><>::
+melee_enemy.tscn::PackedScene::2021621994864356195::1742239958::0::1::::<><><>0<>0<><>::uid://coa011i6wafb3::::res://Scenes/Enemies/melee_enemy/melee_enemy.gd<>uid://3fxcbwlgbftw::::res://Scenes/Levels/Assets/GL Spritework/main_character/pir8_guy/pir8_swing sword.png<>uid://msuhrv1uarbx::::res://Scenes/Levels/Assets/GL Spritework/main_character/pir8_guy/pir8-walk-sheet.png
+::res://Scenes/Enemies/shooter_enemy/::1742239958
+shooter_enemy.gd::GDScript::2853280158712624415::1742239958::0::1::::<>CharacterBody2D<><>0<>0<><>::
+shooter_enemy.tscn::PackedScene::7440346754204465065::1742239958::0::1::::<><><>0<>0<><>::uid://bgwfdwdcncy4f::::res://Scenes/Enemies/shooter_enemy/shooter_enemy.gd<>uid://difdpeu8x3fnq::::res://Scenes/Levels/Assets/GL Spritework/main_character/cowboy_guy/cowboy_guy_attack.png
+::res://Scenes/Enemies/Shooting Enemy/::1742239958
+shooting_enemy.gd::GDScript::5320374144772444660::1742239958::0::1::::<>CharacterBody2D<><>0<>0<><>::
+shooting_enemy.tscn::PackedScene::4939031983357552901::1742239958::0::1::::<><><>0<>0<><>::uid://ch2h1xjwwgbr5::::res://Scenes/Enemies/Shooting Enemy/shooting_enemy.gd<>uid://dwug7kr3uu85n::::res://Assets/idle.png
+::res://Scenes/Enemies/test_dummy/::1742239958
+test_dummy.gd::GDScript::1801660257099488608::1742239958::0::1::::<>Sprite2D<><>0<>0<><>::
+test_dummy.png::CompressedTexture2D/CompressedTexture2D::5320164318830691032::1742239958::1742240035::1::::<><><>0<>0<>bfd0389bbc82778f9697b47d057a2ec3<>res://.godot/imported/test_dummy.png-a08f81734697620031aa2706fcbb8f5a.ctex::
+test_dummy.tscn::PackedScene::7902806704143232187::1742239958::0::1::::<><><>0<>0<><>::uid://ch2elgm2hto3a::::res://Scenes/Enemies/test_dummy/test_dummy.png<>uid://0w0c04263x17::::res://Scenes/Enemies/test_dummy/test_dummy.gd
+::res://Scenes/Hub World/::1742239958
+hub_city.tscn::PackedScene::8505296246478775939::1742239958::0::1::::<><><>0<>0<><>::uid://c2n8545uir3me::::res://Assets/citytilesheet.png<>uid://cx22j7sh7sxjt::::res://Scenes/Hub World/player_overworld.tscn<>uid://bbi523lrvyfmx::::res://Scenes/Hub World/PORTALS/portal_yellow.tscn<>uid://c6eg31a4gipe1::::res://Scenes/Hub World/PORTALS/portal_green.tscn<>uid://c2ydx7b8ysc3x::::res://Scenes/Hub World/PORTALS/portal_purple.tscn<>uid://cubrwe81cu2nd::::res://Scenes/Hub World/PORTALS/portal_blue.tscn<>uid://c3qkatu3gov8w::::res://Scenes/Hub World/PORTALS/portal_white.tscn<>uid://joycomayelpm::::res://Scenes/Hub World/PORTALS/portal_orange.tscn<>uid://col4wk2gjpbyb::::res://Scenes/Hub World/NPCs/Characters/bro.tscn<>uid://bn5bo6e3j15tk::::res://Scenes/Hub World/NPCs/Characters/ConWork.tscn<>uid://m4xtwe66aqun::::res://Scenes/Hub World/NPCs/Characters/Cowpoke.tscn<>uid://d4l0qck0is07c::::res://Scenes/Hub World/NPCs/Characters/Dude.tscn<>uid://dvlgu2vwx11po::::res://Scenes/Hub World/NPCs/Characters/Caveman.tscn<>uid://cvy715n4m2yla::::res://Scenes/Hub World/NPCs/Characters/BusWom.tscn<>uid://dvoxkc8r6asxo::::res://Scenes/Hub World/NPCs/Characters/Punk.tscn<>uid://bxlo1ttg3fnv0::::res://Scenes/Hub World/NPCs/Characters/WiseWizard.tscn<>uid://be6n8rjrulsdl::::res://Scenes/Hub World/PORTALS/portal_final.tscn<>uid://cnghh2bvwwmrn::::res://Scenes/Hub World/Pause_O/pause_O.tscn
+overworld_movement.gd::GDScript::2226707304973941788::1742239958::0::1::::Player_Overworld<>CharacterBody2D<><>0<>0<><>::
+player_overworld.tscn::PackedScene::6444580110285628689::1742239958::0::1::::<><><>0<>0<><>::uid://b38f33j0l4qjb::::res://Assets/Punk Overworld New Draft.png<>uid://6yvsq34kacn1::::res://Scenes/Hub World/overworld_movement.gd
+::res://Scenes/Hub World/NPCs/::1742239958
+npc.gd::GDScript::6720807852820821747::1742239958::0::1::::<>Area2D<><>0<>0<><>::
+npc.tscn::PackedScene::85664704860949450::1742239958::0::1::::<><><>0<>0<><>::uid://c20uyujbxudwl::::res://Scenes/Hub World/NPCs/npc.gd<>uid://cv72qdhhgyvq6::::res://Assets/overworldnpc.png<>uid://bqf0ogbf8b4g8::::res://Scenes/Hub World/NPCs/dialog/chat_box.tscn
+::res://Scenes/Hub World/NPCs/Characters/::1742239958
+bro.tscn::PackedScene::5779993981097899965::1742239958::0::1::::<><><>0<>0<><>::uid://bhq5di360bpq::::res://Scenes/Hub World/NPCs/npc.tscn
+BusWom.tscn::PackedScene::6298343121410085326::1742239958::0::1::::<><><>0<>0<><>::uid://bhq5di360bpq::::res://Scenes/Hub World/NPCs/npc.tscn
+Caveman.tscn::PackedScene::8656337392210051636::1742239958::0::1::::<><><>0<>0<><>::uid://bhq5di360bpq::::res://Scenes/Hub World/NPCs/npc.tscn
+ConWork.tscn::PackedScene::3360894337405098600::1742239958::0::1::::<><><>0<>0<><>::uid://bhq5di360bpq::::res://Scenes/Hub World/NPCs/npc.tscn
+Cowpoke.tscn::PackedScene::903564662584808389::1742239958::0::1::::<><><>0<>0<><>::uid://bhq5di360bpq::::res://Scenes/Hub World/NPCs/npc.tscn
+Dude.tscn::PackedScene::9218993291040597974::1742239958::0::1::::<><><>0<>0<><>::uid://bhq5di360bpq::::res://Scenes/Hub World/NPCs/npc.tscn
+Punk.tscn::PackedScene::8663543561646593972::1742239958::0::1::::<><><>0<>0<><>::uid://bhq5di360bpq::::res://Scenes/Hub World/NPCs/npc.tscn
+WiseWizard.tscn::PackedScene::4024369738807940095::1742239958::0::1::::<><><>0<>0<><>::uid://bhq5di360bpq::::res://Scenes/Hub World/NPCs/npc.tscn
+::res://Scenes/Hub World/NPCs/dialog/::1742239958
+chat_box.gd::GDScript::17938930149501943::1742239958::0::1::::<>Control<><>0<>0<><>::
+chat_box.tscn::PackedScene::3521307313562002777::1742239958::0::1::::<><><>0<>0<><>::uid://c43it36c38618::::res://Assets/chatbox.png<>uid://ixpmacc2ned::::res://Scenes/Hub World/NPCs/dialog/chat_box.gd<>uid://c33lfkygyq2d3::::res://Assets/PIXEARG_.TTF
+::res://Scenes/Hub World/NPCs/dialog/jsons/::1742239958
+bro.json::JSON::-1::1742239958::0::1::::<><><>0<>0<><>::
+busWom.json::JSON::-1::1742239958::0::1::::<><><>0<>0<><>::
+caveman.json::JSON::-1::1742239958::0::1::::<><><>0<>0<><>::
+conWork.json::JSON::-1::1742239958::0::1::::<><><>0<>0<><>::
+cowPoke.json::JSON::-1::1742239958::0::1::::<><><>0<>0<><>::
+dude.json::JSON::-1::1742239958::0::1::::<><><>0<>0<><>::
+punk.json::JSON::-1::1742239958::0::1::::<><><>0<>0<><>::
+wiseWizard.json::JSON::-1::1742239958::0::1::::<><><>0<>0<><>::
+::res://Scenes/Hub World/Pause_O/::1742239958
+pause_O.gd::GDScript::8108358220984820154::1742239958::0::1::::<>Control<><>0<>0<><>::
+pause_O.tscn::PackedScene::5698121541371362031::1742239958::0::1::::<><><>0<>0<><>::uid://dnr0qfnmtpxdq::::res://Scenes/Hub World/Pause_O/pause_O.gd<>uid://8s63b8vpye2k::::res://Shaders/blur.gdshader<>uid://d1sqem5jrihnp::::res://Assets/PIXEARG_.TTF<>uid://cjq2cpkyqjkr4::::res://Assets/overworld_map.png
+::res://Scenes/Hub World/PORTALS/::1742239958
+portal_blue.tscn::PackedScene::6179754356500604905::1742239958::0::1::::<><><>0<>0<><>::uid://fgy670u2nd42::::res://Scenes/Hub World/PORTALS/portalbase/portal_interaction.tscn
+portal_final.tscn::PackedScene::2732020928325683633::1742239958::0::1::::<><><>0<>0<><>::uid://fgy670u2nd42::::res://Scenes/Hub World/PORTALS/portalbase/portal_interaction.tscn
+portal_green.tscn::PackedScene::6957368702300461982::1742239958::0::1::::<><><>0<>0<><>::uid://fgy670u2nd42::::res://Scenes/Hub World/PORTALS/portalbase/portal_interaction.tscn
+portal_orange.tscn::PackedScene::662062414610130774::1742239958::0::1::::<><><>0<>0<><>::uid://fgy670u2nd42::::res://Scenes/Hub World/PORTALS/portalbase/portal_interaction.tscn
+portal_purple.tscn::PackedScene::6717710119772783943::1742239958::0::1::::<><><>0<>0<><>::uid://fgy670u2nd42::::res://Scenes/Hub World/PORTALS/portalbase/portal_interaction.tscn
+portal_white.tscn::PackedScene::6771767233364256540::1742239958::0::1::::<><><>0<>0<><>::uid://fgy670u2nd42::::res://Scenes/Hub World/PORTALS/portalbase/portal_interaction.tscn
+portal_yellow.tscn::PackedScene::2474995764030105139::1742239958::0::1::::<><><>0<>0<><>::uid://fgy670u2nd42::::res://Scenes/Hub World/PORTALS/portalbase/portal_interaction.tscn
+::res://Scenes/Hub World/PORTALS/portalbase/::1742239958
+portal_interaction.gd::GDScript::1664262851634240645::1742239958::0::1::::<>Area2D<><>0<>0<><>::
+portal_interaction.tscn::PackedScene::364844772464587481::1742239958::0::1::::<><><>0<>0<><>::uid://xygfv6binjp2::::res://Scenes/Hub World/PORTALS/portalbase/portal_interaction.gd<>uid://dbmu31mqbioed::::res://Assets/portals.png<>uid://c33lfkygyq2d3::::res://Assets/PIXEARG_.TTF
+::res://Scenes/Levels/::1742239959
+finish_flag.tscn::PackedScene::842523163619782015::1742239959::0::1::::<><><>0<>0<><>::uid://kwxpqtre8ie2::::res://Assets/finish_flag.gd<>uid://bqy5cp0uuye5q::::res://Assets/pixel-art-red-flag-icon-png.png
+levels_init.tscn::PackedScene::3866102246345696215::1742239959::0::1::::<><><>0<>0<><>::
+::res://Scenes/Levels/Assets/::1742239959
+bootstrap logo spritesheet.png::CompressedTexture2D/CompressedTexture2D::2543470223908886807::1742239958::1742240040::1::::<><><>0<>0<>f7bcca4604191bed8a3e334747fe06e1<>res://.godot/imported/bootstrap logo spritesheet.png-9d59ca27085294b0849403a5fcead5ba.ctex::
+caveman_form.png::CompressedTexture2D/CompressedTexture2D::3378749807119646694::1742239958::1742240033::1::::<><><>0<>0<>f7ec518e9039d6f0eb8b55789c4d8970<>res://.godot/imported/caveman_form.png-48df5edab504b077dc43d0d690246eba.ctex::
+chatbox.png::CompressedTexture2D/CompressedTexture2D::3819348803150692110::1742239958::1742240033::1::::<><><>0<>0<>34532106a39f76d288c531b2a83d6d18<>res://.godot/imported/chatbox.png-8f678fb9c9330f9e75b338d575d2d4b9.ctex::
+City Playtest.png::CompressedTexture2D/CompressedTexture2D::3687305830506203622::1742239958::1742240033::1::::<><><>0<>0<>5cd8eefb3aca6372a0012e438b0c9914<>res://.godot/imported/City Playtest.png-1dd0529b67182f99e4f8c0840209928d.ctex::
+citytilesheet.png::CompressedTexture2D/CompressedTexture2D::2676318891164661391::1742239958::1742240033::1::::<><><>0<>0<>42085cbde18b4c4d236bde864254c47d<>res://.godot/imported/citytilesheet.png-c20f8bf49c70ff4fe598d490b77ec692.ctex::
+finish_flag.gd::GDScript::4931147528075240893::1742239958::0::1::::<>Area2D<><>0<>0<><>::
+idle.png::CompressedTexture2D/CompressedTexture2D::5267398775513108891::1742239958::1742240033::1::::<><><>0<>0<>49cba7dbc16355df2113204b793a391e<>res://.godot/imported/idle.png-8f9f4f35b1121c6eb8ac851819fa2589.ctex::
+mainmenubg.png::CompressedTexture2D/CompressedTexture2D::1017802243231789290::1742239959::1742240033::1::::<><><>0<>0<>cc20551a296b751d65b6a9f18a0f4181<>res://.godot/imported/mainmenubg.png-7279c786d5be1a5a536a872b00085d7b.ctex::
+overworldnpc.png::CompressedTexture2D/CompressedTexture2D::4968754419449682304::1742239959::1742240033::1::::<><><>0<>0<>038c5855217f16593603cfc4973e7835<>res://.godot/imported/overworldnpc.png-c82de3a4ab89168e84455444370adbf5.ctex::
+overworld_map.png::CompressedTexture2D/CompressedTexture2D::154270177230514795::1742239959::1742240033::1::::<><><>0<>0<>67ae96f0bb01bab8dd7cbb410d9590ce<>res://.godot/imported/overworld_map.png-7cf910bbf0b5510b7bf6a0780c48135c.ctex::
+pir8-walk-sheet.png::CompressedTexture2D/CompressedTexture2D::7814520658979418332::1742239959::1742240033::1::::<><><>0<>0<>b2197c7a135ad2678c25f5d543994a9e<>res://.godot/imported/pir8-walk-sheet.png-dab191cb83497e5305bf12b2de02b7e1.ctex::
+pir8_swing sword.png::CompressedTexture2D/CompressedTexture2D::6636578853673213942::1742239959::1742240033::1::::<><><>0<>0<>4ce2ddb27ea66422d0ee78db439bd591<>res://.godot/imported/pir8_swing sword.png-28b5332a80da092fa822d7e08caaf67f.ctex::
+PIXEARG_.TTF::FontFile/FontFile::1707378536323377192::1742239958::1742240033::1::::<><><>0<>0<>b2862902c085f1337d81776df686b2b9<>res://.godot/imported/PIXEARG_.TTF-9288b710cd06cc5d535a8ce6a060fd2c.fontdata::
+pixel-art-red-flag-icon-png.png::CompressedTexture2D/CompressedTexture2D::6197464570882564428::1742239959::1742240034::1::::<><><>0<>0<>5bfafe5b10f95f4bf64e0c2d45109300<>res://.godot/imported/pixel-art-red-flag-icon-png.png-6ab492eeb8764d2c5423a038ddbc9d80.ctex::
+portals.png::CompressedTexture2D/CompressedTexture2D::7847099605850229380::1742239959::1742240034::1::::<><><>0<>0<>50086419e7a469202299c2991c9b0fe0<>res://.godot/imported/portals.png-eddaa52f1eb00f095cbff1284f1b4dab.ctex::
+Punk Overworld Draft.png::CompressedTexture2D/CompressedTexture2D::747039272178832381::1742239958::1742240034::1::::<><><>0<>0<>003c771530ec175b16e1dd527fe8df03<>res://.godot/imported/Punk Overworld Draft.png-c587c1ba5af9c0654181d30be1a35146.ctex::
+Punk Overworld New Draft.png::CompressedTexture2D/CompressedTexture2D::113548240463094012::1742239958::1742240034::1::::<><><>0<>0<>180829c5ac3cf58bb1976ea6c14e94fa<>res://.godot/imported/Punk Overworld New Draft.png-0e38c69c549d2f3b145eb82fa1f11b4f.ctex::
+revolver_shoot.png::CompressedTexture2D/CompressedTexture2D::5965279520564482962::1742239959::1742240034::1::::<><><>0<>0<>3b2ee6f729406a7d2537d10b6a6d09e2<>res://.godot/imported/revolver_shoot.png-363b184b00082229af61369fee34d5df.ctex::
+someguyjump.png::CompressedTexture2D/CompressedTexture2D::6244246985168730780::1742239959::1742240034::1::::<><><>0<>0<>1840e023b15d934cc0e58309f83cde1f<>res://.godot/imported/someguyjump.png-f09e11410d14e523a2a4ad9db7e15fcb.ctex::
+someguywalk_silly.png::CompressedTexture2D/CompressedTexture2D::785223905896703438::1742239959::1742240034::1::::<><><>0<>0<>24254b3d92b3e68b9df481ab6de06655<>res://.godot/imported/someguywalk_silly.png-0e381ae73178e373e58e3e18003ce5c8.ctex::
+::res://Scenes/Levels/Assets/GL Spritework/::1742239958
+::res://Scenes/Levels/Assets/GL Spritework/emenies/::1742239958
+::res://Scenes/Levels/Assets/GL Spritework/emenies/00 - Prehistoric Era/::1742239958
+::res://Scenes/Levels/Assets/GL Spritework/emenies/00 - Prehistoric Era/caveman/::1742239958
+caveman_idle.png::CompressedTexture2D/CompressedTexture2D::244974024384414807::1742239958::1742240035::1::::<><><>0<>0<>ab4acd0ff94ac32078165c066d155a90<>res://.godot/imported/caveman_idle.png-92eee54889696221e64a083b9bd136a5.ctex::
+caveman_tackle.png::CompressedTexture2D/CompressedTexture2D::1278346729513838265::1742239958::1742240035::1::::<><><>0<>0<>3aac74f305e84b639165a7c5855ab006<>res://.godot/imported/caveman_tackle.png-80cc3b42101b18723e9d34fbbed99ad5.ctex::
+::res://Scenes/Levels/Assets/GL Spritework/emenies/00 - Prehistoric Era/caveman/ase/::1742239958
+::res://Scenes/Levels/Assets/GL Spritework/emenies/00 - Prehistoric Era/caveman/gifs/::1742239958
+::res://Scenes/Levels/Assets/GL Spritework/emenies/00 - Prehistoric Era/moler/::1742239958
+moler_attack.png::CompressedTexture2D/CompressedTexture2D::1102735801551280505::1742239958::1742240035::1::::<><><>0<>0<>4c0442ac3716e868440673ee5c2b91cd<>res://.godot/imported/moler_attack.png-e38541e357048d9538106788033bfa23.ctex::
+::res://Scenes/Levels/Assets/GL Spritework/emenies/00 - Prehistoric Era/moler/ase/::1742239958
+::res://Scenes/Levels/Assets/GL Spritework/emenies/00 - Prehistoric Era/pterry/::1742239958
+pterry.png::CompressedTexture2D/CompressedTexture2D::8636529454656375006::1742239958::1742240035::1::::<><><>0<>0<>b6174ad0612d3dffe0439b94628adeeb<>res://.godot/imported/pterry.png-f03c94b1ddb3803910ce84e297f70c97.ctex::
+::res://Scenes/Levels/Assets/GL Spritework/emenies/00 - Prehistoric Era/velocicopter/::1742239958
+velocicopter.png::CompressedTexture2D/CompressedTexture2D::2066677797354088033::1742239958::1742240035::1::::<><><>0<>0<>f737a340c1b48c34c67041deedbf4a83<>res://.godot/imported/velocicopter.png-fa35476aca5e7c326c028c902d08ed7c.ctex::
+velocicopter_attackl.png::CompressedTexture2D/CompressedTexture2D::8066693679831387066::1742239958::1742240035::1::::<><><>0<>0<>8a03b77b9894c5f38693cc403104198b<>res://.godot/imported/velocicopter_attackl.png-89e14d10450180797e8ff099b9293c8d.ctex::
+velocicopter_hurt.png::CompressedTexture2D/CompressedTexture2D::7158910975599406145::1742239958::1742240035::1::::<><><>0<>0<>bb6b34a9de4a1f9f02797d72a9c0e2ff<>res://.godot/imported/velocicopter_hurt.png-497005ea9570a85766fca98da1c373b5.ctex::
+velocicopter_tail.png::CompressedTexture2D/CompressedTexture2D::1697642832375436508::1742239958::1742240034::1::::<><><>0<>0<>7da9199db591d8623e3508fc1de8619a<>res://.godot/imported/velocicopter_tail.png-302fbf0628234a2c33335c7219d755a3.ctex::
+::res://Scenes/Levels/Assets/GL Spritework/emenies/00 - Prehistoric Era/velocicopter/ase/::1742239958
+::res://Scenes/Levels/Assets/GL Spritework/emenies/caveman/::1742239958
+caveman_idle.png::CompressedTexture2D/CompressedTexture2D::8559642527196099776::1742239958::1742240034::1::::<><><>0<>0<>c0ee4d86eaa7c8cfd9c472103127f552<>res://.godot/imported/caveman_idle.png-ed204e953e182b824feb2b48e6f099f3.ctex::
+caveman_tackle.png::CompressedTexture2D/CompressedTexture2D::4995841605800417512::1742239958::1742240034::1::::<><><>0<>0<>66c2a6d3b974fa3a43bc69e281985521<>res://.godot/imported/caveman_tackle.png-546c2cbfd02a67e913af16e562c6446e.ctex::
+::res://Scenes/Levels/Assets/GL Spritework/emenies/caveman/ase/::1742239958
+::res://Scenes/Levels/Assets/GL Spritework/emenies/caveman/gifs/::1742239958
+::res://Scenes/Levels/Assets/GL Spritework/emenies/Prohibition_era/::1742239958
+::res://Scenes/Levels/Assets/GL Spritework/emenies/Prohibition_era/bandit/::1742239958
+bandit_hurt.png::CompressedTexture2D/CompressedTexture2D::4153111859729303377::1742239958::1742240034::1::::<><><>0<>0<>33a8edd066043719ea8c11470b3ace7d<>res://.godot/imported/bandit_hurt.png-bc82501ca5b645ab3af9dc773c9acf07.ctex::
+bandit_idle.png::CompressedTexture2D/CompressedTexture2D::4393118750928058739::1742239958::1742240034::1::::<><><>0<>0<>59d7500e3d5aacf3aec667686c7bd5d2<>res://.godot/imported/bandit_idle.png-50c2136cc4aa961b1fea4a44d009e0d3.ctex::
+bandit_shoot.png::CompressedTexture2D/CompressedTexture2D::5114989747258703982::1742239958::1742240034::1::::<><><>0<>0<>0091603a6de134ab1b9c114aee94b077<>res://.godot/imported/bandit_shoot.png-e15a23f374caf7b4a54ab8d8fd12671a.ctex::
+bandit_walk.png::CompressedTexture2D/CompressedTexture2D::5629445900019464050::1742239958::1742240034::1::::<><><>0<>0<>b0f697bffc453a6d169d7afbb242fc3c<>res://.godot/imported/bandit_walk.png-2504eb7b16ed76aaaa7c4233e4d4e043.ctex::
+::res://Scenes/Levels/Assets/GL Spritework/emenies/Prohibition_era/big_goon/::1742239958
+big_goon_attack.png::CompressedTexture2D/CompressedTexture2D::4729368872841738437::1742239958::1742240034::1::::<><><>0<>0<>539b2f150e110f8cd45e2be6ce8426fd<>res://.godot/imported/big_goon_attack.png-bc299844d1538c55700a88da3a7b75fe.ctex::
+big_goon_hurt.png::CompressedTexture2D/CompressedTexture2D::6809749088926375411::1742239958::1742240034::1::::<><><>0<>0<>a928146d80eb84de1c1ce9a440826531<>res://.godot/imported/big_goon_hurt.png-78e67dba4a1e4e5b859b2a3c1999199f.ctex::
+big_goon_idle.png::CompressedTexture2D/CompressedTexture2D::3641213182599381273::1742239958::1742240034::1::::<><><>0<>0<>1e861d28a1df12251f99600cb96b84d8<>res://.godot/imported/big_goon_idle.png-8c8a29ab16fb589e9b6f4b5b1b70abfc.ctex::
+big_goon_walk.png::CompressedTexture2D/CompressedTexture2D::5047830429977819636::1742239958::1742240034::1::::<><><>0<>0<>2710b05e253bea5524aaaadeb092d784<>res://.godot/imported/big_goon_walk.png-d11a904f7f67918fe23b0f809ea14d62.ctex::
+::res://Scenes/Levels/Assets/GL Spritework/emenies/Prohibition_era/cop/::1742239958
+cop_hurt.png::CompressedTexture2D/CompressedTexture2D::575688234628927077::1742239958::1742240034::1::::<><><>0<>0<>943fe9e5b3a19f712cb4aff95ddc460d<>res://.godot/imported/cop_hurt.png-01118b24d907ae79e8cd689a7319100f.ctex::
+cop_idle.png::CompressedTexture2D/CompressedTexture2D::5537646999501038152::1742239958::1742240034::1::::<><><>0<>0<>fec48c2d4f1304c0ef397402d61547d7<>res://.godot/imported/cop_idle.png-fa37cdc6ae612191e4c50d79beec76df.ctex::
+cop_run.png::CompressedTexture2D/CompressedTexture2D::759429170765511888::1742239958::1742240034::1::::<><><>0<>0<>0f2f3e10090774639a76de53b3da34a9<>res://.godot/imported/cop_run.png-dfea1b9ca985b918d9f394428052e07b.ctex::
+::res://Scenes/Levels/Assets/GL Spritework/emenies/Prohibition_era/goon/::1742239958
+goon_attack.png::CompressedTexture2D/CompressedTexture2D::5368994701308389064::1742239958::1742240034::1::::<><><>0<>0<>33491f9d0b55a3e1c9555094ebaf9f64<>res://.godot/imported/goon_attack.png-f9abcd6412bcddc09625423706857522.ctex::
+goon_hurt.png::CompressedTexture2D/CompressedTexture2D::5769969354562050701::1742239958::1742240034::1::::<><><>0<>0<>d9512cd89781a34092415534a239fa44<>res://.godot/imported/goon_hurt.png-3bac271fdab5c0efca65b9ee883c81d8.ctex::
+goon_idle.png::CompressedTexture2D/CompressedTexture2D::5440462596877766971::1742239958::1742240034::1::::<><><>0<>0<>0ef127f5f358749a039fcaf5676e81c7<>res://.godot/imported/goon_idle.png-b5c1a16f456b37d1380be7df1c3745ff.ctex::
+goon_walk.png::CompressedTexture2D/CompressedTexture2D::5790385788081637626::1742239958::1742240034::1::::<><><>0<>0<>841c86be2aa025f3bf99af85c7189ed7<>res://.godot/imported/goon_walk.png-4714d16f62cd85ad75e44176c278b4e0.ctex::
+::res://Scenes/Levels/Assets/GL Spritework/main_character/::1742239958
+::res://Scenes/Levels/Assets/GL Spritework/main_character/cowboy_guy/::1742239958
+cowboy_guy_attack.png::CompressedTexture2D/CompressedTexture2D::6422532407449735878::1742239958::1742240034::1::::<><><>0<>0<>6e4c1f60b9135e46d6cbb1f96e58cd59<>res://.godot/imported/cowboy_guy_attack.png-39ebf3cb7790012d33c8bd2ee3a8eabb.ctex::
+::res://Scenes/Levels/Assets/GL Spritework/main_character/cowboy_guy/ase/::1742239958
+::res://Scenes/Levels/Assets/GL Spritework/main_character/guy_default/::1742239958
+default_guy_idle.png::CompressedTexture2D/CompressedTexture2D::6271562523988676878::1742239958::1742240034::1::::<><><>0<>0<>abd728651154d88c51a879957ce39ba6<>res://.godot/imported/default_guy_idle.png-fbce4d4059892414f36f83d30b54a517.ctex::
+default_guy_jump.png::CompressedTexture2D/CompressedTexture2D::8215993647074725865::1742239958::1742240033::1::::<><><>0<>0<>bb53ca2b9d47727e9f4ca6cc7b8e058f<>res://.godot/imported/default_guy_jump.png-0543972fc528701f346c0776f7192a92.ctex::
+default_guy_walk.png::CompressedTexture2D/CompressedTexture2D::270249778357494274::1742239958::1742240033::1::::<><><>0<>0<>71dfe59d8fed1be43965df625b40aabc<>res://.godot/imported/default_guy_walk.png-f7d8586014173ce8c092f2f69e09caa5.ctex::
+::res://Scenes/Levels/Assets/GL Spritework/main_character/guy_default/ase/::1742239958
+::res://Scenes/Levels/Assets/GL Spritework/main_character/mob_guy/::1742239958
+mob_guy_attack.png::CompressedTexture2D/CompressedTexture2D::5704130512277908608::1742239958::1742240033::1::::<><><>0<>0<>f769fe07e4ce205ca02f7351f141bd48<>res://.godot/imported/mob_guy_attack.png-0f6cbba3b6417c4825c9c4f3e1df91b0.ctex::
+::res://Scenes/Levels/Assets/GL Spritework/main_character/mob_guy/ase/::1742239958
+::res://Scenes/Levels/Assets/GL Spritework/main_character/pir8_guy/::1742239958
+pir8-walk-sheet.png::CompressedTexture2D/CompressedTexture2D::8543907707902841682::1742239958::1742240033::1::::<><><>0<>0<>8abb2e298c31d7e2c47e55006990ab2d<>res://.godot/imported/pir8-walk-sheet.png-a4631e1ec201f0b33a7b3a6aa231aaf9.ctex::
+pir8_swing sword.png::CompressedTexture2D/CompressedTexture2D::4908440500497016196::1742239958::1742240033::1::::<><><>0<>0<>292adda8199ba6bbd1d395a8c25f879b<>res://.godot/imported/pir8_swing sword.png-5a09baf246b2ffc1910087abba6d2dc7.ctex::
+::res://Scenes/Levels/Assets/GL Spritework/main_character/pir8_guy/ase/::1742239958
+::res://Scenes/Levels/Assets/GL Spritework/references/::1742239958
+Game Boy Advance - Advance Wars 2 Black Hole Rising - Tileset Normal (1).png::CompressedTexture2D/CompressedTexture2D::5306761160616834760::1742239958::1742240033::1::::<><><>0<>0<>3cdb28c8f2efa6c7979c6c772fce26b2<>res://.godot/imported/Game Boy Advance - Advance Wars 2 Black Hole Rising - Tileset Normal (1).png-dfef843750e5199272bb77466f58495d.ctex::
+::res://Scenes/Levels/Assets/main_character/::1742239958
+::res://Scenes/Levels/Assets/main_character/main_character/::1742239958
+::res://Scenes/Levels/Assets/main_character/main_character/cave_guy/::1742239958
+cave_guy'_walk.png::CompressedTexture2D/CompressedTexture2D::3838561993338485491::1742239958::1742240033::1::::<><><>0<>0<>f3ce9aa2f07ffa95091dd351ad28cd61<>res://.godot/imported/cave_guy'_walk.png-a15ef33bee898a15ac14210688c0c18b.ctex::
+cave_guy_attack.png::CompressedTexture2D/CompressedTexture2D::18745814696592479::1742239958::1742240033::1::::<><><>0<>0<>e8a2c9fc93fda650e2a7dc0d29fb77ad<>res://.godot/imported/cave_guy_attack.png-0ab2ddb38ab080555b9d0a4e5aeb2a9d.ctex::
+cave_guy_idle.png::CompressedTexture2D/CompressedTexture2D::6447452019033984764::1742239958::1742240033::1::::<><><>0<>0<>29b4044fc4335f83ed512c737f795aca<>res://.godot/imported/cave_guy_idle.png-8fd277905c5ae45dec8397a7cc2b9180.ctex::
+cave_guy_jump.png::CompressedTexture2D/CompressedTexture2D::7101279142030043351::1742239958::1742240033::1::::<><><>0<>0<>5b0e9e2722f1b0c97834bb20494ee507<>res://.godot/imported/cave_guy_jump.png-84fea6f928b382b06326a1a4f1a174a0.ctex::
+::res://Scenes/Levels/Assets/main_character/main_character/cowboy_guy/::1742239958
+cowboy_guy_attack.png::CompressedTexture2D/CompressedTexture2D::6244176424569770744::1742239958::1742240033::1::::<><><>0<>0<>007672f914a562400d3ed88fae2e7277<>res://.godot/imported/cowboy_guy_attack.png-64c45268d727e6e67d9c3d79f3336591.ctex::
+cowboy_guy_idle.png::CompressedTexture2D/CompressedTexture2D::3639742693955456856::1742239958::1742240033::1::::<><><>0<>0<>6172f84df5a55cf871864200a2f703ef<>res://.godot/imported/cowboy_guy_idle.png-9c992ca2f4630ec1c228abbe22d317b8.ctex::
+cowboy_guy_jump.png::CompressedTexture2D/CompressedTexture2D::7900266204532732655::1742239958::1742240033::1::::<><><>0<>0<>13e95c476b488e88dcde50c840052f95<>res://.godot/imported/cowboy_guy_jump.png-593cf0962037923517978ea46fb0c8fb.ctex::
+cowboy_guy_walk.png::CompressedTexture2D/CompressedTexture2D::5203842066214335420::1742239958::1742240033::1::::<><><>0<>0<>153f618ff2052ca76a037c3a8880beae<>res://.godot/imported/cowboy_guy_walk.png-102c335a31de46e0fba4e96c997f4ad3.ctex::
+::res://Scenes/Levels/Assets/main_character/main_character/cowboy_guy/ase/::1742239958
+::res://Scenes/Levels/Assets/main_character/main_character/guy_default/::1742239958
+default_guy_idle.png::CompressedTexture2D/CompressedTexture2D::512723526770280095::1742239958::1742240033::1::::<><><>0<>0<>3f2df2d20741f506270502b58cff0377<>res://.godot/imported/default_guy_idle.png-b8a5c4579e88d2932b3b1c1906a5f386.ctex::
+default_guy_jump.png::CompressedTexture2D/CompressedTexture2D::7376862229569945643::1742239958::1742240033::1::::<><><>0<>0<>9ad6ebcbe25e65765c86617d088b4435<>res://.godot/imported/default_guy_jump.png-6269be0d6defa995b7d3149dc5e220a5.ctex::
+default_guy_walk.png::CompressedTexture2D/CompressedTexture2D::6251069223490687822::1742239958::1742240033::1::::<><><>0<>0<>de2817e791dcce6c66e534c0f6844f9b<>res://.godot/imported/default_guy_walk.png-3c6cd36cdb390b5ad5ab2748632b02ab.ctex::
+::res://Scenes/Levels/Assets/main_character/main_character/jetpack_guy/::1742239958
+jetpack_guy_boost.png::CompressedTexture2D/CompressedTexture2D::4256506171507410191::1742239958::1742240033::1::::<><><>0<>0<>94bee7e6304953be8c5148532bff4c5f<>res://.godot/imported/jetpack_guy_boost.png-cadc52106f759657592e0821f671385f.ctex::
+jetpack_guy_idle.png::CompressedTexture2D/CompressedTexture2D::6577508301592111134::1742239958::1742240033::1::::<><><>0<>0<>34677f8c3efb6f2e80aefaa6d8d9df7d<>res://.godot/imported/jetpack_guy_idle.png-6bbbd5809255eb1b4ed4b768b339f9b6.ctex::
+jetpack_guy_jump.png::CompressedTexture2D/CompressedTexture2D::4815225027963474948::1742239958::1742240033::1::::<><><>0<>0<>8151bacbc503696609c4ee9e674d4c89<>res://.godot/imported/jetpack_guy_jump.png-7a34f607ead3283ff1a25d8ee4745378.ctex::
+::res://Scenes/Levels/Assets/main_character/main_character/mob_guy/::1742239958
+mobster_guy_idle.png::CompressedTexture2D/CompressedTexture2D::7997231916450978475::1742239958::1742240033::1::::<><><>0<>0<>c43f75c649886ea033861d6cb1170625<>res://.godot/imported/mobster_guy_idle.png-ff3cafe9b6e30ccd868b05d2e0448522.ctex::
+mobster_guy_walk.png::CompressedTexture2D/CompressedTexture2D::5927167859388884969::1742239958::1742240033::1::::<><><>0<>0<>5759cfe186081ef14521b4e9d09d48f2<>res://.godot/imported/mobster_guy_walk.png-a5c7b4f83cbb481a8e73b37df7f106a5.ctex::
+mob_guy_attack.png::CompressedTexture2D/CompressedTexture2D::7476938011049116464::1742239958::1742240033::1::::<><><>0<>0<>e51058634137a2607e733806548bf84f<>res://.godot/imported/mob_guy_attack.png-5ff0c2fc9e4b691d7f1a0f9aa25f21d8.ctex::
+::res://Scenes/Levels/Assets/main_character/main_character/mob_guy/ase/::1742239958
+::res://Scenes/Levels/Assets/main_character/main_character/pir8_guy/::1742239959
+pir8-walk-sheet.png::CompressedTexture2D/CompressedTexture2D::5210634606565885776::1742239959::1742240033::1::::<><><>0<>0<>5d9081082cc5c942b06c0480fc4ab50c<>res://.godot/imported/pir8-walk-sheet.png-3ca7c2a038db759185b3e38b5ce2f282.ctex::
+pir8_guy_idle.png::CompressedTexture2D/CompressedTexture2D::9052841791238389888::1742239959::1742240033::1::::<><><>0<>0<>c5d10d3576c8f2c4489d6c6ad0c50c56<>res://.godot/imported/pir8_guy_idle.png-f3c9b575ca7201f0c711ebc62c339e00.ctex::
+pir8_guy_jump.png::CompressedTexture2D/CompressedTexture2D::6538380926605413190::1742239959::1742240033::1::::<><><>0<>0<>a710cc80d7fc63beba74e834a1cb7c25<>res://.godot/imported/pir8_guy_jump.png-d045ae3b7dadac69500fdc6e10bee8d9.ctex::
+pir8_swing sword.png::CompressedTexture2D/CompressedTexture2D::4111394573559828750::1742239959::1742240033::1::::<><><>0<>0<>4d0c90ea83201d2fe8d7113a80c107bc<>res://.godot/imported/pir8_swing sword.png-7360fe11fd490091dc3751e018dbba99.ctex::
+::res://Scenes/Levels/Assets/main_character/main_character/pir8_guy/ase/::1742239959
+::res://Scenes/Levels/Assets/projectiles/::1742239959
+projectile_test.png::CompressedTexture2D/CompressedTexture2D::8183223080389446045::1742239959::1742240033::1::::<><><>0<>0<>5271d096e4ec027dedd78f4aae6b5b2f<>res://.godot/imported/projectile_test.png-722fc30c1355f996ccf1646de59fa899.ctex::
+::res://Scenes/Levels/boss_level1/::1742239959
+boss_level1.tscn::PackedScene::5282051267894545391::1742239959::0::1::::<><><>0<>0<><>::uid://bvc1ey4i1hll4::::res://Scenes/Levels/levels_init.tscn<>uid://d1mod1rkg3nfr::::res://Scenes/Levels/boss_level1/Backgrounds/future_skyline.png<>uid://rdeotwq42lke::::res://Scenes/Levels/prehistoric_level/Platforms/tileset-1.png<>uid://maeh628bsf4r::::res://Scenes/Levels/finish_flag.tscn<>uid://ydeqcyxdxc5v::::res://Scenes/Player/abilities/jetpack.tscn
+::res://Scenes/Levels/boss_level1/Backgrounds/::1742239959
+future_skyline.png::CompressedTexture2D/CompressedTexture2D::9009801306329574447::1742239959::1742240034::1::::<><><>0<>0<>dae5755cadd5eaeb8f02b4812ec40ceb<>res://.godot/imported/future_skyline.png-b6b92fcd1b551b7c9b85dea704e1e02f.ctex::
+::res://Scenes/Levels/boss_level2/::1742239959
+boss_level2.tscn::PackedScene::7475482025240898554::1742239959::0::1::::<><><>0<>0<><>::uid://bvc1ey4i1hll4::::res://Scenes/Levels/levels_init.tscn<>uid://d1mod1rkg3nfr::::res://Scenes/Levels/boss_level1/Backgrounds/future_skyline.png<>uid://rdeotwq42lke::::res://Scenes/Levels/prehistoric_level/Platforms/tileset-1.png<>uid://bhuh17n8igrl6::::res://Scenes/Player/caveman_player.tscn<>uid://maeh628bsf4r::::res://Scenes/Levels/finish_flag.tscn
+::res://Scenes/Levels/boss_level2/Backgrounds/::1742239959
+future_skyline.png::CompressedTexture2D/CompressedTexture2D::22876006194390126::1742239959::1742240034::1::::<><><>0<>0<>93ddb01515180ec7a350e22f65529f76<>res://.godot/imported/future_skyline.png-fabea08f7a97488c81a1cf425bdd5123.ctex::
+::res://Scenes/Levels/medieval_level/::1742239959
+medieval_level.tscn::PackedScene::6090559013936174147::1742239959::0::1::::<><><>0<>0<><>::uid://bvc1ey4i1hll4::::res://Scenes/Levels/levels_init.tscn<>uid://b48ekgcui0aw0::::res://Scenes/Levels/medieval_level/Backgrounds/Parallax/1.png<>uid://d0dt0o3mml7e8::::res://Scenes/Levels/medieval_level/Backgrounds/Parallax/2.png<>uid://rdeotwq42lke::::res://Scenes/Levels/prehistoric_level/Platforms/tileset-1.png<>uid://bhuh17n8igrl6::::res://Scenes/Player/caveman_player.tscn<>uid://b0i5mhviadn7x::::res://Scenes/Levels/medieval_level/Backgrounds/Parallax/3.png<>uid://r1wpygxn2bcu::::res://Scenes/Levels/medieval_level/Backgrounds/Parallax/5.png<>uid://cr343cfrjnu4h::::res://Scenes/Levels/medieval_level/Backgrounds/Parallax/6.png<>uid://10slmonadict::::res://Scenes/Levels/mobster_level/tile_set_castle.png<>uid://maeh628bsf4r::::res://Scenes/Levels/finish_flag.tscn<>uid://doectbfr0g1g::::res://Scenes/UI Elements/health_interface.tscn
+::res://Scenes/Levels/medieval_level/Backgrounds/::1742239959
+::res://Scenes/Levels/medieval_level/Backgrounds/Parallax/::1742239959
+1.png::CompressedTexture2D/CompressedTexture2D::4490282660140219853::1742239959::1742240034::1::::<><><>0<>0<>1746e6979febdfb92d58c93c917480cd<>res://.godot/imported/1.png-ccea97fd565b62d96c1c98e034c93d66.ctex::
+2.png::CompressedTexture2D/CompressedTexture2D::8921375322145633601::1742239959::1742240034::1::::<><><>0<>0<>e9be3841b2e68a12fde029458873ac0d<>res://.godot/imported/2.png-60bdeb2bd29c1d3ea864f1c9e1c133c4.ctex::
+3.png::CompressedTexture2D/CompressedTexture2D::4159500136454202723::1742239959::1742240034::1::::<><><>0<>0<>4af9c37b3807f83e63e94f3de101830f<>res://.godot/imported/3.png-bff0b99a366651a7e5278525598cf872.ctex::
+4.png::CompressedTexture2D/CompressedTexture2D::2646959406506719709::1742239959::1742240034::1::::<><><>0<>0<>5ecc24d330a349e4c824f84f9f6c90bb<>res://.godot/imported/4.png-2099b8dc7c817304393f3e897e5142cf.ctex::
+5.png::CompressedTexture2D/CompressedTexture2D::1248247995094219876::1742239959::1742240034::1::::<><><>0<>0<>5a713f01c8b4c58051ecf8cf6fa2f0fa<>res://.godot/imported/5.png-e611b8e16c62d42ae58c978d63c1516b.ctex::
+6.png::CompressedTexture2D/CompressedTexture2D::6025665194921677577::1742239959::1742240034::1::::<><><>0<>0<>79ba074b738241457d9b0732a0286e6b<>res://.godot/imported/6.png-f345f60ebe08ed695e6ace171f93bc34.ctex::
+::res://Scenes/Levels/medieval_level/Platforms/::1742239959
+tileset-1.png::CompressedTexture2D/CompressedTexture2D::6201868189605661150::1742239959::1742240034::1::::<><><>0<>0<>ed41a27d5ba6b220727023ea6e9490df<>res://.godot/imported/tileset-1.png-cc7a7275108d705a1e0eed4d912f4fc2.ctex::
+::res://Scenes/Levels/mobster_level/::1742239959
+DungeonTileSet.png::CompressedTexture2D/CompressedTexture2D::7837510123164669284::1742239959::1742240034::1::::<><><>0<>0<>03411c040a52fa86153608522a528d06<>res://.godot/imported/DungeonTileSet.png-f79d61991455c5af5fd0bac392107369.ctex::
+mobster_level.tscn::PackedScene::5082098233360361764::1742239959::0::1::::<><><>0<>0<><>::uid://bvc1ey4i1hll4::::res://Scenes/Levels/levels_init.tscn<>uid://dx25l4iuqa78r::::res://Scenes/Levels/mobster_level/Backgrounds/retro_skyline (1).png<>uid://rdeotwq42lke::::res://Scenes/Levels/prehistoric_level/Platforms/tileset-1.png<>uid://10slmonadict::::res://Scenes/Levels/mobster_level/tile_set_castle.png<>uid://w4hdfehswl2e::::res://Scenes/Player/abilities/mobster.tscn<>uid://maeh628bsf4r::::res://Scenes/Levels/finish_flag.tscn
+tile_set_castle.png::CompressedTexture2D/CompressedTexture2D::1877632580541337903::1742239959::1742240034::1::::<><><>0<>0<>f4c1ff1c3af7c3581ab9b1b4e71fec22<>res://.godot/imported/tile_set_castle.png-2c28af9a04c9318d1c13933db09d63a3.ctex::
+::res://Scenes/Levels/mobster_level/Backgrounds/::1742239959
+retro_skyline (1).png::CompressedTexture2D/CompressedTexture2D::8831186344095327219::1742239959::1742240034::1::::<><><>0<>0<>97640a3fd75923d0f47caced56c31b6d<>res://.godot/imported/retro_skyline (1).png-31fadc84786bf300dd2d00679ef3a051.ctex::
+::res://Scenes/Levels/Pause_L/::1742239959
+pause_l.gd::GDScript::2018323758470941314::1742239959::0::1::::<>Control<><>0<>0<><>::
+pause_L.tscn::PackedScene::8169817026820934402::1742239959::0::1::::<><><>0<>0<><>::uid://30xq6av5i1go::::res://Scenes/Levels/Pause_L/pause_l.gd<>uid://8s63b8vpye2k::::res://Shaders/blur.gdshader<>uid://d1sqem5jrihnp::::res://Assets/PIXEARG_.TTF
+::res://Scenes/Levels/pirate_level/::1742239959
+pirate_level.tscn::PackedScene::8242672631309151794::1742239959::0::1::::<><><>0<>0<><>::uid://bvc1ey4i1hll4::::res://Scenes/Levels/levels_init.tscn<>uid://b3eerax1eg1eg::::res://Scenes/Levels/pirate_level/Backgrounds/4.png<>uid://rdeotwq42lke::::res://Scenes/Levels/prehistoric_level/Platforms/tileset-1.png<>uid://cj48ve1kyf8ed::::res://Scenes/Player/abilities/pirate.tscn<>uid://be0u1exp8ias8::::res://Scenes/Levels/pirate_level/shipentry.gd<>uid://bjpy6ftwss1wq::::res://Scenes/Levels/pirate_level/Items/ship.png
+room1.tscn::PackedScene::6797021183673317383::1742239959::0::1::::<><><>0<>0<><>::uid://355rdgj0y3bw::::res://Scenes/Levels/pirate_level/Backgrounds/room1.jpg<>uid://cj48ve1kyf8ed::::res://Scenes/Player/abilities/pirate.tscn<>uid://maeh628bsf4r::::res://Scenes/Levels/finish_flag.tscn
+shipentry.gd::GDScript::2720046518943429237::1742239959::0::1::::<>Area2D<><>0<>0<><>::
+tileset-1.png::CompressedTexture2D/CompressedTexture2D::4258362434997699664::1742239959::1742240033::1::::<><><>0<>0<>f3eb8fb53499e76c97e9d5492679bd10<>res://.godot/imported/tileset-1.png-2c290f2c07f74b6db66ae4a5f8623cbb.ctex::
+::res://Scenes/Levels/pirate_level/Backgrounds/::1742239959
+4.png::CompressedTexture2D/CompressedTexture2D::4360239079759129958::1742239959::1742240034::1::::<><><>0<>0<>49f5a6998b05789f3cfd7587ddd8201f<>res://.godot/imported/4.png-855ce2ef019a04081a815c596cc0f71c.ctex::
+35.png::CompressedTexture2D/CompressedTexture2D::7572403685826885682::1742239959::1742240033::1::::<><><>0<>0<>7c51aadafe23bbcb3710f0ce6ef9fae4<>res://.godot/imported/35.png-d65376cf2b96d472fbcc4f7393a3e95d.ctex::
+captainsquarters.jpg::CompressedTexture2D/CompressedTexture2D::6581427258102031673::1742239959::1742240033::1::::<><><>0<>0<>dbc51b2fe2b25dd73a973af621278293<>res://.godot/imported/captainsquarters.jpg-5f2907f43ff5c7d3a1de566293f4663d.ctex::
+room1.jpg::CompressedTexture2D/CompressedTexture2D::2029070990048257048::1742239959::1742240033::1::::<><><>0<>0<>870347081f3d43b1c71e7cbc0fd6e353<>res://.godot/imported/room1.jpg-279fdd3222142e860eb3ebd9da79155a.ctex::
+room2.jpg::CompressedTexture2D/CompressedTexture2D::765705144538446258::1742239959::1742240033::1::::<><><>0<>0<>764d626839dcafd22e40ce2733c15aff<>res://.godot/imported/room2.jpg-0646cc6fad36090d6bc7988ef128b48f.ctex::
+::res://Scenes/Levels/pirate_level/Items/::1742239959
+ship.png::CompressedTexture2D/CompressedTexture2D::3050598803176142356::1742239959::1742240033::1::::<><><>0<>0<>f7b4207d7557b46d47c5dbd2f3d6a51e<>res://.godot/imported/ship.png-0796be64c6184ff52526e28ba1118943.ctex::
+::res://Scenes/Levels/prehistoric_level/::1742239959
+caveentry.gd::GDScript::1115071005782130355::1742239959::0::1::::<>Area2D<><>0<>0<><>::
+cave_scene.tscn::PackedScene::8199248578887779069::1742239959::0::1::::<><><>0<>0<><>::uid://de3tleea2fvsx::::res://Scenes/Levels/prehistoric_level/inside_cave.png<>uid://bhuh17n8igrl6::::res://Scenes/Player/caveman_player.tscn<>uid://doectbfr0g1g::::res://Scenes/UI Elements/health_interface.tscn<>uid://maeh628bsf4r::::res://Scenes/Levels/finish_flag.tscn
+inside_cave.png::CompressedTexture2D/CompressedTexture2D::7498993485649543847::1742239959::1742240033::1::::<><><>0<>0<>1649486ffb9084b9cc16166abb7e0000<>res://.godot/imported/inside_cave.png-41ddc4a577845daac8a24ff04239c140.ctex::
+prehistoric_level.tscn::PackedScene::2875513333716679695::1742239959::0::1::::<><><>0<>0<><>::uid://bvc1ey4i1hll4::::res://Scenes/Levels/levels_init.tscn<>uid://bcopyisjubhch::::res://Scenes/Levels/prehistoric_level/Backgrounds/forest.png<>uid://rdeotwq42lke::::res://Scenes/Levels/prehistoric_level/Platforms/tileset-1.png<>uid://de3tleea2fvsx::::res://Scenes/Levels/prehistoric_level/inside_cave.png<>uid://p5fb6mxtfekx::::res://Scenes/Levels/prehistoric_level/caveentry.gd<>uid://lrvp3e48pqom::::res://Scenes/Player/abilities/boormerang.tscn
+::res://Scenes/Levels/prehistoric_level/Backgrounds/::1742239959
+forest.png::CompressedTexture2D/CompressedTexture2D::2556653721900190799::1742239959::1742240033::1::::<><><>0<>0<>5efe14616a51d5c910d5b286ffc2b4cf<>res://.godot/imported/forest.png-2ce499b0bf9045cd0ce6ed5b0e1b0ce0.ctex::
+inside_cave.png::CompressedTexture2D/CompressedTexture2D::4358476125920309731::1742239959::1742240033::1::::<><><>0<>0<>c9273e6fa8bc37d4daa25137bdd2e8b3<>res://.godot/imported/inside_cave.png-34d03830c482ef240a78f36e9259ec43.ctex::
+::res://Scenes/Levels/prehistoric_level/Backgrounds/parallax/::1742239959
+JnRLayer01.png::CompressedTexture2D/CompressedTexture2D::7283412650771238128::1742239959::1742240033::1::::<><><>0<>0<>1f21e75a4059f8a9b77c98a17f7dbb15<>res://.godot/imported/JnRLayer01.png-7ebb1e0d6d70ca9c0fa565d7614d8e56.ctex::
+JnRLayer02.png::CompressedTexture2D/CompressedTexture2D::5938195778871712896::1742239959::1742240033::1::::<><><>0<>0<>a79cae3bc55f2688836294b624513ba0<>res://.godot/imported/JnRLayer02.png-37ee939a8aa46174acabb6bd7fa33bdd.ctex::
+JnRLayer03.png::CompressedTexture2D/CompressedTexture2D::1776675979193175920::1742239959::1742240033::1::::<><><>0<>0<>ebace0b1dd93b27efcced467d3eac96c<>res://.godot/imported/JnRLayer03.png-36a87ce43e83422a46596ef055f0233c.ctex::
+JnRLayer04.png::CompressedTexture2D/CompressedTexture2D::2584883957190886431::1742239959::1742240033::1::::<><><>0<>0<>fe3221faad81376952e16c691f89eea5<>res://.godot/imported/JnRLayer04.png-0b9d43b43099278b693b9eb8e07baa51.ctex::
+::res://Scenes/Levels/prehistoric_level/Platforms/::1742239959
+tileset-1.png::CompressedTexture2D/CompressedTexture2D::1199672376890608940::1742239959::1742240033::1::::<><><>0<>0<>c42236c7765da75894978ed6b8107f05<>res://.godot/imported/tileset-1.png-1b1da35bceff3892a6d35596e1ae4ebe.ctex::
+::res://Scenes/Levels/Test Level/::1742239959
+world.tscn::PackedScene::-1::1742239959::0::1::::<><><>0<>0<><>::
+::res://Scenes/Levels/Test Level/Pause_L/::1742239959
+pause_l.gd::GDScript::2018323758470941314::1742239959::0::1::::<>Control<><>0<>0<><>::
+pause_L.tscn::PackedScene::8169817026820934402::1742239959::0::1::::<><><>0<>0<><>::uid://30xq6av5i1go::::res://Scenes/Levels/Pause_L/pause_l.gd<>uid://8s63b8vpye2k::::res://Shaders/blur.gdshader<>uid://d1sqem5jrihnp::::res://Assets/PIXEARG_.TTF
+::res://Scenes/Levels/tutorial/::1742239959
+pixel-cityscape-8-bit-pixel-art-game-landscape-vector.jpg::CompressedTexture2D/CompressedTexture2D::6706172948532405839::1742239959::1742240034::1::::<><><>0<>0<>396ece1ab02fd280104ce37ea3ed146b<>res://.godot/imported/pixel-cityscape-8-bit-pixel-art-game-landscape-vector.jpg-de04f119d30dd118640cfcf977af888a.ctex::
+tutorial.tscn::PackedScene::941456890317212371::1742239959::0::1::::<><><>0<>0<><>::uid://bvc1ey4i1hll4::::res://Scenes/Levels/levels_init.tscn<>uid://c2srxod2p76rb::::res://Scenes/Levels/tutorial/pixel-cityscape-8-bit-pixel-art-game-landscape-vector.jpg<>uid://rdeotwq42lke::::res://Scenes/Levels/prehistoric_level/Platforms/tileset-1.png<>uid://10slmonadict::::res://Scenes/Levels/mobster_level/tile_set_castle.png<>uid://bhuh17n8igrl6::::res://Scenes/Player/caveman_player.tscn<>uid://maeh628bsf4r::::res://Scenes/Levels/finish_flag.tscn<>uid://doectbfr0g1g::::res://Scenes/UI Elements/health_interface.tscn
+::res://Scenes/Levels/western_level/::1742239959
+western_level.tscn::PackedScene::4155514197526538039::1742239959::0::1::::<><><>0<>0<><>::uid://bvc1ey4i1hll4::::res://Scenes/Levels/levels_init.tscn<>uid://spghtxm3dfef::::res://Scenes/Levels/western_level/Backgrounds/western_horizon.png<>uid://rdeotwq42lke::::res://Scenes/Levels/prehistoric_level/Platforms/tileset-1.png<>uid://crlimuealucd::::res://Scenes/Player/abilities/cowboy.tscn<>uid://maeh628bsf4r::::res://Scenes/Levels/finish_flag.tscn
+::res://Scenes/Levels/western_level/Backgrounds/::1742239959
+western_horizon.png::CompressedTexture2D/CompressedTexture2D::1294742688366333241::1742239959::1742240033::1::::<><><>0<>0<>e45dcac6aa8f6b724b49ad17c37b41d3<>res://.godot/imported/western_horizon.png-d3415a1236b84ea46e44c7fc969483ba.ctex::
+::res://Scenes/Main Menu/::1742239959
+main_menu.gd::GDScript::7530354966742021379::1742239959::0::1::::<>Control<><>0<>0<><>::
+main_menu.tscn::PackedScene::7366535197041381205::1742239959::0::1::::<><><>0<>0<><>::uid://dfj031diylm3d::::res://Scenes/Main Menu/main_menu.gd<>uid://ba6rpb5mfsgbb::::res://Assets/bootstrap logo spritesheet.png<>uid://c33lfkygyq2d3::::res://Assets/PIXEARG_.TTF<>uid://cyefa57w363sb::::res://Assets/mainmenubg.png
+::res://Scenes/Player/::1742239959
+caveman_player.tscn::PackedScene::2919503296171393385::1742239959::0::1::::<><><>0<>0<><>::uid://c05opcqarr3iu::::res://Scenes/Player/player.gd<>uid://dwug7kr3uu85n::::res://Assets/idle.png
+hitbox.tscn::PackedScene::8834951597504734315::1742239959::0::1::::<><><>0<>0<><>::uid://cuf38pceovqgq::::res://Scenes/UniversalScripts/hitbox.gd
+player.gd::GDScript::6590370745553098412::1742239959::0::1::::<>CharacterBody2D<><>0<>0<><>::
+player.tscn::PackedScene::7340245419895725799::1742239959::0::1::::<><><>0<>0<><>::uid://c05opcqarr3iu::::res://Scenes/Player/player.gd<>uid://dwug7kr3uu85n::::res://Assets/idle.png
+universal_hitbox.tscn::PackedScene::6216764484512782331::1742239959::0::1::::<><><>0<>0<><>::uid://dx4ymkqm0rv1l::::res://Scenes/Player/hitbox.tscn
+::res://Scenes/Player/abilities/::1742239959
+boormerang.gd::GDScript::6525443619935360219::1742239959::0::1::::<>CharacterBody2D<><>0<>0<><>::
+boormerang.tscn::PackedScene::808475023789398224::1742239959::0::1::::<><><>0<>0<><>::uid://cy78drd6rwl7p::::res://Scenes/Player/abilities/boormerang.gd<>uid://doectbfr0g1g::::res://Scenes/UI Elements/health_interface.tscn<>uid://boexrsemck1eg::::res://Scenes/Levels/Assets/caveman_form.png
+cowboy.gd::GDScript::8182940770760078974::1742239959::0::1::::<>CharacterBody2D<><>0<>0<><>::
+cowboy.tscn::PackedScene::176154943725238511::1742239959::0::1::::<><><>0<>0<><>::uid://dot43r3frgnkw::::res://Scenes/Player/abilities/cowboy.gd<>uid://cxref18w75kfe::::res://Scenes/Levels/Assets/GL Spritework/main_character/cowboy_guy/cowboy_guy_attack.png<>uid://dks7h3bvqa5ep::::res://Scenes/Levels/Assets/main_character/main_character/cowboy_guy/cowboy_guy_jump.png<>uid://doectbfr0g1g::::res://Scenes/UI Elements/health_interface.tscn<>uid://br4ebbex1txkq::::res://Scenes/Levels/Assets/main_character/main_character/cowboy_guy/cowboy_guy_idle.png<>uid://cge1rvoxjsvg3::::res://Scenes/Levels/Assets/main_character/main_character/cowboy_guy/cowboy_guy_walk.png
+jetpack.gd::GDScript::2206249342100259024::1742239959::0::1::::<>CharacterBody2D<><>0<>0<><>::
+jetpack.tscn::PackedScene::1690996964420438113::1742239959::0::1::::<><><>0<>0<><>::uid://6oyusuqmnr0s::::res://Scenes/Player/abilities/jetpack.gd<>uid://doectbfr0g1g::::res://Scenes/UI Elements/health_interface.tscn<>uid://b1v5bggi5uwup::::res://Scenes/Levels/Assets/main_character/main_character/jetpack_guy/jetpack_guy_boost.png<>uid://c0yguopseu1vm::::res://Scenes/Levels/Assets/main_character/main_character/jetpack_guy/jetpack_guy_idle.png<>uid://causb16hnxjuq::::res://Scenes/Levels/Assets/main_character/main_character/jetpack_guy/jetpack_guy_jump.png
+mobster.gd::GDScript::2662611349300721699::1742239959::0::1::::<>CharacterBody2D<><>0<>0<><>::
+mobster.tscn::PackedScene::1604452160374474614::1742239959::0::1::::<><><>0<>0<><>::uid://cnjegw0u0ign5::::res://Scenes/Levels/Assets/GL Spritework/main_character/mob_guy/mob_guy_attack.png<>uid://bd612421bt3h4::::res://Scenes/Player/abilities/mobster.gd<>uid://doectbfr0g1g::::res://Scenes/UI Elements/health_interface.tscn
+pirate.gd::GDScript::4721007997845702561::1742239959::0::1::::<>CharacterBody2D<><>0<>0<><>::
+pirate.tscn::PackedScene::5466449328174499703::1742239959::0::1::::<><><>0<>0<><>::uid://cb6xkendjbrw3::::res://Scenes/Levels/Assets/GL Spritework/main_character/pir8_guy/pir8_swing sword.png<>uid://b8i5kuv6t6h66::::res://Scenes/Player/abilities/pirate.gd<>uid://dtyy585humliw::::res://Scenes/Levels/Assets/GL Spritework/main_character/pir8_guy/pir8-walk-sheet.png<>uid://doectbfr0g1g::::res://Scenes/UI Elements/health_interface.tscn<>uid://d18i8m2mht2ns::::res://Scenes/Levels/Assets/main_character/main_character/pir8_guy/pir8_guy_idle.png<>uid://c0figcpmvmne1::::res://Scenes/Levels/Assets/main_character/main_character/pir8_guy/pir8_guy_jump.png
+::res://Scenes/Player/ui_elements/::1742239959
+hp-bar.png::CompressedTexture2D/CompressedTexture2D::7682377428305317035::1742239959::1742240033::1::::<><><>0<>0<>d3b823e4faf80af576a2c1b8e84a1809<>res://.godot/imported/hp-bar.png-e394f9808c567e1a0396f2e3792dd9db.ctex::
+::res://Scenes/Projectile/::1742239959
+boner.png::CompressedTexture2D/CompressedTexture2D::5828460684710546034::1742239959::1742240033::1::::<><><>0<>0<>44954338aa0f9e583e2623c80ef1efc8<>res://.godot/imported/boner.png-7ce00e43a5b58b9c43920a23fb3f55b7.ctex::
+boomer_proj.gd::GDScript::1348387381296409253::1742239959::0::1::::<>Area2D<><>0<>0<><>::
+boomer_proj.tscn::PackedScene::5155078819947066658::1742239959::0::1::::<><><>0<>0<><>::uid://cpbl5pxtnu5oo::::res://Scenes/Projectile/boner.png<>uid://thf0jdqjjhsn::::res://Scenes/Projectile/boomer_proj.gd
+mobster_proj.gd::GDScript::2867141222462355933::1742239959::0::1::::<>Area2D<><>0<>0<><>::
+mobster_proj.tscn::PackedScene::1008609971128230241::1742239959::0::1::::<><><>0<>0<><>::uid://bg34nq8iatpf6::::res://Scenes/Projectile/mobster_proj.gd<>uid://b7d2v26yee4tr::::res://Scenes/Projectile/tommy_projectile.png
+projectile.gd::GDScript::-1::1742239959::0::1::::<>Area2D<><>0<>0<><>::
+projectile.tscn::PackedScene::4312511217814160475::1742239959::0::1::::<><><>0<>0<><>::uid://e26uf03hvg5k::::res://Scenes/Projectile/projectile.gd<>uid://bsgvgafohferd::::res://Scenes/Projectile/projectile_final.png
+projectile_final.png::CompressedTexture2D/CompressedTexture2D::3663491915683241837::1742239959::1742240033::1::::<><><>0<>0<>3e548eb734253d3f55fe20c5e3389216<>res://.godot/imported/projectile_final.png-b78be07fe084e7321cbffddb3bd0739b.ctex::
+tommy_projectile.png::CompressedTexture2D/CompressedTexture2D::4640335140964391723::1742239959::1742240033::1::::<><><>0<>0<>16dc6a9213e904db57b7e34364e1ff6c<>res://.godot/imported/tommy_projectile.png-4e9f6c34a6eac76e0391fdeb746c1228.ctex::
+::res://Scenes/Projectiles/::1742239959
+::res://Scenes/Projectiles/Enemy Projectile/::1742239959
+enemy_projectile.gd::GDScript::8561965448397737212::1742239959::0::1::::<>Area2D<><>0<>0<><>::
+enemy_projectile.tscn::PackedScene::204679894431260272::1742239959::0::1::::<><><>0<>0<><>::uid://b2paouyunf4dj::::res://Scenes/Projectile/player_projectile.tscn<>uid://dt8qk466ko10s::::res://Scenes/Projectile/enemy_projectile.gd
+::res://Scenes/Projectiles/Player Projectile/::1742239959
+player_projectile.gd::GDScript::6205060776298556253::1742239959::0::1::::<>Area2D<><>0<>0<><>::
+player_projectile.tscn::PackedScene::4312511217814160475::1742239959::0::1::::<><><>0<>0<><>::uid://cun1pd0jv7xy8::::res://Scenes/Projectiles/Player Projectile/player_projectile.gd<>uid://daomg8me78y2g::::res://Assets/projectiles/projectile_test.png
+::res://Scenes/UI Elements/::1742239959
+health_interface.gd::GDScript::4286411570876340236::1742239959::0::1::::<>Control<><>0<>0<><>::
+health_interface.tscn::PackedScene::239715258769152074::1742239959::0::1::::<><><>0<>0<><>::uid://b2cmtpuprg0ls::::res://Scenes/UI Elements/health_interface.gd<>uid://dhpnvsyii4bb4::::res://Scenes/Player/ui_elements/hp-bar.png
+::res://Scenes/UniversalScripts/::1742239959
+hitbox.gd::GDScript::6188699927054626724::1742239959::0::1::::<>Area2D<><>0<>0<><>::
+::res://Shaders/::1742239959
+blur.gdshader::Shader::2355322973110275776::1742239959::0::1::::<><><>0<>0<><>::

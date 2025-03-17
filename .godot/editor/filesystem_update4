@@ -11,3 +11,5 @@ res://Scenes/Main Menu/main_menu.tscn
 res://Scenes/Player/player.gd
 res://Scenes/Levels/prehistoric_level/cave_scene.tscn
 res://Scenes/Levels/western_level/western_level.tscn
+res://Assets/finish_flag.gd
+res://Scenes/Levels/finish_flag.tscn

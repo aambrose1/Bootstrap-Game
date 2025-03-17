@@ -3,7 +3,6 @@
 [ext_resource type="Script" uid="uid://kwxpqtre8ie2" path="res://Assets/finish_flag.gd" id="1_j1hae"]
 [ext_resource type="Texture2D" uid="uid://bqy5cp0uuye5q" path="res://Assets/pixel-art-red-flag-icon-png.png" id="2_l6708"]
 
-
 [sub_resource type="CircleShape2D" id="CircleShape2D_7yoef"]
 radius = 33.0
 
