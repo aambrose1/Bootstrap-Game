@@ -1,8 +1,7 @@
-[gd_scene load_steps=6 format=3 uid="uid://do21oqwfcq4jx"]
+[gd_scene load_steps=5 format=3 uid="uid://bxchp1h7ytf31"]
 
 [ext_resource type="Texture2D" uid="uid://de3tleea2fvsx" path="res://Scenes/Levels/prehistoric_level/inside_cave.png" id="1_gkqq7"]
-[ext_resource type="PackedScene" uid="uid://bhuh17n8igrl6" path="res://Scenes/Player/caveman_player.tscn" id="2_r1dqn"]
-[ext_resource type="PackedScene" uid="uid://doectbfr0g1g" path="res://Scenes/UI Elements/health_interface.tscn" id="3_m63i7"]
+[ext_resource type="PackedScene" uid="uid://lrvp3e48pqom" path="res://Scenes/Player/abilities/boormerang.tscn" id="3_m63i7"]
 [ext_resource type="PackedScene" uid="uid://maeh628bsf4r" path="res://Scenes/Levels/finish_flag.tscn" id="3_r1dqn"]
 
 [sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_m63i7"]
@@ -15,21 +14,6 @@ position = Vector2(501.778, 284.313)
 scale = Vector2(2.07176, 2.07176)
 texture = ExtResource("1_gkqq7")
 
-[node name="StaticBody2D" type="StaticBody2D" parent="."]
-position = Vector2(91, 240)
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
-position = Vector2(201, 31)
-shape = SubResource("WorldBoundaryShape2D_m63i7")
-
-[node name="Player1" parent="." instance=ExtResource("2_r1dqn")]
-position = Vector2(61, 108)
-scale = Vector2(1.8, 1.8)
-
-[node name="CanvasLayer" type="CanvasLayer" parent="Player1"]
-
-[node name="Health Interface" parent="Player1/CanvasLayer" instance=ExtResource("3_m63i7")]
-
 [node name="Camera2D" type="Camera2D" parent="."]
 position = Vector2(61, 108)
 zoom = Vector2(1.2, 1.5)
@@ -40,3 +24,16 @@ limit_bottom = 560
 
 [node name="finish flag" parent="." instance=ExtResource("3_r1dqn")]
 position = Vector2(963, 440)
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+position = Vector2(91, 240)
+collision_layer = 0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(201, 31)
+shape = SubResource("WorldBoundaryShape2D_m63i7")
+
+[node name="Boomerang" parent="." instance=ExtResource("3_m63i7")]
+position = Vector2(415, 353)
+
+[node name="Camera2D2" type="Camera2D" parent="Boomerang"]
