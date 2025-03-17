@@ -192,11 +192,11 @@ animations = [{
 "speed": 8.0
 }]
 
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_2rgoh"]
-size = Vector2(23, 25)
-
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_n5pkj"]
 size = Vector2(20, 37)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_2rgoh"]
+size = Vector2(23, 25)
 
 [node name="Pirate" type="CharacterBody2D" groups=["player"]]
 script = ExtResource("1_dvlba")
@@ -206,15 +206,6 @@ position = Vector2(1, -29)
 sprite_frames = SubResource("SpriteFrames_aew2q")
 animation = &"attack"
 autoplay = "idle"
-
-[node name="Hitbox" type="Area2D" parent="AnimatedSprite2D" groups=["hitboxes"]]
-position = Vector2(-7, 26)
-monitoring = false
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="AnimatedSprite2D/Hitbox"]
-position = Vector2(30.5, -16.5)
-shape = SubResource("RectangleShape2D_2rgoh")
-debug_color = Color(0.952413, 0.206507, 0.192456, 0.42)
 
 [node name="Hurtbox" type="Area2D" parent="." groups=["hurtboxes"]]
 
@@ -240,5 +231,24 @@ position = Vector2(0, -18.5)
 shape = SubResource("RectangleShape2D_n5pkj")
 debug_color = Color(0, 0.607676, 0.653407, 0.42)
 
+[node name="Hitbox1" type="Area2D" parent="." groups=["hitboxes"]]
+position = Vector2(-6, -3)
+monitoring = false
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Hitbox1"]
+position = Vector2(30.5, -16.5)
+shape = SubResource("RectangleShape2D_2rgoh")
+debug_color = Color(0.952413, 0.206507, 0.192456, 0.42)
+
+[node name="Hitbox2" type="Area2D" parent="." groups=["hitboxes"]]
+position = Vector2(-6, -3)
+monitoring = false
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Hitbox2"]
+position = Vector2(-30.5, -16.5)
+shape = SubResource("RectangleShape2D_2rgoh")
+debug_color = Color(0.952413, 0.206507, 0.192456, 0.42)
+
 [connection signal="animation_finished" from="AnimatedSprite2D" to="." method="_on_animated_sprite_2d_animation_finished"]
-[connection signal="area_entered" from="AnimatedSprite2D/Hitbox" to="." method="_on_hitbox_area_entered"]
+[connection signal="area_entered" from="Hitbox1" to="." method="_on_hitbox_area_entered"]
+[connection signal="area_entered" from="Hitbox2" to="." method="_on_hitbox_area_entered"]
