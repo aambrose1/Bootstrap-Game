@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://d4l0qck0is07c"]
+
+[ext_resource type="PackedScene" uid="uid://bhq5di360bpq" path="res://Scenes/Hub World/NPCs/npc.tscn" id="1_n5xdt"]
+
+[node name="NPC" instance=ExtResource("1_n5xdt")]
+
+[node name="NPC_SPRITE" parent="." index="0"]
+animation = &"Dude"

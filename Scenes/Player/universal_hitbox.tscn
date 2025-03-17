@@ -1,0 +1,5 @@
+[gd_scene load_steps=2 format=3 uid="uid://cutpg5obh8pe6"]
+
+[ext_resource type="PackedScene" uid="uid://dx4ymkqm0rv1l" path="res://Scenes/Player/hitbox.tscn" id="1_sfb3b"]
+
+[node name="hitbox" instance=ExtResource("1_sfb3b")]

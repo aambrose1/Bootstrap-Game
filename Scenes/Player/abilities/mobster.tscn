@@ -1,0 +1,139 @@
+[gd_scene load_steps=16 format=3 uid="uid://w4hdfehswl2e"]
+
+[ext_resource type="Texture2D" uid="uid://cnjegw0u0ign5" path="res://Scenes/Levels/Assets/GL Spritework/main_character/mob_guy/mob_guy_attack.png" id="1_m02ve"]
+[ext_resource type="Script" uid="uid://bd612421bt3h4" path="res://Scenes/Player/abilities/mobster.gd" id="1_yp0jr"]
+[ext_resource type="PackedScene" uid="uid://doectbfr0g1g" path="res://Scenes/UI Elements/health_interface.tscn" id="3_tmhro"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_yp0jr"]
+atlas = ExtResource("1_m02ve")
+region = Rect2(0, 0, 75, 53)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_tmhro"]
+atlas = ExtResource("1_m02ve")
+region = Rect2(75, 0, 75, 53)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3bnbx"]
+atlas = ExtResource("1_m02ve")
+region = Rect2(150, 0, 75, 53)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_aokcd"]
+atlas = ExtResource("1_m02ve")
+region = Rect2(225, 0, 75, 53)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qag20"]
+atlas = ExtResource("1_m02ve")
+region = Rect2(300, 0, 75, 53)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2wqng"]
+atlas = ExtResource("1_m02ve")
+region = Rect2(375, 0, 75, 53)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vjwk6"]
+atlas = ExtResource("1_m02ve")
+region = Rect2(375, 0, 75, 53)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_gnkl0"]
+atlas = ExtResource("1_m02ve")
+region = Rect2(375, 0, 75, 53)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_f5xo7"]
+atlas = ExtResource("1_m02ve")
+region = Rect2(375, 0, 75, 53)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_gkoih"]
+atlas = ExtResource("1_m02ve")
+region = Rect2(375, 0, 75, 53)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_foefp"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_yp0jr")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_tmhro")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3bnbx")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_aokcd")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qag20")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2wqng")
+}],
+"loop": true,
+"name": &"attack",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vjwk6")
+}],
+"loop": true,
+"name": &"fall",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_gnkl0")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_f5xo7")
+}],
+"loop": true,
+"name": &"jump",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_gkoih")
+}],
+"loop": true,
+"name": &"move",
+"speed": 5.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_npyuu"]
+size = Vector2(20, 40)
+
+[node name="mobster" type="CharacterBody2D"]
+script = ExtResource("1_yp0jr")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(11, -27)
+sprite_frames = SubResource("SpriteFrames_foefp")
+animation = &"fall"
+autoplay = "move"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." groups=["hurtboxes"]]
+position = Vector2(1, -20)
+shape = SubResource("RectangleShape2D_npyuu")
+
+[node name="Marker2D" type="Marker2D" parent="."]
+position = Vector2(46, -23)
+
+[node name="PlayerOnScreen" type="VisibleOnScreenNotifier2D" parent="."]
+position = Vector2(1, -18)
+
+[node name="attack_delay" type="Timer" parent="."]
+wait_time = 0.05
+
+[node name="Camera2D" type="Camera2D" parent="."]
+zoom = Vector2(1.565, 1.565)
+
+[node name="Health Interface" parent="Camera2D" instance=ExtResource("3_tmhro")]
+offset_left = -329.0
+offset_top = -173.0
+offset_right = -329.0
+offset_bottom = -173.0
+
+[connection signal="timeout" from="attack_delay" to="." method="_on_attack_delay_timeout"]

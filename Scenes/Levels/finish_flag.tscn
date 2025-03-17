@@ -1,0 +1,26 @@
+[gd_scene load_steps=4 format=3 uid="uid://maeh628bsf4r"]
+
+[ext_resource type="Script" uid="uid://kwxpqtre8ie2" path="res://Assets/finish_flag.gd" id="1_j1hae"]
+[ext_resource type="Texture2D" uid="uid://bqy5cp0uuye5q" path="res://Assets/pixel-art-red-flag-icon-png.png" id="2_l6708"]
+
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_7yoef"]
+radius = 33.0
+
+[node name="finish flag" type="Node2D"]
+
+[node name="flag" type="Area2D" parent="."]
+position = Vector2(32, 19)
+script = ExtResource("1_j1hae")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="flag"]
+position = Vector2(-30, -13)
+shape = SubResource("CircleShape2D_7yoef")
+
+[node name="Pixel-art-red-flag-icon-png" type="Sprite2D" parent="flag/CollisionShape2D"]
+position = Vector2(11, 1)
+scale = Vector2(0.15, 0.15)
+texture = ExtResource("2_l6708")
+
+[connection signal="body_entered" from="flag" to="flag" method="_on_body_entered"]
+[connection signal="body_exited" from="flag" to="flag" method="_on_body_exited"]

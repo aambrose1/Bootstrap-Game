@@ -1,0 +1,13 @@
+CollisionShape2D
+Area2D
+Camera2D
+VisibleOnScreenNotifier2D
+AnimatedSprite2D
+CharacterBody2D
+Timer
+Sprite2D
+Marker2D
+Panel
+Control
+AnimationPlayer
+Player_Overworld

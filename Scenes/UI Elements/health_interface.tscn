@@ -1,0 +1,126 @@
+[gd_scene load_steps=17 format=3 uid="uid://doectbfr0g1g"]
+
+[ext_resource type="Script" uid="uid://b2cmtpuprg0ls" path="res://Scenes/UI Elements/health_interface.gd" id="1_wq4dq"]
+[ext_resource type="Texture2D" uid="uid://dhpnvsyii4bb4" path="res://Scenes/Player/ui_elements/hp-bar.png" id="2_efoof"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_efoof"]
+atlas = ExtResource("2_efoof")
+region = Rect2(576, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_coaqr"]
+atlas = ExtResource("2_efoof")
+region = Rect2(528, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_p7uug"]
+atlas = ExtResource("2_efoof")
+region = Rect2(480, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8t0xg"]
+atlas = ExtResource("2_efoof")
+region = Rect2(432, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_f0ocl"]
+atlas = ExtResource("2_efoof")
+region = Rect2(384, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_l4ibv"]
+atlas = ExtResource("2_efoof")
+region = Rect2(336, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xekop"]
+atlas = ExtResource("2_efoof")
+region = Rect2(288, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_j0c7b"]
+atlas = ExtResource("2_efoof")
+region = Rect2(240, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_i6n7x"]
+atlas = ExtResource("2_efoof")
+region = Rect2(192, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_f760y"]
+atlas = ExtResource("2_efoof")
+region = Rect2(144, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_u300y"]
+atlas = ExtResource("2_efoof")
+region = Rect2(96, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_oiccw"]
+atlas = ExtResource("2_efoof")
+region = Rect2(48, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7fntp"]
+atlas = ExtResource("2_efoof")
+region = Rect2(0, 0, 48, 48)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_p6ygy"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_efoof")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_coaqr")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_p7uug")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8t0xg")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_f0ocl")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_l4ibv")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xekop")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_j0c7b")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_i6n7x")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_f760y")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_u300y")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_oiccw")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7fntp")
+}],
+"loop": true,
+"name": &"health",
+"speed": 5.0
+}]
+
+[node name="Health Interface" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_wq4dq")
+
+[node name="Panel" type="Panel" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 0.056
+anchor_bottom = 0.102
+offset_right = 0.487999
+offset_bottom = -0.0960007
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Panel"]
+position = Vector2(33, 29)
+sprite_frames = SubResource("SpriteFrames_p6ygy")
+animation = &"health"
+frame_progress = 0.203305

@@ -1,0 +1,28 @@
+[gd_scene load_steps=4 format=3 uid="uid://omtwnwav7qvh"]
+
+[ext_resource type="Script" uid="uid://bg34nq8iatpf6" path="res://Scenes/Projectile/mobster_proj.gd" id="1_ag1t2"]
+[ext_resource type="Texture2D" uid="uid://b7d2v26yee4tr" path="res://Scenes/Projectile/tommy_projectile.png" id="2_ag1t2"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_ktmfw"]
+radius = 3.0
+
+[node name="mobster_proj" type="Area2D"]
+scale = Vector2(1.3118, 1.32)
+script = ExtResource("1_ag1t2")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(-4.76837e-07, 0)
+scale = Vector2(0.4375, 0.4375)
+texture = ExtResource("2_ag1t2")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." groups=["hitboxes"]]
+rotation = 1.5708
+shape = SubResource("CircleShape2D_ktmfw")
+
+[node name="Timer" type="Timer" parent="."]
+wait_time = 0.2
+one_shot = true
+autostart = true
+
+[connection signal="area_entered" from="." to="." method="_on_area_entered"]
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]

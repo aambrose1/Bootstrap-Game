@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://bn5bo6e3j15tk"]
+
+[ext_resource type="PackedScene" uid="uid://bhq5di360bpq" path="res://Scenes/Hub World/NPCs/npc.tscn" id="1_veq7k"]
+
+[node name="NPC" instance=ExtResource("1_veq7k")]
+
+[node name="NPC_SPRITE" parent="." index="0"]
+animation = &"ConWork"

@@ -1,0 +1,31 @@
+[gd_scene load_steps=5 format=3 uid="uid://ccgarkj3g5pn2"]
+
+[ext_resource type="PackedScene" uid="uid://dkugcpaetpxup" path="res://Scenes/Enemies/test_dummy/test_dummy.tscn" id="1_fw37y"]
+[ext_resource type="PackedScene" uid="uid://cj48ve1kyf8ed" path="res://Scenes/Player/abilities/pirate.tscn" id="2_6qy4s"]
+
+[sub_resource type="QuadMesh" id="QuadMesh_cyk0f"]
+size = Vector2(1000, 100)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_tq1wo"]
+size = Vector2(1152, 104)
+
+[node name="World" type="Node2D"]
+
+[node name="Platform" type="StaticBody2D" parent="."]
+
+[node name="MeshInstance2D" type="MeshInstance2D" parent="Platform"]
+modulate = Color(0, 1, 0, 1)
+position = Vector2(576, 596)
+scale = Vector2(1.152, 1.04)
+mesh = SubResource("QuadMesh_cyk0f")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Platform"]
+position = Vector2(576, 596)
+shape = SubResource("RectangleShape2D_tq1wo")
+
+[node name="test_dummy" parent="." instance=ExtResource("1_fw37y")]
+position = Vector2(681, 516)
+scale = Vector2(2.875, 2.875)
+
+[node name="Pirate" parent="." instance=ExtResource("2_6qy4s")]
+position = Vector2(420, 483)

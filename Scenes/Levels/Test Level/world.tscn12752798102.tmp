@@ -1,0 +1,46 @@
+[gd_scene load_steps=6 format=3 uid="uid://ccgarkj3g5pn2"]
+
+[ext_resource type="PackedScene" uid="uid://dkugcpaetpxup" path="res://Scenes/Enemies/test_dummy/test_dummy.tscn" id="1_fw37y"]
+[ext_resource type="PackedScene" uid="uid://w4hdfehswl2e" path="res://Scenes/Player/abilities/mobster.tscn" id="2_6qy4s"]
+[ext_resource type="PackedScene" uid="uid://doectbfr0g1g" path="res://Scenes/UI Elements/health_interface.tscn" id="3_6qy4s"]
+
+[sub_resource type="QuadMesh" id="QuadMesh_cyk0f"]
+size = Vector2(1000, 100)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_tq1wo"]
+size = Vector2(1152, 104)
+
+[node name="World" type="Node2D"]
+
+[node name="Platform" type="StaticBody2D" parent="."]
+
+[node name="MeshInstance2D" type="MeshInstance2D" parent="Platform"]
+modulate = Color(0, 1, 0, 1)
+position = Vector2(576, 596)
+scale = Vector2(1.152, 1.04)
+mesh = SubResource("QuadMesh_cyk0f")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Platform"]
+position = Vector2(576, 596)
+shape = SubResource("RectangleShape2D_tq1wo")
+
+[node name="test_dummy" parent="." instance=ExtResource("1_fw37y")]
+position = Vector2(681, 516)
+scale = Vector2(2.875, 2.875)
+
+[node name="mobster" parent="." instance=ExtResource("2_6qy4s")]
+position = Vector2(311, 458)
+
+[node name="Camera2D" type="Camera2D" parent="mobster"]
+position = Vector2(-3, -11)
+
+[node name="Health Interface" parent="mobster/Camera2D" instance=ExtResource("3_6qy4s")]
+anchors_preset = 0
+anchor_right = 0.0
+anchor_bottom = 0.0
+offset_left = -418.0
+offset_top = -322.0
+offset_right = -418.0
+offset_bottom = -322.0
+grow_horizontal = 1
+grow_vertical = 1

@@ -1,0 +1,20 @@
+[gd_scene load_steps=4 format=3 uid="uid://dkugcpaetpxup"]
+
+[ext_resource type="Texture2D" uid="uid://ch2elgm2hto3a" path="res://Scenes/Enemies/test_dummy/test_dummy.png" id="1_sjdxa"]
+[ext_resource type="Script" uid="uid://0w0c04263x17" path="res://Scenes/Enemies/test_dummy/test_dummy.gd" id="2_do60q"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_sjdxa"]
+size = Vector2(12, 12)
+
+[node name="test_dummy" type="Sprite2D"]
+position = Vector2(0, -8)
+texture = ExtResource("1_sjdxa")
+script = ExtResource("2_do60q")
+
+[node name="hurtbox" type="Area2D" parent="." groups=["hurtboxes"]]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="hurtbox"]
+position = Vector2(0, 1)
+shape = SubResource("RectangleShape2D_sjdxa")
+
+[connection signal="area_entered" from="hurtbox" to="." method="_on_hurtbox_area_entered"]

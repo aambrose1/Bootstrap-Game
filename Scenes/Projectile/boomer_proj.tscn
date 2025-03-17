@@ -1,0 +1,28 @@
+[gd_scene load_steps=4 format=3 uid="uid://cfpfnovafswuc"]
+
+[ext_resource type="Texture2D" uid="uid://cpbl5pxtnu5oo" path="res://Scenes/Projectile/boner.png" id="1_b8i7y"]
+[ext_resource type="Script" uid="uid://thf0jdqjjhsn" path="res://Scenes/Projectile/boomer_proj.gd" id="1_vbywp"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_vbywp"]
+size = Vector2(28, 11)
+
+[node name="boomer_proj" type="Area2D"]
+script = ExtResource("1_vbywp")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_b8i7y")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." groups=["hitboxes"]]
+position = Vector2(0, -1.5)
+shape = SubResource("RectangleShape2D_vbywp")
+
+[node name="free" type="Timer" parent="."]
+autostart = true
+
+[node name="turnaround" type="Timer" parent="."]
+wait_time = 0.5
+autostart = true
+
+[connection signal="area_entered" from="." to="." method="_on_area_entered"]
+[connection signal="timeout" from="free" to="." method="_on_timer_timeout"]
+[connection signal="timeout" from="turnaround" to="." method="_on_turnaround_timeout"]
