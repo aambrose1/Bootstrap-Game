@@ -1,7 +1,7 @@
 [gd_scene load_steps=16 format=3 uid="uid://deafooev0v4r2"]
 
 [ext_resource type="Script" uid="uid://bgwfdwdcncy4f" path="res://Scenes/Enemies/shooter_enemy/shooter_enemy.gd" id="1_2k62j"]
-[ext_resource type="Texture2D" uid="uid://difdpeu8x3fnq" path="res://Scenes/Levels/Assets/GL Spritework/main_character/cowboy_guy/cowboy_guy_attack.png" id="2_4f0lp"]
+[ext_resource type="Texture2D" uid="uid://cxref18w75kfe" path="res://Scenes/Levels/Assets/GL Spritework/main_character/cowboy_guy/cowboy_guy_attack.png" id="2_4f0lp"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_mudw3"]
 atlas = ExtResource("2_4f0lp")
@@ -111,7 +111,7 @@ animations = [{
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_rcwnm"]
 size = Vector2(24.5, 40)
 
-[node name="ShooterEnemy" type="CharacterBody2D"]
+[node name="ShooterEnemy" type="CharacterBody2D" groups=["enemies"]]
 script = ExtResource("1_2k62j")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
@@ -119,7 +119,6 @@ position = Vector2(14, -25)
 sprite_frames = SubResource("SpriteFrames_8f47s")
 animation = &"idle"
 autoplay = "idle"
-frame_progress = 0.293685
 
 [node name="PlayerOnScreen" type="VisibleOnScreenNotifier2D" parent="."]
 position = Vector2(-1, -20)

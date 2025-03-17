@@ -17,8 +17,6 @@ var is_unlocked: bool = false
 
 func _physics_process(delta: float) -> void:
 	# Once the player has been on screen at least once, we start tracking
-	update_health()
-	
 	if player_screen_notifier.is_on_screen():
 		first_on_screen = true
 
@@ -59,6 +57,9 @@ func _physics_process(delta: float) -> void:
 
 func take_damage():
 	health -= 1
+	if health == 0:
+		get_tree().change_scene_to_file("res://Scenes/Hub World/hub_city.tscn")
+	update_health()
 	
 func restore_health():
 	health += 1
@@ -78,13 +79,11 @@ func update_animations():
 func attack():
 	attacking = true
 	animated_sprite.play("attack")
-	if animated_sprite.frame == 3 || 4 and animated_sprite.animation == "attack":
+	if (animated_sprite.frame == 3 or animated_sprite.frame == 4) and animated_sprite.animation == "attack":
 		hitbox.monitoring = true
 	else:
 		hitbox.monitoring = false
 
-	
-	
 func update_health():
 	health_ui.update_health(health)
  

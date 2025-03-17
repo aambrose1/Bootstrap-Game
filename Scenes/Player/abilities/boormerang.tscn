@@ -70,7 +70,7 @@ animations = [{
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_c54my"]
 size = Vector2(20, 42)
 
-[node name="Boomerang" type="CharacterBody2D"]
+[node name="Boomerang" type="CharacterBody2D" groups=["player"]]
 position = Vector2(-1, -30)
 script = ExtResource("1_6y7vd")
 
@@ -79,7 +79,7 @@ sprite_frames = SubResource("SpriteFrames_bp42l")
 animation = &"idle"
 autoplay = "idle"
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="." groups=["hurtboxes"]]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(0, 8)
 shape = SubResource("RectangleShape2D_c54my")
 
@@ -94,7 +94,6 @@ position = Vector2(0, 6)
 [node name="Camera2D" type="Camera2D" parent="."]
 position = Vector2(0, 9)
 zoom = Vector2(1.53, 1.53)
-limit_bottom = 600
 
 [node name="Health Interface" parent="Camera2D" instance=ExtResource("1_epgex")]
 offset_left = -348.0
@@ -102,5 +101,11 @@ offset_top = -189.0
 offset_right = -348.0
 offset_bottom = -189.0
 metadata/_edit_use_anchors_ = true
+
+[node name="Hurtbox" type="Area2D" parent="." groups=["hurtboxes"]]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Hurtbox"]
+position = Vector2(0, 8)
+shape = SubResource("RectangleShape2D_c54my")
 
 [connection signal="timeout" from="attack_delay" to="." method="_on_attack_delay_timeout"]

@@ -5,8 +5,13 @@ extends Area2D
 const damage = 1
 var velocity = Vector2()
 const direction: int = -1
+@onready var player_screen_notifier = $PlayerOnScreen
 
 func _physics_process(delta: float) -> void:
+	# Once the player has been on screen at least once, we start tracking
+	if not player_screen_notifier.is_on_screen():
+		return
+	
 	velocity.x = speed * delta * direction
 	translate(velocity)
 
