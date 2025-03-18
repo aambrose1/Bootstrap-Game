@@ -10,7 +10,7 @@
 [sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_di38a"]
 distance = -94.0
 
-[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_4swh0"]
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_3duio"]
 texture = ExtResource("3_q6tgs")
 texture_region_size = Vector2i(32, 32)
 use_texture_padding = false
@@ -652,7 +652,7 @@ use_texture_padding = false
 [sub_resource type="TileSet" id="TileSet_3pv03"]
 tile_size = Vector2i(32, 32)
 physics_layer_0/collision_layer = 1
-sources/1 = SubResource("TileSetAtlasSource_4swh0")
+sources/1 = SubResource("TileSetAtlasSource_3duio")
 
 [node name="boss level 2" instance=ExtResource("1_o6emv")]
 
