@@ -1,8 +1,9 @@
-[gd_scene load_steps=5 format=3 uid="uid://c33r7fnhg7ogd"]
+[gd_scene load_steps=6 format=3 uid="uid://c33r7fnhg7ogd"]
 
 [ext_resource type="Texture2D" uid="uid://355rdgj0y3bw" path="res://Scenes/Levels/pirate_level/Backgrounds/room1.jpg" id="1_l7csh"]
 [ext_resource type="PackedScene" uid="uid://cj48ve1kyf8ed" path="res://Scenes/Player/abilities/pirate.tscn" id="2_ml2pi"]
 [ext_resource type="PackedScene" uid="uid://maeh628bsf4r" path="res://Scenes/Levels/finish_flag.tscn" id="3_ioup3"]
+[ext_resource type="PackedScene" uid="uid://32j23v04ekg6" path="res://Scenes/Enemies/melee_enemy/melee_enemy.tscn" id="4_2r2pg"]
 
 [sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_ioup3"]
 distance = -207.0
@@ -27,3 +28,12 @@ position = Vector2(463, 407)
 [node name="Pirate" parent="." instance=ExtResource("2_ml2pi")]
 position = Vector2(262, 219)
 scale = Vector2(1.035, 1.035)
+
+[node name="Melee Enemy" parent="." instance=ExtResource("4_2r2pg")]
+position = Vector2(-321, 121)
+
+[node name="Melee Enemy2" parent="." instance=ExtResource("4_2r2pg")]
+position = Vector2(682, 169)
+
+[node name="Melee Enemy3" parent="." instance=ExtResource("4_2r2pg")]
+position = Vector2(392, 414)

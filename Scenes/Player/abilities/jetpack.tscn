@@ -147,8 +147,6 @@ shape = SubResource("RectangleShape2D_6g2g4")
 
 [node name="Camera2D" type="Camera2D" parent="."]
 zoom = Vector2(1.5, 1.5)
-limit_left = 100
-limit_top = 0
 limit_bottom = 600
 
 [node name="Health Interface" parent="Camera2D" instance=ExtResource("2_6g2g4")]

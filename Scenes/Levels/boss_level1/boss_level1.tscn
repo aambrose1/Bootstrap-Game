@@ -1,4 +1,4 @@
-[gd_scene load_steps=10 format=4 uid="uid://chiwu3igemidj"]
+[gd_scene load_steps=12 format=4 uid="uid://chiwu3igemidj"]
 
 [ext_resource type="PackedScene" uid="uid://bvc1ey4i1hll4" path="res://Scenes/Levels/levels_init.tscn" id="1_0jl7w"]
 [ext_resource type="Texture2D" uid="uid://d1mod1rkg3nfr" path="res://Scenes/Levels/boss_level1/Backgrounds/future_skyline.png" id="2_0aif3"]
@@ -6,11 +6,13 @@
 [ext_resource type="PackedScene" uid="uid://maeh628bsf4r" path="res://Scenes/Levels/finish_flag.tscn" id="5_ee7ex"]
 [ext_resource type="PackedScene" uid="uid://ydeqcyxdxc5v" path="res://Scenes/Player/abilities/jetpack.tscn" id="5_rxcfy"]
 [ext_resource type="AudioStream" uid="uid://bbioh5l6xg72t" path="res://Scenes/Levels/boss_level1/speed-of-light-173725.mp3" id="6_rxcfy"]
+[ext_resource type="PackedScene" uid="uid://32j23v04ekg6" path="res://Scenes/Enemies/melee_enemy/melee_enemy.tscn" id="7_gd80v"]
+[ext_resource type="PackedScene" uid="uid://deafooev0v4r2" path="res://Scenes/Enemies/shooter_enemy/shooter_enemy.tscn" id="8_2nb86"]
 
 [sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_di38a"]
 distance = -94.0
 
-[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_4swh0"]
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_rxcfy"]
 texture = ExtResource("3_twpss")
 texture_region_size = Vector2i(32, 32)
 use_texture_padding = false
@@ -652,7 +654,7 @@ use_texture_padding = false
 [sub_resource type="TileSet" id="TileSet_3pv03"]
 tile_size = Vector2i(32, 32)
 physics_layer_0/collision_layer = 1
-sources/1 = SubResource("TileSetAtlasSource_4swh0")
+sources/1 = SubResource("TileSetAtlasSource_rxcfy")
 
 [node name="boss level1" instance=ExtResource("1_0jl7w")]
 
@@ -689,3 +691,36 @@ position = Vector2(153, 291)
 [node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="." index="5"]
 stream = ExtResource("6_rxcfy")
 autoplay = true
+
+[node name="Melee Enemy" parent="." index="6" instance=ExtResource("7_gd80v")]
+position = Vector2(2576, 429)
+
+[node name="ShooterEnemy" parent="." index="7" instance=ExtResource("8_2nb86")]
+position = Vector2(2057, 283)
+
+[node name="ShooterEnemy3" parent="." index="8" instance=ExtResource("8_2nb86")]
+position = Vector2(3113, 244)
+
+[node name="ShooterEnemy4" parent="." index="9" instance=ExtResource("8_2nb86")]
+position = Vector2(3730, 496)
+
+[node name="ShooterEnemy5" parent="." index="10" instance=ExtResource("8_2nb86")]
+position = Vector2(5002, 434)
+
+[node name="ShooterEnemy6" parent="." index="11" instance=ExtResource("8_2nb86")]
+position = Vector2(5528, 432)
+
+[node name="ShooterEnemy2" parent="." index="12" instance=ExtResource("8_2nb86")]
+position = Vector2(1320, 377)
+
+[node name="Melee Enemy2" parent="." index="13" instance=ExtResource("7_gd80v")]
+position = Vector2(1575, 165)
+
+[node name="Melee Enemy3" parent="." index="14" instance=ExtResource("7_gd80v")]
+position = Vector2(771, 430)
+
+[node name="Melee Enemy4" parent="." index="15" instance=ExtResource("7_gd80v")]
+position = Vector2(3616, 175)
+
+[node name="Melee Enemy5" parent="." index="16" instance=ExtResource("7_gd80v")]
+position = Vector2(4644, 182)

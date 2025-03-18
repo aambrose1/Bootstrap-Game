@@ -1,4 +1,4 @@
-[gd_scene load_steps=11 format=4 uid="uid://bg76jw4skirv8"]
+[gd_scene load_steps=12 format=4 uid="uid://bg76jw4skirv8"]
 
 [ext_resource type="PackedScene" uid="uid://bvc1ey4i1hll4" path="res://Scenes/Levels/levels_init.tscn" id="1_174j5"]
 [ext_resource type="Texture2D" uid="uid://bcopyisjubhch" path="res://Scenes/Levels/prehistoric_level/Backgrounds/forest.png" id="2_tjcos"]
@@ -7,6 +7,7 @@
 [ext_resource type="PackedScene" uid="uid://maeh628bsf4r" path="res://Scenes/Levels/finish_flag.tscn" id="6_05jn1"]
 [ext_resource type="AudioStream" uid="uid://nb07osq2yi4w" path="res://Scenes/Levels/prehistoric_level/jungle-tribe-action-tribal-drums-192142.mp3" id="7_q866k"]
 [ext_resource type="PackedScene" uid="uid://lrvp3e48pqom" path="res://Scenes/Player/abilities/boormerang.tscn" id="8_it365"]
+[ext_resource type="PackedScene" uid="uid://32j23v04ekg6" path="res://Scenes/Enemies/melee_enemy/melee_enemy.tscn" id="9_alx43"]
 
 [sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_di38a"]
 distance = -207.0
@@ -692,3 +693,18 @@ position = Vector2(3279, 468)
 [node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="." index="6"]
 stream = ExtResource("7_q866k")
 autoplay = true
+
+[node name="Melee Enemy" parent="." index="7" instance=ExtResource("9_alx43")]
+position = Vector2(1014, 272)
+
+[node name="Melee Enemy2" parent="." index="8" instance=ExtResource("9_alx43")]
+position = Vector2(2819, 482)
+
+[node name="Melee Enemy3" parent="." index="9" instance=ExtResource("9_alx43")]
+position = Vector2(3214, 498)
+
+[node name="Melee Enemy4" parent="." index="10" instance=ExtResource("9_alx43")]
+position = Vector2(2359, 477)
+
+[node name="Melee Enemy5" parent="." index="11" instance=ExtResource("9_alx43")]
+position = Vector2(1597, 467)

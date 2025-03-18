@@ -1,4 +1,4 @@
-[gd_scene load_steps=10 format=4 uid="uid://b0g7ygy4cicx8"]
+[gd_scene load_steps=12 format=4 uid="uid://b0g7ygy4cicx8"]
 
 [ext_resource type="PackedScene" uid="uid://bvc1ey4i1hll4" path="res://Scenes/Levels/levels_init.tscn" id="1_g1q8j"]
 [ext_resource type="Texture2D" uid="uid://spghtxm3dfef" path="res://Scenes/Levels/western_level/Backgrounds/western_horizon.png" id="2_mff1m"]
@@ -6,6 +6,8 @@
 [ext_resource type="PackedScene" uid="uid://crlimuealucd" path="res://Scenes/Player/abilities/cowboy.tscn" id="5_1ov3j"]
 [ext_resource type="PackedScene" uid="uid://maeh628bsf4r" path="res://Scenes/Levels/finish_flag.tscn" id="5_toxld"]
 [ext_resource type="AudioStream" uid="uid://dy56i5cs047ef" path="res://Scenes/Levels/western_level/western-loop-epic-cinematic-country-267839.mp3" id="6_1ov3j"]
+[ext_resource type="PackedScene" uid="uid://32j23v04ekg6" path="res://Scenes/Enemies/melee_enemy/melee_enemy.tscn" id="7_21lsq"]
+[ext_resource type="PackedScene" uid="uid://deafooev0v4r2" path="res://Scenes/Enemies/shooter_enemy/shooter_enemy.tscn" id="8_r6isv"]
 
 [sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_di38a"]
 distance = -94.0
@@ -688,3 +690,27 @@ position = Vector2(4082, 374)
 [node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="." index="5"]
 stream = ExtResource("6_1ov3j")
 autoplay = true
+
+[node name="Melee Enemy" parent="." index="6" instance=ExtResource("7_21lsq")]
+position = Vector2(1540, 407)
+
+[node name="Melee Enemy2" parent="." index="7" instance=ExtResource("7_21lsq")]
+position = Vector2(2664, 357)
+
+[node name="Melee Enemy3" parent="." index="8" instance=ExtResource("7_21lsq")]
+position = Vector2(3864, 70)
+
+[node name="ShooterEnemy" parent="." index="9" instance=ExtResource("8_r6isv")]
+position = Vector2(689, 314)
+
+[node name="ShooterEnemy2" parent="." index="10" instance=ExtResource("8_r6isv")]
+position = Vector2(1079, 314)
+
+[node name="ShooterEnemy3" parent="." index="11" instance=ExtResource("8_r6isv")]
+position = Vector2(1939, 209)
+
+[node name="ShooterEnemy4" parent="." index="12" instance=ExtResource("8_r6isv")]
+position = Vector2(2355, 422)
+
+[node name="ShooterEnemy5" parent="." index="13" instance=ExtResource("8_r6isv")]
+position = Vector2(3898, 396)
