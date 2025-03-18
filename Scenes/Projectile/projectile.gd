@@ -30,4 +30,6 @@ func _on_timer_timeout() -> void:
 
 func _on_area_entered(area: Area2D) -> void:
 	if area.is_in_group("hurtboxes"):
-		area.get_parent().take_damage()
+		if area.get_parent().is_in_group("enemies"):
+			area.get_parent().take_damage()
+			queue_free()

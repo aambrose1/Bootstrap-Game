@@ -97,6 +97,9 @@ func update_animations():
 
 func take_damage():
 	health -= 1
+	if health == 0:
+		get_tree().change_scene_to_file("res://Scenes/Hub World/hub_city.tscn")
+	update_health()
 	
 func restore_health():
 	health += 1

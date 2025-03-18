@@ -1,74 +1,38 @@
-<<<<<<< HEAD
-[gd_scene load_steps=7 format=3 uid="uid://ccgarkj3g5pn2"]
+[gd_scene load_steps=7 format=3 uid="uid://b023yjog52omp"]
 
-[ext_resource type="PackedScene" uid="uid://dctw1fya4atf8" path="res://Scenes/Player/player.tscn" id="1_1hfy5"]
-[ext_resource type="PackedScene" uid="uid://c5t2ne2pglko8" path="res://Scenes/Enemies/Melee Enemy/melee_enemy.tscn" id="2_fw37y"]
-[ext_resource type="PackedScene" uid="uid://c2n35oyjjddc5" path="res://Scenes/Enemies/Basic Enemy/basic_enemy.tscn" id="3_6qy4s"]
-[ext_resource type="PackedScene" uid="uid://ccmreuiq6ch8h" path="res://Scenes/Enemies/Shooting Enemy/shooting_enemy.tscn" id="4_ravce"]
-=======
-[gd_scene load_steps=6 format=3 uid="uid://ccgarkj3g5pn2"]
-
-[ext_resource type="PackedScene" uid="uid://dkugcpaetpxup" path="res://Scenes/Enemies/test_dummy/test_dummy.tscn" id="1_fw37y"]
-[ext_resource type="PackedScene" uid="uid://cj48ve1kyf8ed" path="res://Scenes/Player/abilities/pirate.tscn" id="2_6qy4s"]
-[ext_resource type="PackedScene" uid="uid://doectbfr0g1g" path="res://Scenes/UI Elements/health_interface.tscn" id="3_6qy4s"]
->>>>>>> cowboy
+[ext_resource type="PackedScene" uid="uid://deafooev0v4r2" path="res://Scenes/Enemies/shooter_enemy/shooter_enemy.tscn" id="2_fw37y"]
+[ext_resource type="PackedScene" uid="uid://32j23v04ekg6" path="res://Scenes/Enemies/melee_enemy/melee_enemy.tscn" id="3_6qy4s"]
+[ext_resource type="PackedScene" uid="uid://e385ptyhbhga" path="res://Scenes/Enemies/basic_enemy/basic_enemy.tscn" id="4_ravce"]
+[ext_resource type="PackedScene" uid="uid://ydeqcyxdxc5v" path="res://Scenes/Player/abilities/jetpack.tscn" id="4_xsw5i"]
 
 [sub_resource type="QuadMesh" id="QuadMesh_cyk0f"]
 size = Vector2(1000, 100)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_tq1wo"]
-size = Vector2(2474, 104)
+size = Vector2(1152, 104)
 
 [node name="World" type="Node2D"]
 
-<<<<<<< HEAD
-[node name="Player" parent="." instance=ExtResource("1_1hfy5")]
-position = Vector2(547, 520)
-
-[node name="Camera2D" type="Camera2D" parent="Player"]
-limit_bottom = 1000
-
-=======
->>>>>>> cowboy
 [node name="Platform" type="StaticBody2D" parent="."]
 
 [node name="MeshInstance2D" type="MeshInstance2D" parent="Platform"]
 modulate = Color(0, 1, 0, 1)
-position = Vector2(703.5, 596)
-scale = Vector2(2.475, 1.04)
+position = Vector2(576, 596)
+scale = Vector2(1.152, 1.04)
 mesh = SubResource("QuadMesh_cyk0f")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Platform"]
-position = Vector2(703, 596)
+position = Vector2(575, 595)
 shape = SubResource("RectangleShape2D_tq1wo")
 
-<<<<<<< HEAD
-[node name="MeleeEnemy" parent="." instance=ExtResource("2_fw37y")]
-position = Vector2(1412, 514)
+[node name="ShooterEnemy" parent="." instance=ExtResource("2_fw37y")]
+position = Vector2(990, 532)
 
-[node name="BasicEnemy" parent="." instance=ExtResource("3_6qy4s")]
-position = Vector2(1222, 518)
+[node name="Melee Enemy" parent="." instance=ExtResource("3_6qy4s")]
+position = Vector2(731, 529)
 
-[node name="ShootingEnemy" parent="." groups=["enemies"] instance=ExtResource("4_ravce")]
-position = Vector2(1582, 516)
-=======
-[node name="test_dummy" parent="." instance=ExtResource("1_fw37y")]
-position = Vector2(681, 516)
-scale = Vector2(2.875, 2.875)
+[node name="BasicEnemy" parent="." instance=ExtResource("4_ravce")]
+position = Vector2(478, 510)
 
-[node name="Pirate" parent="." instance=ExtResource("2_6qy4s")]
-position = Vector2(480, 538)
-
-[node name="Camera2D" type="Camera2D" parent="Pirate"]
-
-[node name="Health Interface" parent="Pirate/Camera2D" instance=ExtResource("3_6qy4s")]
-anchors_preset = 0
-anchor_right = 0.0
-anchor_bottom = 0.0
-offset_left = -418.0
-offset_top = -322.0
-offset_right = -418.0
-offset_bottom = -322.0
-grow_horizontal = 1
-grow_vertical = 1
->>>>>>> cowboy
+[node name="jetpack" parent="." instance=ExtResource("4_xsw5i")]
+position = Vector2(54, 519)

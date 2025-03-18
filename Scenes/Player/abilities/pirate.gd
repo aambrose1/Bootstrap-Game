@@ -12,13 +12,12 @@ const damage = 1
 var attacking: bool = false
 var is_unlocked: bool = false
 @onready var health_ui: Control = $"Camera2D/Health Interface"
-@onready var hitbox: Area2D = $AnimatedSprite2D/Hitbox
+@onready var hitbox1: Area2D = $Hitbox1
+@onready var hitbox2: Area2D = $Hitbox2
 
 
 func _physics_process(delta: float) -> void:
 	# Once the player has been on screen at least once, we start tracking
-	update_health()
-	
 	if player_screen_notifier.is_on_screen():
 		first_on_screen = true
 
@@ -59,6 +58,9 @@ func _physics_process(delta: float) -> void:
 
 func take_damage():
 	health -= 1
+	if health == 0:
+		get_tree().change_scene_to_file("res://Scenes/Hub World/hub_city.tscn")
+	update_health()
 	
 func restore_health():
 	health += 1
@@ -78,13 +80,17 @@ func update_animations():
 func attack():
 	attacking = true
 	animated_sprite.play("attack")
-	if animated_sprite.frame == 3 || 4 and animated_sprite.animation == "attack":
-		hitbox.monitoring = true
+	if (animated_sprite.frame == 3 or animated_sprite.frame == 4) and animated_sprite.animation == "attack":
+		if animated_sprite.flip_h == false:
+			hitbox1.monitoring = true
+			hitbox2.monitoring = false
+		if animated_sprite.flip_h == true:
+			hitbox1.monitoring = false
+			hitbox2.monitoring = true
 	else:
-		hitbox.monitoring = false
+		hitbox1.monitoring = false
+		hitbox2.monitoring = false
 
-	
-	
 func update_health():
 	health_ui.update_health(health)
  

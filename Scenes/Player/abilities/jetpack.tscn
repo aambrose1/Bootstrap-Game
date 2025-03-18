@@ -124,7 +124,7 @@ size = Vector2(20, 13)
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_6g2g4"]
 size = Vector2(20, 39)
 
-[node name="jetpack" type="CharacterBody2D"]
+[node name="jetpack" type="CharacterBody2D" groups=["player"]]
 script = ExtResource("1_62i0w")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
@@ -133,28 +133,35 @@ sprite_frames = SubResource("SpriteFrames_5v14v")
 animation = &"move"
 autoplay = "idle"
 
-[node name="hitbox" type="Area2D" parent="AnimatedSprite2D" groups=["hitboxes"]]
+[node name="Hitbox" type="Area2D" parent="AnimatedSprite2D" groups=["hitboxes"]]
 monitoring = false
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="AnimatedSprite2D/hitbox"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="AnimatedSprite2D/Hitbox"]
 position = Vector2(0, 38)
 shape = SubResource("RectangleShape2D_x6668")
 debug_color = Color(0.998726, 0.0282396, 1.92523e-07, 0.42)
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="." groups=["hurtboxes"]]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(0, -19)
 shape = SubResource("RectangleShape2D_6g2g4")
 
 [node name="Camera2D" type="Camera2D" parent="."]
+zoom = Vector2(1.565, 1.565)
 
 [node name="Health Interface" parent="Camera2D" instance=ExtResource("2_6g2g4")]
-offset_left = -549.0
-offset_top = -304.0
-offset_right = -549.0
-offset_bottom = -304.0
+offset_left = -353.0
+offset_top = -191.0
+offset_right = -353.0
+offset_bottom = -191.0
 
 [node name="PlayerOnScreen" type="VisibleOnScreenNotifier2D" parent="."]
 position = Vector2(0, -18)
 
+[node name="Hurtbox" type="Area2D" parent="." groups=["hurtboxes"]]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Hurtbox"]
+position = Vector2(0, -19)
+shape = SubResource("RectangleShape2D_6g2g4")
+
 [connection signal="animation_finished" from="AnimatedSprite2D" to="." method="_on_animated_sprite_2d_animation_finished"]
-[connection signal="area_entered" from="AnimatedSprite2D/hitbox" to="." method="_on_hitbox_area_entered"]
+[connection signal="area_entered" from="AnimatedSprite2D/Hitbox" to="." method="_on_hitbox_area_entered"]

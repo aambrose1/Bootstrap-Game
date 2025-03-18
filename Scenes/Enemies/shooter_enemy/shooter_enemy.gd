@@ -7,7 +7,7 @@ extends CharacterBody2D
 @export var health = 1
 const damage = 1
 var attacking: bool = false
-const bullet = preload("res://Scenes/Projectiles/Enemy Projectile/enemy_projectile.tscn")
+const bullet = preload("res://Scenes/Projectile/bullet.tscn")
 
 func _physics_process(delta: float) -> void:
 	# Once the player has been on screen at least once, we start tracking

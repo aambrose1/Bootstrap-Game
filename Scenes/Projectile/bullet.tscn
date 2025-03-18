@@ -1,18 +1,18 @@
-[gd_scene load_steps=4 format=3 uid="uid://b2paouyunf4dj"]
+[gd_scene load_steps=4 format=3 uid="uid://b6tuicd61fpos"]
 
-[ext_resource type="Script" path="res://Scenes/Projectile/projectile.gd" id="1_n41y6"]
-[ext_resource type="Texture2D" uid="uid://bsgvgafohferd" path="res://Scenes/Projectile/projectile_final.png" id="2_wggxw"]
+[ext_resource type="Script" uid="uid://cd40u7kryk7gs" path="res://Scenes/Projectile/bullet.gd" id="1_wkllg"]
+[ext_resource type="Texture2D" uid="uid://bsgvgafohferd" path="res://Scenes/Projectile/projectile_final.png" id="2_named"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_fkmbd"]
 radius = 2.0
 height = 10.0
 
-[node name="Projectile" type="Area2D"]
+[node name="Bullet" type="Area2D"]
 scale = Vector2(1.44573, 1.57844)
-script = ExtResource("1_n41y6")
+script = ExtResource("1_wkllg")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
-texture = ExtResource("2_wggxw")
+texture = ExtResource("2_named")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." groups=["hitboxes"]]
 position = Vector2(0, -1)

@@ -8,7 +8,8 @@ extends CharacterBody2D
 @export var health = 1
 const damage = 1
 var attacking: bool = false
-@onready var hitbox: Area2D = $Hitbox
+@onready var hitbox1: Area2D = $Hitbox1
+@onready var hitbox2: Area2D = $Hitbox2
 
 
 func _physics_process(delta: float) -> void:
@@ -53,9 +54,15 @@ func attack():
 	attacking = true
 	animated_sprite.play("attack")
 	if (animated_sprite.frame == 3 or animated_sprite.frame == 4) and animated_sprite.animation == "attack":
-		hitbox.monitoring = true
+		if animated_sprite.flip_h == false:
+			hitbox1.monitoring = true
+			hitbox2.monitoring = false
+		if animated_sprite.flip_h == true:
+			hitbox1.monitoring = false
+			hitbox2.monitoring = true
 	else:
-		hitbox.monitoring = false
+		hitbox1.monitoring = false
+		hitbox2.monitoring = false
 
 func _on_animated_sprite_2d_animation_finished() -> void:
 	attacking = false

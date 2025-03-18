@@ -19,7 +19,6 @@ enum FORM {DEFAULT, PIRATE, COWBOY, SOLDIER, TOMMY, JET, BOOM}
 
 func _physics_process(delta: float) -> void:
 	# Once the player has been on screen at least once, we start tracking
-	update_health()
 	if player_screen_notifier.is_on_screen():
 		first_on_screen = true
 
@@ -74,6 +73,15 @@ func attack():
 			temp_proj.set_direction(-1)
 		get_parent().add_child(temp_proj)
 		temp_proj.position = $Marker2D.global_position	
+
+func take_damage():
+	health -= 1
+	if health == 0:
+		get_tree().change_scene_to_file("res://Scenes/Hub World/hub_city.tscn")
+	update_health()
+	
+func restore_health():
+	health += 1
 
 func update_form(FORM):
 	pass
