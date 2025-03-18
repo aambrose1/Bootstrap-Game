@@ -1,4 +1,4 @@
-[gd_scene load_steps=5 format=3 uid="uid://bxchp1h7ytf31"]
+[gd_scene load_steps=5 format=3 uid="uid://do21oqwfcq4jx"]
 
 [ext_resource type="Texture2D" uid="uid://de3tleea2fvsx" path="res://Scenes/Levels/prehistoric_level/inside_cave.png" id="1_gkqq7"]
 [ext_resource type="PackedScene" uid="uid://lrvp3e48pqom" path="res://Scenes/Player/abilities/boormerang.tscn" id="3_m63i7"]

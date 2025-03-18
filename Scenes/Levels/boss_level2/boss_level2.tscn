@@ -1,10 +1,11 @@
-[gd_scene load_steps=9 format=4 uid="uid://dergdj4u0n0c1"]
+[gd_scene load_steps=10 format=4 uid="uid://dergdj4u0n0c1"]
 
 [ext_resource type="PackedScene" uid="uid://bvc1ey4i1hll4" path="res://Scenes/Levels/levels_init.tscn" id="1_o6emv"]
 [ext_resource type="Texture2D" uid="uid://d1mod1rkg3nfr" path="res://Scenes/Levels/boss_level1/Backgrounds/future_skyline.png" id="2_7otfp"]
 [ext_resource type="Texture2D" uid="uid://rdeotwq42lke" path="res://Scenes/Levels/prehistoric_level/Platforms/tileset-1.png" id="3_q6tgs"]
 [ext_resource type="PackedScene" uid="uid://bhuh17n8igrl6" path="res://Scenes/Player/caveman_player.tscn" id="4_v2wwg"]
 [ext_resource type="PackedScene" uid="uid://maeh628bsf4r" path="res://Scenes/Levels/finish_flag.tscn" id="5_o11t2"]
+[ext_resource type="AudioStream" uid="uid://cmr4h30h3itwh" path="res://Scenes/Levels/boss_level2/escape-synthwave-retrowave-cyberpunk-186633.mp3" id="6_3duio"]
 
 [sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_di38a"]
 distance = -94.0
@@ -693,3 +694,7 @@ position_smoothing_enabled = true
 
 [node name="finish flag" parent="." index="4" instance=ExtResource("5_o11t2")]
 position = Vector2(5653, 404)
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="." index="5"]
+stream = ExtResource("6_3duio")
+autoplay = true

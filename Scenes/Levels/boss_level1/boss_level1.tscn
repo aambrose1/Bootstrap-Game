@@ -1,10 +1,11 @@
-[gd_scene load_steps=9 format=4 uid="uid://chiwu3igemidj"]
+[gd_scene load_steps=10 format=4 uid="uid://chiwu3igemidj"]
 
 [ext_resource type="PackedScene" uid="uid://bvc1ey4i1hll4" path="res://Scenes/Levels/levels_init.tscn" id="1_0jl7w"]
 [ext_resource type="Texture2D" uid="uid://d1mod1rkg3nfr" path="res://Scenes/Levels/boss_level1/Backgrounds/future_skyline.png" id="2_0aif3"]
 [ext_resource type="Texture2D" uid="uid://rdeotwq42lke" path="res://Scenes/Levels/prehistoric_level/Platforms/tileset-1.png" id="3_twpss"]
 [ext_resource type="PackedScene" uid="uid://maeh628bsf4r" path="res://Scenes/Levels/finish_flag.tscn" id="5_ee7ex"]
 [ext_resource type="PackedScene" uid="uid://ydeqcyxdxc5v" path="res://Scenes/Player/abilities/jetpack.tscn" id="5_rxcfy"]
+[ext_resource type="AudioStream" uid="uid://bbioh5l6xg72t" path="res://Scenes/Levels/boss_level1/speed-of-light-173725.mp3" id="6_rxcfy"]
 
 [sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_di38a"]
 distance = -94.0
@@ -684,3 +685,7 @@ position = Vector2(5638, 414)
 
 [node name="jetpack" parent="." index="4" instance=ExtResource("5_rxcfy")]
 position = Vector2(153, 291)
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="." index="5"]
+stream = ExtResource("6_rxcfy")
+autoplay = true

@@ -1,10 +1,11 @@
-[gd_scene load_steps=10 format=4 uid="uid://bg76jw4skirv8"]
+[gd_scene load_steps=11 format=4 uid="uid://bg76jw4skirv8"]
 
 [ext_resource type="PackedScene" uid="uid://bvc1ey4i1hll4" path="res://Scenes/Levels/levels_init.tscn" id="1_174j5"]
 [ext_resource type="Texture2D" uid="uid://bcopyisjubhch" path="res://Scenes/Levels/prehistoric_level/Backgrounds/forest.png" id="2_tjcos"]
 [ext_resource type="Texture2D" uid="uid://rdeotwq42lke" path="res://Scenes/Levels/prehistoric_level/Platforms/tileset-1.png" id="3_24q37"]
 [ext_resource type="Texture2D" uid="uid://de3tleea2fvsx" path="res://Scenes/Levels/prehistoric_level/inside_cave.png" id="5_thswk"]
 [ext_resource type="PackedScene" uid="uid://maeh628bsf4r" path="res://Scenes/Levels/finish_flag.tscn" id="6_05jn1"]
+[ext_resource type="AudioStream" uid="uid://nb07osq2yi4w" path="res://Scenes/Levels/prehistoric_level/jungle-tribe-action-tribal-drums-192142.mp3" id="7_q866k"]
 [ext_resource type="PackedScene" uid="uid://lrvp3e48pqom" path="res://Scenes/Player/abilities/boormerang.tscn" id="8_it365"]
 
 [sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_di38a"]
@@ -687,3 +688,7 @@ position = Vector2(415, 353)
 
 [node name="finish flag" parent="." index="5" instance=ExtResource("6_05jn1")]
 position = Vector2(3279, 468)
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="." index="6"]
+stream = ExtResource("7_q866k")
+autoplay = true

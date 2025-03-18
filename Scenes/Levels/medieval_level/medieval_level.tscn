@@ -1,4 +1,4 @@
-[gd_scene load_steps=16 format=4 uid="uid://cs1ku8ngvj1yt"]
+[gd_scene load_steps=17 format=4 uid="uid://cs1ku8ngvj1yt"]
 
 [ext_resource type="PackedScene" uid="uid://bvc1ey4i1hll4" path="res://Scenes/Levels/levels_init.tscn" id="1_iq5yg"]
 [ext_resource type="Texture2D" uid="uid://b48ekgcui0aw0" path="res://Scenes/Levels/medieval_level/Backgrounds/Parallax/1.png" id="2_mj4om"]
@@ -11,6 +11,7 @@
 [ext_resource type="Texture2D" uid="uid://10slmonadict" path="res://Scenes/Levels/mobster_level/tile_set_castle.png" id="7_qkfav"]
 [ext_resource type="PackedScene" uid="uid://maeh628bsf4r" path="res://Scenes/Levels/finish_flag.tscn" id="10_1jae8"]
 [ext_resource type="PackedScene" uid="uid://doectbfr0g1g" path="res://Scenes/UI Elements/health_interface.tscn" id="10_sqgn5"]
+[ext_resource type="AudioStream" uid="uid://rwqdtnywqvxk" path="res://Scenes/Levels/medieval_level/medieval-background-196571.mp3" id="12_3cyc1"]
 
 [sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_di38a"]
 distance = -207.0
@@ -966,3 +967,7 @@ limit_bottom = 494
 
 [node name="finish flag" parent="." index="4" instance=ExtResource("10_1jae8")]
 position = Vector2(3110, 249)
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="." index="5"]
+stream = ExtResource("12_3cyc1")
+autoplay = true
