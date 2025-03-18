@@ -1,10 +1,12 @@
 extends Control
 
+
 func _ready():
 	hide()
 
 func resume():
 	get_tree().paused = false
+	$Sprite2D.visible = true
 	hide()
 	
 func pause():
@@ -22,7 +24,7 @@ func _on_resume_pressed():
 	resume()
 
 func _on_controls_pressed():
-	pass
+	$Sprite2D.visible = false
 
 func _on_quit_pressed()  -> void :
 	get_tree().quit()

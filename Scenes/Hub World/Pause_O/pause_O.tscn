@@ -2,8 +2,8 @@
 
 [ext_resource type="Script" uid="uid://dnr0qfnmtpxdq" path="res://Scenes/Hub World/Pause_O/pause_O.gd" id="1_h30kr"]
 [ext_resource type="Shader" uid="uid://8s63b8vpye2k" path="res://Shaders/blur.gdshader" id="2_smr7u"]
-[ext_resource type="FontFile" uid="uid://d1sqem5jrihnp" path="res://Assets/PIXEARG_.TTF" id="3_e1e1t"]
-[ext_resource type="Texture2D" uid="uid://cjq2cpkyqjkr4" path="res://Assets/overworld_map.png" id="4_pamu8"]
+[ext_resource type="FontFile" uid="uid://c33lfkygyq2d3" path="res://Assets/PIXEARG_.TTF" id="3_e1e1t"]
+[ext_resource type="Texture2D" uid="uid://cohfp0toh56jq" path="res://Assets/overworld_map.png" id="4_pamu8"]
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_pu6no"]
 shader = ExtResource("2_smr7u")
@@ -56,6 +56,20 @@ focus_neighbor_top = NodePath("../Controls")
 focus_neighbor_bottom = NodePath("../Resume")
 theme_override_fonts/font = ExtResource("3_e1e1t")
 text = "Quit"
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 0
+offset_left = 598.0
+offset_top = 243.0
+offset_right = 969.0
+offset_bottom = 446.0
+theme_override_fonts/font = ExtResource("3_e1e1t")
+theme_override_font_sizes/font_size = 23
+text = "W / Joystick Up = Up
+S / Joystick Down = Down
+A / Joystick Left = Left
+D / Joystick Right = Right
+K / Joystick A = Interact"
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 
