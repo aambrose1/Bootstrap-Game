@@ -10,19 +10,20 @@ distance = -207.0
 [node name="Room1" type="Node2D"]
 
 [node name="StaticBody2D" type="StaticBody2D" parent="."]
-position = Vector2(230, 565)
+position = Vector2(-367, 283)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
 position = Vector2(295, -40)
 shape = SubResource("WorldBoundaryShape2D_ioup3")
 
 [node name="Room1" type="Sprite2D" parent="."]
-position = Vector2(400, 400)
-scale = Vector2(2, 2)
+position = Vector2(262, 263)
+scale = Vector2(1.305, 1.305)
 texture = ExtResource("1_l7csh")
 
 [node name="finish flag" parent="." instance=ExtResource("3_ioup3")]
-position = Vector2(753, 650)
+position = Vector2(463, 407)
 
 [node name="Pirate" parent="." instance=ExtResource("2_ml2pi")]
-scale = Vector2(1.79, 1.79)
+position = Vector2(262, 219)
+scale = Vector2(1.035, 1.035)

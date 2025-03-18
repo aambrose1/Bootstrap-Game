@@ -1,23 +1,14 @@
-res://Scenes/Player/abilities/mobster.tscn
+res://Scenes/Levels/western_level/western_level.tscn
 res://Scenes/Player/player.gd
+res://Scenes/Levels/prehistoric_level/prehistoric_level.tscn
 res://Scenes/Levels/mobster_level/mobster_level.tscn
-res://Scenes/Player/abilities/pirate.tscn
 res://Scenes/Levels/pirate_level/pirate_level.tscn
 res://Scenes/Levels/pirate_level/room1.tscn
 res://Scenes/Levels/boss_level1/boss_level1.tscn
-res://Scenes/Hub World/PORTALS/portalbase/portal_interaction.tscn
-res://Scenes/Hub World/hub_city.tscn
-res://Scenes/Levels/prehistoric_level/prehistoric_level.tscn
-res://Scenes/Levels/prehistoric_level/caveentry.gd
+res://Scenes/Levels/boss_level2/boss_level2.tscn
+res://Scenes/Player/abilities/mobster.tscn
+res://Scenes/Player/abilities/cowboy.tscn
+res://Scenes/Player/abilities/jetpack.tscn
+res://Scenes/Player/abilities/pirate.tscn
+res://Scenes/Levels/medieval_level/medieval_level.tscn
 res://Scenes/Player/abilities/boormerang.tscn
-res://Assets/finish_flag.gd
-res://Scenes/Levels/prehistoric_level/cave_scene.tscn
-res://Scenes/Levels/finish_flag.tscn
-res://Scenes/Player/abilities/boormerang.gd
-res://Scenes/Player/abilities/cowboy.gd
-res://Scenes/UniversalScripts/hitbox.gd
-res://Scenes/Player/abilities/jetpack.gd
-res://Scenes/Player/abilities/pirate.gd
-res://Scenes/Hub World/PORTALS/portalbase/portal_interaction.gd
-res://Scenes/Enemies/test_dummy/test_dummy.gd
-res://Scenes/Player/caveman_player.tscn

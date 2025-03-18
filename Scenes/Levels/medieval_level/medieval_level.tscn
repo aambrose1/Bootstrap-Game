@@ -960,9 +960,11 @@ limit_left = 0
 limit_top = 0
 limit_bottom = 494
 
-[node name="CanvasLayer" type="CanvasLayer" parent="Player1" index="5"]
-
-[node name="Health Interface" parent="Player1/CanvasLayer" index="0" instance=ExtResource("10_sqgn5")]
+[node name="Health Interface" parent="Player1/Camera2D" index="0" instance=ExtResource("10_sqgn5")]
+offset_left = -171.0
+offset_top = -256.0
+offset_right = -171.0
+offset_bottom = -256.0
 
 [node name="finish flag" parent="." index="4" instance=ExtResource("10_1jae8")]
 position = Vector2(3110, 249)
