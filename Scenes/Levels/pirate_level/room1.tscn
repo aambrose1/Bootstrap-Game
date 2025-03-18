@@ -1,9 +1,8 @@
-[gd_scene load_steps=6 format=3 uid="uid://c33r7fnhg7ogd"]
+[gd_scene load_steps=5 format=3 uid="uid://c33r7fnhg7ogd"]
 
 [ext_resource type="Texture2D" uid="uid://355rdgj0y3bw" path="res://Scenes/Levels/pirate_level/Backgrounds/room1.jpg" id="1_l7csh"]
 [ext_resource type="PackedScene" uid="uid://cj48ve1kyf8ed" path="res://Scenes/Player/abilities/pirate.tscn" id="2_ml2pi"]
 [ext_resource type="PackedScene" uid="uid://maeh628bsf4r" path="res://Scenes/Levels/finish_flag.tscn" id="3_ioup3"]
-[ext_resource type="AudioStream" uid="uid://xtfplw5awaky" path="res://Scenes/Levels/pirate_level/battle-ship-loop-147175.mp3" id="4_2r2pg"]
 
 [sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_ioup3"]
 distance = -207.0
@@ -11,23 +10,20 @@ distance = -207.0
 [node name="Room1" type="Node2D"]
 
 [node name="StaticBody2D" type="StaticBody2D" parent="."]
-position = Vector2(230, 565)
+position = Vector2(-367, 283)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
 position = Vector2(295, -40)
 shape = SubResource("WorldBoundaryShape2D_ioup3")
 
 [node name="Room1" type="Sprite2D" parent="."]
-position = Vector2(400, 400)
-scale = Vector2(2, 2)
+position = Vector2(262, 263)
+scale = Vector2(1.305, 1.305)
 texture = ExtResource("1_l7csh")
 
 [node name="finish flag" parent="." instance=ExtResource("3_ioup3")]
-position = Vector2(753, 650)
+position = Vector2(463, 407)
 
 [node name="Pirate" parent="." instance=ExtResource("2_ml2pi")]
-scale = Vector2(1.79, 1.79)
-
-[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
-stream = ExtResource("4_2r2pg")
-autoplay = true
+position = Vector2(262, 219)
+scale = Vector2(1.035, 1.035)

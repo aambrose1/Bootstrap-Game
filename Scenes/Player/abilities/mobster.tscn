@@ -129,6 +129,7 @@ wait_time = 0.05
 
 [node name="Camera2D" type="Camera2D" parent="."]
 zoom = Vector2(1.565, 1.565)
+limit_bottom = 600
 
 [node name="Health Interface" parent="Camera2D" instance=ExtResource("3_tmhro")]
 offset_left = -329.0

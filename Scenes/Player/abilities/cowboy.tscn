@@ -227,6 +227,9 @@ position = Vector2(-1, -20)
 
 [node name="Camera2D" type="Camera2D" parent="."]
 zoom = Vector2(1.55, 1.55)
+limit_left = 0
+limit_top = 0
+limit_bottom = 600
 
 [node name="Health Interface" parent="Camera2D" instance=ExtResource("3_mudw3")]
 offset_left = -350.0
