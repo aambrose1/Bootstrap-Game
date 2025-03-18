@@ -24,7 +24,7 @@ func _physics_process(delta: float) -> void:
 
 	# Only quit if the player has been seen and then goes off-screen
 	if first_on_screen and not player_screen_notifier.is_on_screen():
-		get_tree().quit()
+		get_tree().change_scene_to_file("res://Scenes/Hub World/hub_city.tscn")
 	
 	# Add the gravity.
 	if not is_on_floor():
